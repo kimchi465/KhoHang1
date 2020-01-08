@@ -2,715 +2,658 @@
 <!DOCTYPE svg
 PUBLIC "-//W3C//DTD SVG 1.1//EN"
        "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg viewBox="73 -1 1571 1321" width="1498px" height="1322px" xmlns="http://www.w3.org/2000/svg" version="1.1">
-   <line x1="527" y1="763" x2="537" y2="763" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="578" y1="916" x2="588" y2="916" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="537" y1="763" x2="578" y2="916" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="534.5" y1="763" x2="530.96446609407" y2="766.53553390593" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="534.5" y1="763" x2="530.96446609407" y2="759.46446609407" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="583" y1="916" x2="579.46446609407" y2="919.53553390593" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="583" y1="916" x2="579.46446609407" y2="912.46446609407" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="527" y1="783" x2="537" y2="783" style="stroke:#333;stroke-width:1;"/>
-   <line x1="1097" y1="796" x2="1107" y2="796" style="stroke:#333;stroke-width:1;"/>
-   <line x1="537" y1="783" x2="1097" y2="796" style="stroke:#333;stroke-width:1;"/>
-   <line x1="534.5" y1="783" x2="530.96446609407" y2="786.53553390593" style="stroke:#333;stroke-width:2;"/>
-   <line x1="534.5" y1="783" x2="530.96446609407" y2="779.46446609407" style="stroke:#333;stroke-width:2;"/>
-   <line x1="1102" y1="796" x2="1098.4644660941" y2="799.53553390593" style="stroke:#333;stroke-width:2;"/>
-   <line x1="1102" y1="796" x2="1098.4644660941" y2="792.46446609407" style="stroke:#333;stroke-width:2;"/>
-   <line x1="728" y1="844" x2="718" y2="844" style="stroke:#333;stroke-width:1;"/>
-   <line x1="757" y1="252" x2="767" y2="252" style="stroke:#333;stroke-width:1;"/>
-   <line x1="718" y1="844" x2="757" y2="252" style="stroke:#333;stroke-width:1;"/>
-   <line x1="720.5" y1="844" x2="724.03553390593" y2="847.53553390593" style="stroke:#333;stroke-width:2;"/>
-   <line x1="720.5" y1="844" x2="724.03553390593" y2="840.46446609407" style="stroke:#333;stroke-width:2;"/>
-   <line x1="762" y1="252" x2="758.46446609407" y2="255.53553390593" style="stroke:#333;stroke-width:2;"/>
-   <line x1="762" y1="252" x2="758.46446609407" y2="248.46446609407" style="stroke:#333;stroke-width:2;"/>
-   <line x1="728" y1="824" x2="718" y2="824" style="stroke:#cb0;stroke-width:1;"/>
-   <line x1="724" y1="478" x2="734" y2="478" style="stroke:#cb0;stroke-width:1;"/>
-   <line x1="718" y1="824" x2="724" y2="478" style="stroke:#cb0;stroke-width:1;"/>
-   <line x1="720.5" y1="824" x2="724.03553390593" y2="827.53553390593" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="720.5" y1="824" x2="724.03553390593" y2="820.46446609407" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="729" y1="478" x2="725.46446609407" y2="481.53553390593" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="729" y1="478" x2="725.46446609407" y2="474.46446609407" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="838" y1="804" x2="848" y2="804" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="1097" y1="796" x2="1107" y2="796" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="848" y1="804" x2="1097" y2="796" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="845.5" y1="804" x2="841.96446609407" y2="807.53553390593" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="845.5" y1="804" x2="841.96446609407" y2="800.46446609407" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="1102" y1="796" x2="1098.4644660941" y2="799.53553390593" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="1102" y1="796" x2="1098.4644660941" y2="792.46446609407" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="1083" y1="450" x2="1073" y2="450" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="888" y1="252" x2="878" y2="252" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="1073" y1="450" x2="888" y2="252" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="1075.5" y1="450" x2="1079.0355339059" y2="453.53553390593" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="1075.5" y1="450" x2="1079.0355339059" y2="446.46446609407" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="883" y1="252" x2="886.53553390593" y2="255.53553390593" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="883" y1="252" x2="886.53553390593" y2="248.46446609407" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="1192" y1="410" x2="1202" y2="410" style="stroke:#333;stroke-width:1;"/>
-   <line x1="1216" y1="796" x2="1206" y2="796" style="stroke:#333;stroke-width:1;"/>
-   <line x1="1202" y1="410" x2="1216" y2="796" style="stroke:#333;stroke-width:1;"/>
-   <line x1="1199.5" y1="410" x2="1195.9644660941" y2="413.53553390593" style="stroke:#333;stroke-width:2;"/>
-   <line x1="1199.5" y1="410" x2="1195.9644660941" y2="406.46446609407" style="stroke:#333;stroke-width:2;"/>
-   <line x1="1211" y1="796" x2="1214.5355339059" y2="799.53553390593" style="stroke:#333;stroke-width:2;"/>
-   <line x1="1211" y1="796" x2="1214.5355339059" y2="792.46446609407" style="stroke:#333;stroke-width:2;"/>
-   <line x1="1083" y1="430" x2="1073" y2="430" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="883" y1="478" x2="873" y2="478" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="1073" y1="430" x2="883" y2="478" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="1075.5" y1="430" x2="1079.0355339059" y2="433.53553390593" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="1075.5" y1="430" x2="1079.0355339059" y2="426.46446609407" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="878" y1="478" x2="881.53553390593" y2="481.53553390593" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="878" y1="478" x2="881.53553390593" y2="474.46446609407" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="588" y1="936" x2="578" y2="936" style="stroke:#cb0;stroke-width:1;"/>
-   <line x1="341" y1="954" x2="331" y2="954" style="stroke:#cb0;stroke-width:1;"/>
-   <line x1="578" y1="936" x2="341" y2="954" style="stroke:#cb0;stroke-width:1;"/>
-   <line x1="580.5" y1="936" x2="584.03553390593" y2="939.53553390593" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="580.5" y1="936" x2="584.03553390593" y2="932.46446609407" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="336" y1="954" x2="339.53553390593" y2="957.53553390593" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="336" y1="954" x2="339.53553390593" y2="950.46446609407" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="758" y1="1156" x2="768" y2="1156" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="1078" y1="83" x2="1088" y2="83" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="768" y1="1156" x2="1078" y2="83" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="765.5" y1="1156" x2="761.96446609407" y2="1159.5355339059" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="765.5" y1="1156" x2="761.96446609407" y2="1152.4644660941" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="1083" y1="83" x2="1079.4644660941" y2="86.535533905933" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="1083" y1="83" x2="1079.4644660941" y2="79.464466094067" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="758" y1="1116" x2="768" y2="1116" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="1078" y1="83" x2="1088" y2="83" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="768" y1="1116" x2="1078" y2="83" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="765.5" y1="1116" x2="761.96446609407" y2="1119.5355339059" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="765.5" y1="1116" x2="761.96446609407" y2="1112.4644660941" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="1083" y1="83" x2="1079.4644660941" y2="86.535533905933" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="1083" y1="83" x2="1079.4644660941" y2="79.464466094067" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="588" y1="1296" x2="578" y2="1296" style="stroke:#c00;stroke-width:1;"/>
-   <line x1="591" y1="140" x2="581" y2="140" style="stroke:#c00;stroke-width:1;"/>
-   <line x1="578" y1="1296" x2="591" y2="140" style="stroke:#c00;stroke-width:1;"/>
-   <line x1="580.5" y1="1296" x2="584.03553390593" y2="1299.5355339059" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="580.5" y1="1296" x2="584.03553390593" y2="1292.4644660941" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="586" y1="140" x2="589.53553390593" y2="143.53553390593" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="586" y1="140" x2="589.53553390593" y2="136.46446609407" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="588" y1="1276" x2="578" y2="1276" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="551" y1="454" x2="541" y2="454" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="578" y1="1276" x2="551" y2="454" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="580.5" y1="1276" x2="584.03553390593" y2="1279.5355339059" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="580.5" y1="1276" x2="584.03553390593" y2="1272.4644660941" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="546" y1="454" x2="549.53553390593" y2="457.53553390593" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="546" y1="454" x2="549.53553390593" y2="450.46446609407" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="187" y1="707" x2="197" y2="707" style="stroke:#333;stroke-width:1;"/>
-   <line x1="219" y1="954" x2="229" y2="954" style="stroke:#333;stroke-width:1;"/>
-   <line x1="197" y1="707" x2="219" y2="954" style="stroke:#333;stroke-width:1;"/>
-   <line x1="194.5" y1="707" x2="190.96446609407" y2="710.53553390593" style="stroke:#333;stroke-width:2;"/>
-   <line x1="194.5" y1="707" x2="190.96446609407" y2="703.46446609407" style="stroke:#333;stroke-width:2;"/>
-   <line x1="224" y1="954" x2="220.46446609407" y2="957.53553390593" style="stroke:#333;stroke-width:2;"/>
-   <line x1="224" y1="954" x2="220.46446609407" y2="950.46446609407" style="stroke:#333;stroke-width:2;"/>
-   <line x1="187" y1="727" x2="197" y2="727" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="1097" y1="796" x2="1107" y2="796" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="197" y1="727" x2="1097" y2="796" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="194.5" y1="727" x2="190.96446609407" y2="730.53553390593" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="194.5" y1="727" x2="190.96446609407" y2="723.46446609407" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="1102" y1="796" x2="1098.4644660941" y2="799.53553390593" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="1102" y1="796" x2="1098.4644660941" y2="792.46446609407" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="176" y1="803" x2="186" y2="803" style="stroke:#c00;stroke-width:1;"/>
-   <line x1="1097" y1="796" x2="1107" y2="796" style="stroke:#c00;stroke-width:1;"/>
-   <line x1="186" y1="803" x2="1097" y2="796" style="stroke:#c00;stroke-width:1;"/>
-   <line x1="183.5" y1="803" x2="179.96446609407" y2="806.53553390593" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="183.5" y1="803" x2="179.96446609407" y2="799.46446609407" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="1102" y1="796" x2="1098.4644660941" y2="799.53553390593" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="1102" y1="796" x2="1098.4644660941" y2="792.46446609407" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="351" y1="459" x2="361" y2="459" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="578" y1="916" x2="588" y2="916" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="361" y1="459" x2="578" y2="916" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="358.5" y1="459" x2="354.96446609407" y2="462.53553390593" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="358.5" y1="459" x2="354.96446609407" y2="455.46446609407" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="583" y1="916" x2="579.46446609407" y2="919.53553390593" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="583" y1="916" x2="579.46446609407" y2="912.46446609407" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="351" y1="419" x2="361" y2="419" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="1078" y1="83" x2="1088" y2="83" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="361" y1="419" x2="1078" y2="83" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="358.5" y1="419" x2="354.96446609407" y2="422.53553390593" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="358.5" y1="419" x2="354.96446609407" y2="415.46446609407" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1083" y1="83" x2="1079.4644660941" y2="86.535533905933" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1083" y1="83" x2="1079.4644660941" y2="79.464466094067" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="301" y1="287" x2="311" y2="287" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="578" y1="916" x2="588" y2="916" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="311" y1="287" x2="578" y2="916" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="308.5" y1="287" x2="304.96446609407" y2="290.53553390593" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="308.5" y1="287" x2="304.96446609407" y2="283.46446609407" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="583" y1="916" x2="579.46446609407" y2="919.53553390593" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="583" y1="916" x2="579.46446609407" y2="912.46446609407" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="301" y1="167" x2="311" y2="167" style="stroke:#c00;stroke-width:1;"/>
-   <line x1="1078" y1="83" x2="1088" y2="83" style="stroke:#c00;stroke-width:1;"/>
-   <line x1="311" y1="167" x2="1078" y2="83" style="stroke:#c00;stroke-width:1;"/>
-   <line x1="308.5" y1="167" x2="304.96446609407" y2="170.53553390593" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="308.5" y1="167" x2="304.96446609407" y2="163.46446609407" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="1083" y1="83" x2="1079.4644660941" y2="86.535533905933" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="1083" y1="83" x2="1079.4644660941" y2="79.464466094067" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="301" y1="207" x2="311" y2="207" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="1078" y1="83" x2="1088" y2="83" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="311" y1="207" x2="1078" y2="83" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="308.5" y1="207" x2="304.96446609407" y2="210.53553390593" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="308.5" y1="207" x2="304.96446609407" y2="203.46446609407" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1083" y1="83" x2="1079.4644660941" y2="86.535533905933" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1083" y1="83" x2="1079.4644660941" y2="79.464466094067" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="301" y1="307" x2="311" y2="307" style="stroke:#c00;stroke-width:1;"/>
-   <line x1="480" y1="140" x2="490" y2="140" style="stroke:#c00;stroke-width:1;"/>
-   <line x1="311" y1="307" x2="480" y2="140" style="stroke:#c00;stroke-width:1;"/>
-   <line x1="308.5" y1="307" x2="304.96446609407" y2="310.53553390593" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="308.5" y1="307" x2="304.96446609407" y2="303.46446609407" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="485" y1="140" x2="481.46446609407" y2="143.53553390593" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="485" y1="140" x2="481.46446609407" y2="136.46446609407" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="1416" y1="718" x2="1406" y2="718" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="1200" y1="83" x2="1190" y2="83" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="1406" y1="718" x2="1200" y2="83" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="1408.5" y1="718" x2="1412.0355339059" y2="721.53553390593" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1408.5" y1="718" x2="1412.0355339059" y2="714.46446609407" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1195" y1="83" x2="1198.5355339059" y2="86.535533905933" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1195" y1="83" x2="1198.5355339059" y2="79.464466094067" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1416" y1="678" x2="1406" y2="678" style="stroke:#333;stroke-width:1;"/>
-   <line x1="1200" y1="83" x2="1190" y2="83" style="stroke:#333;stroke-width:1;"/>
-   <line x1="1406" y1="678" x2="1200" y2="83" style="stroke:#333;stroke-width:1;"/>
-   <line x1="1408.5" y1="678" x2="1412.0355339059" y2="681.53553390593" style="stroke:#333;stroke-width:2;"/>
-   <line x1="1408.5" y1="678" x2="1412.0355339059" y2="674.46446609407" style="stroke:#333;stroke-width:2;"/>
-   <line x1="1195" y1="83" x2="1198.5355339059" y2="86.535533905933" style="stroke:#333;stroke-width:2;"/>
-   <line x1="1195" y1="83" x2="1198.5355339059" y2="79.464466094067" style="stroke:#333;stroke-width:2;"/>
-   <line x1="1416" y1="638" x2="1406" y2="638" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="1200" y1="83" x2="1190" y2="83" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="1406" y1="638" x2="1200" y2="83" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="1408.5" y1="638" x2="1412.0355339059" y2="641.53553390593" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="1408.5" y1="638" x2="1412.0355339059" y2="634.46446609407" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="1195" y1="83" x2="1198.5355339059" y2="86.535533905933" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="1195" y1="83" x2="1198.5355339059" y2="79.464466094067" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="1511" y1="161" x2="1521" y2="161" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="1553" y1="518" x2="1543" y2="518" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="1521" y1="161" x2="1553" y2="518" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="1518.5" y1="161" x2="1514.9644660941" y2="164.53553390593" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1518.5" y1="161" x2="1514.9644660941" y2="157.46446609407" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1548" y1="518" x2="1551.5355339059" y2="521.53553390593" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1548" y1="518" x2="1551.5355339059" y2="514.46446609407" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1355" y1="181" x2="1345" y2="181" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="1216" y1="796" x2="1206" y2="796" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="1345" y1="181" x2="1216" y2="796" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="1347.5" y1="181" x2="1351.0355339059" y2="184.53553390593" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="1347.5" y1="181" x2="1351.0355339059" y2="177.46446609407" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="1211" y1="796" x2="1214.5355339059" y2="799.53553390593" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="1211" y1="796" x2="1214.5355339059" y2="792.46446609407" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="1126" y1="1281" x2="1116" y2="1281" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="556" y1="616" x2="546" y2="616" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="1116" y1="1281" x2="556" y2="616" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="1118.5" y1="1281" x2="1122.0355339059" y2="1284.5355339059" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="1118.5" y1="1281" x2="1122.0355339059" y2="1277.4644660941" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="551" y1="616" x2="554.53553390593" y2="619.53553390593" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="551" y1="616" x2="554.53553390593" y2="612.46446609407" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="1088" y1="323" x2="1078" y2="323" style="stroke:#c00;stroke-width:1;"/>
-   <line x1="204" y1="506" x2="194" y2="506" style="stroke:#c00;stroke-width:1;"/>
-   <line x1="1078" y1="323" x2="204" y2="506" style="stroke:#c00;stroke-width:1;"/>
-   <line x1="1080.5" y1="323" x2="1084.0355339059" y2="326.53553390593" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="1080.5" y1="323" x2="1084.0355339059" y2="319.46446609407" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="199" y1="506" x2="202.53553390593" y2="509.53553390593" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="199" y1="506" x2="202.53553390593" y2="502.46446609407" style="stroke:#c00;stroke-width:2;"/>
-   <line x1="873" y1="698" x2="883" y2="698" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="1116" y1="1101" x2="1126" y2="1101" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="883" y1="698" x2="1116" y2="1101" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="880.5" y1="698" x2="876.96446609407" y2="701.53553390593" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="880.5" y1="698" x2="876.96446609407" y2="694.46446609407" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="1121" y1="1101" x2="1117.4644660941" y2="1104.5355339059" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="1121" y1="1101" x2="1117.4644660941" y2="1097.4644660941" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="873" y1="538" x2="883" y2="538" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="1078" y1="83" x2="1088" y2="83" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="883" y1="538" x2="1078" y2="83" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="880.5" y1="538" x2="876.96446609407" y2="541.53553390593" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="880.5" y1="538" x2="876.96446609407" y2="534.46446609407" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1083" y1="83" x2="1079.4644660941" y2="86.535533905933" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1083" y1="83" x2="1079.4644660941" y2="79.464466094067" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="873" y1="598" x2="883" y2="598" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="1078" y1="83" x2="1088" y2="83" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="883" y1="598" x2="1078" y2="83" style="stroke:#bbb;stroke-width:1;"/>
-   <line x1="880.5" y1="598" x2="876.96446609407" y2="601.53553390593" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="880.5" y1="598" x2="876.96446609407" y2="594.46446609407" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="1083" y1="83" x2="1079.4644660941" y2="86.535533905933" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="1083" y1="83" x2="1079.4644660941" y2="79.464466094067" style="stroke:#bbb;stroke-width:2;"/>
-   <line x1="1107" y1="996" x2="1097" y2="996" style="stroke:#b0b;stroke-width:1;"/>
-   <line x1="888" y1="252" x2="878" y2="252" style="stroke:#b0b;stroke-width:1;"/>
-   <line x1="1097" y1="996" x2="888" y2="252" style="stroke:#b0b;stroke-width:1;"/>
-   <line x1="1099.5" y1="996" x2="1103.0355339059" y2="999.53553390593" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="1099.5" y1="996" x2="1103.0355339059" y2="992.46446609407" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="883" y1="252" x2="886.53553390593" y2="255.53553390593" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="883" y1="252" x2="886.53553390593" y2="248.46446609407" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="1107" y1="976" x2="1097" y2="976" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="897" y1="67" x2="887" y2="67" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="1097" y1="976" x2="897" y2="67" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="1099.5" y1="976" x2="1103.0355339059" y2="979.53553390593" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1099.5" y1="976" x2="1103.0355339059" y2="972.46446609407" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="892" y1="67" x2="895.53553390593" y2="70.535533905933" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="892" y1="67" x2="895.53553390593" y2="63.464466094067" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1197" y1="621" x2="1207" y2="621" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="1200" y1="83" x2="1190" y2="83" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="1207" y1="621" x2="1200" y2="83" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="1204.5" y1="621" x2="1200.9644660941" y2="624.53553390593" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1204.5" y1="621" x2="1200.9644660941" y2="617.46446609407" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1195" y1="83" x2="1198.5355339059" y2="86.535533905933" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1195" y1="83" x2="1198.5355339059" y2="79.464466094067" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1197" y1="681" x2="1207" y2="681" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="1200" y1="83" x2="1190" y2="83" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="1207" y1="681" x2="1200" y2="83" style="stroke:#0bf;stroke-width:1;"/>
-   <line x1="1204.5" y1="681" x2="1200.9644660941" y2="684.53553390593" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1204.5" y1="681" x2="1200.9644660941" y2="677.46446609407" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1195" y1="83" x2="1198.5355339059" y2="86.535533905933" style="stroke:#0bf;stroke-width:2;"/>
-   <line x1="1195" y1="83" x2="1198.5355339059" y2="79.464466094067" style="stroke:#0bf;stroke-width:2;"/>
-   <rect width="113" height="20" x="414" y="733" style="fill:#007;stroke:black;"/>
-   <text width="113" height="20" x="419" y="747" style="fill:#fff;" font-family="Arial" font-size="16px"> chitietdonhang</text>
-   <rect width="113" height="20" x="414" y="753" style="fill:#aea;stroke:black;"/>
-   <text width="113" height="20" x="419" y="767" style="fill:black;" font-family="Arial" font-size="16px">dh_ma</text>
-   <rect width="113" height="20" x="414" y="773" style="fill:#aea;stroke:black;"/>
-   <text width="113" height="20" x="419" y="787" style="fill:black;" font-family="Arial" font-size="16px">sp_ma</text>
-   <rect width="113" height="20" x="414" y="793" style="fill:none;stroke:black;"/>
-   <text width="113" height="20" x="419" y="807" style="fill:black;" font-family="Arial" font-size="16px">ctdh_soLuong</text>
-   <rect width="113" height="20" x="414" y="813" style="fill:none;stroke:black;"/>
-   <text width="113" height="20" x="419" y="827" style="fill:black;" font-family="Arial" font-size="16px">ctdh_donGia</text>
-   <rect width="110" height="20" x="728" y="734" style="fill:#007;stroke:black;"/>
-   <text width="110" height="20" x="733" y="748" style="fill:#fff;" font-family="Arial" font-size="16px"> chitietnhapkho</text>
-   <rect width="110" height="20" x="728" y="754" style="fill:none;stroke:black;"/>
-   <text width="110" height="20" x="733" y="768" style="fill:black;" font-family="Arial" font-size="16px">ctnk_soLuong</text>
-   <rect width="110" height="20" x="728" y="774" style="fill:none;stroke:black;"/>
-   <text width="110" height="20" x="733" y="788" style="fill:black;" font-family="Arial" font-size="16px">ctnk_thanhtien</text>
-   <rect width="110" height="20" x="728" y="794" style="fill:#aea;stroke:black;"/>
-   <text width="110" height="20" x="733" y="808" style="fill:black;" font-family="Arial" font-size="16px">sp_ma</text>
-   <rect width="110" height="20" x="728" y="814" style="fill:#aea;stroke:black;"/>
-   <text width="110" height="20" x="733" y="828" style="fill:black;" font-family="Arial" font-size="16px">nk_ma</text>
-   <rect width="110" height="20" x="728" y="834" style="fill:#aea;stroke:black;"/>
-   <text width="110" height="20" x="733" y="848" style="fill:black;" font-family="Arial" font-size="16px">kho_ma</text>
-   <rect width="109" height="20" x="1083" y="340" style="fill:#007;stroke:black;"/>
-   <text width="109" height="20" x="1088" y="354" style="fill:#fff;" font-family="Arial" font-size="16px"> chitietxuatkho</text>
-   <rect width="109" height="20" x="1083" y="360" style="fill:none;stroke:black;"/>
-   <text width="109" height="20" x="1088" y="374" style="fill:black;" font-family="Arial" font-size="16px">ctxk_soLuong</text>
-   <rect width="109" height="20" x="1083" y="380" style="fill:none;stroke:black;"/>
-   <text width="109" height="20" x="1088" y="394" style="fill:black;" font-family="Arial" font-size="16px">ctxk_thanhtien</text>
-   <rect width="109" height="20" x="1083" y="400" style="fill:#aea;stroke:black;"/>
-   <text width="109" height="20" x="1088" y="414" style="fill:black;" font-family="Arial" font-size="16px">sp_ma</text>
-   <rect width="109" height="20" x="1083" y="420" style="fill:#aea;stroke:black;"/>
-   <text width="109" height="20" x="1088" y="434" style="fill:black;" font-family="Arial" font-size="16px">xk_ma</text>
-   <rect width="109" height="20" x="1083" y="440" style="fill:#aea;stroke:black;"/>
-   <text width="109" height="20" x="1088" y="454" style="fill:black;" font-family="Arial" font-size="16px">kho_ma</text>
-   <rect width="170" height="20" x="588" y="886" style="fill:#007;stroke:black;"/>
-   <text width="170" height="20" x="593" y="900" style="fill:#fff;" font-family="Arial" font-size="16px"> donhang</text>
-   <rect width="170" height="20" x="588" y="906" style="fill:#aea;stroke:black;"/>
-   <text width="170" height="20" x="593" y="920" style="fill:black;" font-family="Arial" font-size="16px">dh_ma</text>
-   <rect width="170" height="20" x="588" y="926" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="940" style="fill:black;" font-family="Arial" font-size="16px">kh_ma</text>
-   <rect width="170" height="20" x="588" y="946" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="960" style="fill:black;" font-family="Arial" font-size="16px">dh_thoiGianDatHang</text>
-   <rect width="170" height="20" x="588" y="966" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="980" style="fill:black;" font-family="Arial" font-size="16px">dh_thoiGianNhanHang</text>
-   <rect width="170" height="20" x="588" y="986" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="1000" style="fill:black;" font-family="Arial" font-size="16px">dh_nguoiNhan</text>
-   <rect width="170" height="20" x="588" y="1006" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="1020" style="fill:black;" font-family="Arial" font-size="16px">dh_diaChi</text>
-   <rect width="170" height="20" x="588" y="1026" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="1040" style="fill:black;" font-family="Arial" font-size="16px">dh_dienThoai</text>
-   <rect width="170" height="20" x="588" y="1046" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="1060" style="fill:black;" font-family="Arial" font-size="16px">dh_nguoiGui</text>
-   <rect width="170" height="20" x="588" y="1066" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="1080" style="fill:black;" font-family="Arial" font-size="16px">dh_loiChuc</text>
-   <rect width="170" height="20" x="588" y="1086" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="1100" style="fill:black;" font-family="Arial" font-size="16px">dh_daThanhToan</text>
-   <rect width="170" height="20" x="588" y="1106" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="1120" style="fill:black;" font-family="Arial" font-size="16px">nv_xuLy</text>
-   <rect width="170" height="20" x="588" y="1126" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="1140" style="fill:black;" font-family="Arial" font-size="16px">dh_ngayXuLy</text>
-   <rect width="170" height="20" x="588" y="1146" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="1160" style="fill:black;" font-family="Arial" font-size="16px">nv_giaoHang</text>
-   <rect width="170" height="20" x="588" y="1166" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="1180" style="fill:black;" font-family="Arial" font-size="16px">dh_ngayLapPhieuGiao</text>
-   <rect width="170" height="20" x="588" y="1186" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="1200" style="fill:black;" font-family="Arial" font-size="16px">dh_ngayGiaoHang</text>
-   <rect width="170" height="20" x="588" y="1206" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="1220" style="fill:black;" font-family="Arial" font-size="16px">dh_taoMoi</text>
-   <rect width="170" height="20" x="588" y="1226" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="1240" style="fill:black;" font-family="Arial" font-size="16px">dh_capNhat</text>
-   <rect width="170" height="20" x="588" y="1246" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="1260" style="fill:black;" font-family="Arial" font-size="16px">dh_trangThai</text>
-   <rect width="170" height="20" x="588" y="1266" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="1280" style="fill:black;" font-family="Arial" font-size="16px">vc_ma</text>
-   <rect width="170" height="20" x="588" y="1286" style="fill:none;stroke:black;"/>
-   <text width="170" height="20" x="593" y="1300" style="fill:black;" font-family="Arial" font-size="16px">tt_ma</text>
-   <rect width="99" height="20" x="88" y="617" style="fill:#007;stroke:black;"/>
-   <text width="99" height="20" x="93" y="631" style="fill:#fff;" font-family="Arial" font-size="16px"> gopy</text>
-   <rect width="99" height="20" x="88" y="637" style="fill:#aea;stroke:black;"/>
-   <text width="99" height="20" x="93" y="651" style="fill:black;" font-family="Arial" font-size="16px">gy_ma</text>
-   <rect width="99" height="20" x="88" y="657" style="fill:none;stroke:black;"/>
-   <text width="99" height="20" x="93" y="671" style="fill:black;" font-family="Arial" font-size="16px">gy_thoiGian</text>
-   <rect width="99" height="20" x="88" y="677" style="fill:none;stroke:black;"/>
-   <text width="99" height="20" x="93" y="691" style="fill:black;" font-family="Arial" font-size="16px">gy_noiDung</text>
-   <rect width="99" height="20" x="88" y="697" style="fill:none;stroke:black;"/>
-   <text width="99" height="20" x="93" y="711" style="fill:black;" font-family="Arial" font-size="16px">kh_ma</text>
-   <rect width="99" height="20" x="88" y="717" style="fill:none;stroke:black;"/>
-   <text width="99" height="20" x="93" y="731" style="fill:black;" font-family="Arial" font-size="16px">sp_ma</text>
-   <rect width="99" height="20" x="88" y="737" style="fill:none;stroke:black;"/>
-   <text width="99" height="20" x="93" y="751" style="fill:black;" font-family="Arial" font-size="16px">gy_trangThai</text>
-   <rect width="62" height="20" x="114" y="773" style="fill:#007;stroke:black;"/>
-   <text width="62" height="20" x="119" y="787" style="fill:#fff;" font-family="Arial" font-size="16px"> hinhanh</text>
-   <rect width="62" height="20" x="114" y="793" style="fill:#aea;stroke:black;"/>
-   <text width="62" height="20" x="119" y="807" style="fill:black;" font-family="Arial" font-size="16px">sp_ma</text>
-   <rect width="62" height="20" x="114" y="813" style="fill:#aea;stroke:black;"/>
-   <text width="62" height="20" x="119" y="827" style="fill:black;" font-family="Arial" font-size="16px">ha_stt</text>
-   <rect width="62" height="20" x="114" y="833" style="fill:none;stroke:black;"/>
-   <text width="62" height="20" x="119" y="847" style="fill:black;" font-family="Arial" font-size="16px">ha_ten</text>
-   <rect width="163" height="20" x="188" y="309" style="fill:#007;stroke:black;"/>
-   <text width="163" height="20" x="193" y="323" style="fill:#fff;" font-family="Arial" font-size="16px"> hoadonle</text>
-   <rect width="163" height="20" x="188" y="329" style="fill:#aea;stroke:black;"/>
-   <text width="163" height="20" x="193" y="343" style="fill:black;" font-family="Arial" font-size="16px">hdl_ma</text>
-   <rect width="163" height="20" x="188" y="349" style="fill:none;stroke:black;"/>
-   <text width="163" height="20" x="193" y="363" style="fill:black;" font-family="Arial" font-size="16px">hdl_nguoiMuaHang</text>
-   <rect width="163" height="20" x="188" y="369" style="fill:none;stroke:black;"/>
-   <text width="163" height="20" x="193" y="383" style="fill:black;" font-family="Arial" font-size="16px">hdl_dienThoai</text>
-   <rect width="163" height="20" x="188" y="389" style="fill:none;stroke:black;"/>
-   <text width="163" height="20" x="193" y="403" style="fill:black;" font-family="Arial" font-size="16px">hdl_diaChi</text>
-   <rect width="163" height="20" x="188" y="409" style="fill:none;stroke:black;"/>
-   <text width="163" height="20" x="193" y="423" style="fill:black;" font-family="Arial" font-size="16px">nv_lapHoaDon</text>
-   <rect width="163" height="20" x="188" y="429" style="fill:none;stroke:black;"/>
-   <text width="163" height="20" x="193" y="443" style="fill:black;" font-family="Arial" font-size="16px">hdl_ngayXuatHoaDon</text>
-   <rect width="163" height="20" x="188" y="449" style="fill:none;stroke:black;"/>
-   <text width="163" height="20" x="193" y="463" style="fill:black;" font-family="Arial" font-size="16px">dh_ma</text>
-   <rect width="167" height="20" x="134" y="17" style="fill:#007;stroke:black;"/>
-   <text width="167" height="20" x="139" y="31" style="fill:#fff;" font-family="Arial" font-size="16px"> hoadonsi</text>
-   <rect width="167" height="20" x="134" y="37" style="fill:#aea;stroke:black;"/>
-   <text width="167" height="20" x="139" y="51" style="fill:black;" font-family="Arial" font-size="16px">hds_ma</text>
-   <rect width="167" height="20" x="134" y="57" style="fill:none;stroke:black;"/>
-   <text width="167" height="20" x="139" y="71" style="fill:black;" font-family="Arial" font-size="16px">hds_nguoiMuaHang</text>
-   <rect width="167" height="20" x="134" y="77" style="fill:none;stroke:black;"/>
-   <text width="167" height="20" x="139" y="91" style="fill:black;" font-family="Arial" font-size="16px">hds_tenDonVi</text>
-   <rect width="167" height="20" x="134" y="97" style="fill:none;stroke:black;"/>
-   <text width="167" height="20" x="139" y="111" style="fill:black;" font-family="Arial" font-size="16px">hds_diaChi</text>
-   <rect width="167" height="20" x="134" y="117" style="fill:none;stroke:black;"/>
-   <text width="167" height="20" x="139" y="131" style="fill:black;" font-family="Arial" font-size="16px">hds_maSoThue</text>
-   <rect width="167" height="20" x="134" y="137" style="fill:none;stroke:black;"/>
-   <text width="167" height="20" x="139" y="151" style="fill:black;" font-family="Arial" font-size="16px">hds_soTaiKhoan</text>
-   <rect width="167" height="20" x="134" y="157" style="fill:none;stroke:black;"/>
-   <text width="167" height="20" x="139" y="171" style="fill:black;" font-family="Arial" font-size="16px">nv_lapHoaDon</text>
-   <rect width="167" height="20" x="134" y="177" style="fill:none;stroke:black;"/>
-   <text width="167" height="20" x="139" y="191" style="fill:black;" font-family="Arial" font-size="16px">hds_ngayXuatHoaDon</text>
-   <rect width="167" height="20" x="134" y="197" style="fill:none;stroke:black;"/>
-   <text width="167" height="20" x="139" y="211" style="fill:black;" font-family="Arial" font-size="16px">nv_thuTruong</text>
-   <rect width="167" height="20" x="134" y="217" style="fill:none;stroke:black;"/>
-   <text width="167" height="20" x="139" y="231" style="fill:black;" font-family="Arial" font-size="16px">hds_taoMoi</text>
-   <rect width="167" height="20" x="134" y="237" style="fill:none;stroke:black;"/>
-   <text width="167" height="20" x="139" y="251" style="fill:black;" font-family="Arial" font-size="16px">hds_capNhat</text>
-   <rect width="167" height="20" x="134" y="257" style="fill:none;stroke:black;"/>
-   <text width="167" height="20" x="139" y="271" style="fill:black;" font-family="Arial" font-size="16px">hds_trangThai</text>
-   <rect width="167" height="20" x="134" y="277" style="fill:none;stroke:black;"/>
-   <text width="167" height="20" x="139" y="291" style="fill:black;" font-family="Arial" font-size="16px">dh_ma</text>
-   <rect width="167" height="20" x="134" y="297" style="fill:none;stroke:black;"/>
-   <text width="167" height="20" x="139" y="311" style="fill:black;" font-family="Arial" font-size="16px">tt_ma</text>
-   <rect width="102" height="20" x="229" y="884" style="fill:#007;stroke:black;"/>
-   <text width="102" height="20" x="234" y="898" style="fill:#fff;" font-family="Arial" font-size="16px"> khachhang</text>
-   <rect width="102" height="20" x="229" y="904" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="234" y="918" style="fill:black;" font-family="Arial" font-size="16px">created_at</text>
-   <rect width="102" height="20" x="229" y="924" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="234" y="938" style="fill:black;" font-family="Arial" font-size="16px">updated_at</text>
-   <rect width="102" height="20" x="229" y="944" style="fill:#aea;stroke:black;"/>
-   <text width="102" height="20" x="234" y="958" style="fill:black;" font-family="Arial" font-size="16px">kh_ma</text>
-   <rect width="102" height="20" x="229" y="964" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="234" y="978" style="fill:black;" font-family="Arial" font-size="16px">kh_taiKhoan</text>
-   <rect width="102" height="20" x="229" y="984" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="234" y="998" style="fill:black;" font-family="Arial" font-size="16px">kh_matKhau</text>
-   <rect width="102" height="20" x="229" y="1004" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="234" y="1018" style="fill:black;" font-family="Arial" font-size="16px">kh_hoTen</text>
-   <rect width="102" height="20" x="229" y="1024" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="234" y="1038" style="fill:black;" font-family="Arial" font-size="16px">kh_gioiTinh</text>
-   <rect width="102" height="20" x="229" y="1044" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="234" y="1058" style="fill:black;" font-family="Arial" font-size="16px">kh_email</text>
-   <rect width="102" height="20" x="229" y="1064" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="234" y="1078" style="fill:black;" font-family="Arial" font-size="16px">kh_ngaySinh</text>
-   <rect width="102" height="20" x="229" y="1084" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="234" y="1098" style="fill:black;" font-family="Arial" font-size="16px">kh_diaChi</text>
-   <rect width="102" height="20" x="229" y="1104" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="234" y="1118" style="fill:black;" font-family="Arial" font-size="16px">kh_dienThoai</text>
-   <rect width="102" height="20" x="229" y="1124" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="234" y="1138" style="fill:black;" font-family="Arial" font-size="16px">kh_taoMoi</text>
-   <rect width="102" height="20" x="229" y="1144" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="234" y="1158" style="fill:black;" font-family="Arial" font-size="16px">kh_capNhat</text>
-   <rect width="102" height="20" x="229" y="1164" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="234" y="1178" style="fill:black;" font-family="Arial" font-size="16px">kh_trangThai</text>
-   <rect width="111" height="20" x="767" y="222" style="fill:#007;stroke:black;"/>
-   <text width="111" height="20" x="772" y="236" style="fill:#fff;" font-family="Arial" font-size="16px"> khohang</text>
-   <rect width="111" height="20" x="767" y="242" style="fill:#aea;stroke:black;"/>
-   <text width="111" height="20" x="772" y="256" style="fill:black;" font-family="Arial" font-size="16px">kho_ma</text>
-   <rect width="111" height="20" x="767" y="262" style="fill:none;stroke:black;"/>
-   <text width="111" height="20" x="772" y="276" style="fill:black;" font-family="Arial" font-size="16px">kho_ten</text>
-   <rect width="111" height="20" x="767" y="282" style="fill:none;stroke:black;"/>
-   <text width="111" height="20" x="772" y="296" style="fill:black;" font-family="Arial" font-size="16px">kho_lienHe</text>
-   <rect width="111" height="20" x="767" y="302" style="fill:none;stroke:black;"/>
-   <text width="111" height="20" x="772" y="316" style="fill:black;" font-family="Arial" font-size="16px">kho_diaChi</text>
-   <rect width="111" height="20" x="767" y="322" style="fill:none;stroke:black;"/>
-   <text width="111" height="20" x="772" y="336" style="fill:black;" font-family="Arial" font-size="16px">kho_dienThoai</text>
-   <rect width="111" height="20" x="767" y="342" style="fill:none;stroke:black;"/>
-   <text width="111" height="20" x="772" y="356" style="fill:black;" font-family="Arial" font-size="16px">kho_quanLy</text>
-   <rect width="111" height="20" x="767" y="362" style="fill:none;stroke:black;"/>
-   <text width="111" height="20" x="772" y="376" style="fill:black;" font-family="Arial" font-size="16px">kho_ghiChu</text>
-   <rect width="127" height="20" x="1416" y="488" style="fill:#007;stroke:black;"/>
-   <text width="127" height="20" x="1421" y="502" style="fill:#fff;" font-family="Arial" font-size="16px"> khuyenmai</text>
-   <rect width="127" height="20" x="1416" y="508" style="fill:#aea;stroke:black;"/>
-   <text width="127" height="20" x="1421" y="522" style="fill:black;" font-family="Arial" font-size="16px">km_ma</text>
-   <rect width="127" height="20" x="1416" y="528" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1421" y="542" style="fill:black;" font-family="Arial" font-size="16px">km_ten</text>
-   <rect width="127" height="20" x="1416" y="548" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1421" y="562" style="fill:black;" font-family="Arial" font-size="16px">km_noiDung</text>
-   <rect width="127" height="20" x="1416" y="568" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1421" y="582" style="fill:black;" font-family="Arial" font-size="16px">km_batDau</text>
-   <rect width="127" height="20" x="1416" y="588" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1421" y="602" style="fill:black;" font-family="Arial" font-size="16px">km_ketThuc</text>
-   <rect width="127" height="20" x="1416" y="608" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1421" y="622" style="fill:black;" font-family="Arial" font-size="16px">km_giaTri</text>
-   <rect width="127" height="20" x="1416" y="628" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1421" y="642" style="fill:black;" font-family="Arial" font-size="16px">nv_nguoiLap</text>
-   <rect width="127" height="20" x="1416" y="648" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1421" y="662" style="fill:black;" font-family="Arial" font-size="16px">km_ngayLap</text>
-   <rect width="127" height="20" x="1416" y="668" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1421" y="682" style="fill:black;" font-family="Arial" font-size="16px">nv_kyNhay</text>
-   <rect width="127" height="20" x="1416" y="688" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1421" y="702" style="fill:black;" font-family="Arial" font-size="16px">km_ngayKyNhay</text>
-   <rect width="127" height="20" x="1416" y="708" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1421" y="722" style="fill:black;" font-family="Arial" font-size="16px">nv_kyDuyet</text>
-   <rect width="127" height="20" x="1416" y="728" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1421" y="742" style="fill:black;" font-family="Arial" font-size="16px">km_ngayDuyet</text>
-   <rect width="127" height="20" x="1416" y="748" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1421" y="762" style="fill:black;" font-family="Arial" font-size="16px">km_taoMoi</text>
-   <rect width="127" height="20" x="1416" y="768" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1421" y="782" style="fill:black;" font-family="Arial" font-size="16px">km_capNhat</text>
-   <rect width="127" height="20" x="1416" y="788" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1421" y="802" style="fill:black;" font-family="Arial" font-size="16px">km_trangThai</text>
-   <rect width="156" height="20" x="1355" y="131" style="fill:#007;stroke:black;"/>
-   <text width="156" height="20" x="1360" y="145" style="fill:#fff;" font-family="Arial" font-size="16px"> khuyenmai_sanpham</text>
-   <rect width="156" height="20" x="1355" y="151" style="fill:#aea;stroke:black;"/>
-   <text width="156" height="20" x="1360" y="165" style="fill:black;" font-family="Arial" font-size="16px">km_ma</text>
-   <rect width="156" height="20" x="1355" y="171" style="fill:#aea;stroke:black;"/>
-   <text width="156" height="20" x="1360" y="185" style="fill:black;" font-family="Arial" font-size="16px">sp_ma</text>
-   <rect width="156" height="20" x="1355" y="191" style="fill:none;stroke:black;"/>
-   <text width="156" height="20" x="1360" y="205" style="fill:black;" font-family="Arial" font-size="16px">kmsp_giaTri</text>
-   <rect width="156" height="20" x="1355" y="211" style="fill:none;stroke:black;"/>
-   <text width="156" height="20" x="1360" y="225" style="fill:black;" font-family="Arial" font-size="16px">kmsp_trangThai</text>
-   <rect width="86" height="20" x="801" y="37" style="fill:#007;stroke:black;"/>
-   <text width="86" height="20" x="806" y="51" style="fill:#fff;" font-family="Arial" font-size="16px"> loai</text>
-   <rect width="86" height="20" x="801" y="57" style="fill:#aea;stroke:black;"/>
-   <text width="86" height="20" x="806" y="71" style="fill:black;" font-family="Arial" font-size="16px">l_ma</text>
-   <rect width="86" height="20" x="801" y="77" style="fill:none;stroke:black;"/>
-   <text width="86" height="20" x="806" y="91" style="fill:black;" font-family="Arial" font-size="16px">l_ten</text>
-   <rect width="86" height="20" x="801" y="97" style="fill:none;stroke:black;"/>
-   <text width="86" height="20" x="806" y="111" style="fill:black;" font-family="Arial" font-size="16px">l_taoMoi</text>
-   <rect width="86" height="20" x="801" y="117" style="fill:none;stroke:black;"/>
-   <text width="86" height="20" x="806" y="131" style="fill:black;" font-family="Arial" font-size="16px">l_capNhat</text>
-   <rect width="86" height="20" x="801" y="137" style="fill:none;stroke:black;"/>
-   <text width="86" height="20" x="806" y="151" style="fill:black;" font-family="Arial" font-size="16px">l_trangThai</text>
-   <rect width="83" height="20" x="1460" y="14" style="fill:#007;stroke:black;"/>
-   <text width="83" height="20" x="1465" y="28" style="fill:#fff;" font-family="Arial" font-size="16px"> migrations</text>
-   <rect width="83" height="20" x="1460" y="34" style="fill:#aea;stroke:black;"/>
-   <text width="83" height="20" x="1465" y="48" style="fill:black;" font-family="Arial" font-size="16px">id</text>
-   <rect width="83" height="20" x="1460" y="54" style="fill:none;stroke:black;"/>
-   <text width="83" height="20" x="1465" y="68" style="fill:black;" font-family="Arial" font-size="16px">migration</text>
-   <rect width="83" height="20" x="1460" y="74" style="fill:none;stroke:black;"/>
-   <text width="83" height="20" x="1465" y="88" style="fill:black;" font-family="Arial" font-size="16px">batch</text>
-   <rect width="110" height="20" x="1126" y="1071" style="fill:#007;stroke:black;"/>
-   <text width="110" height="20" x="1131" y="1085" style="fill:#fff;" font-family="Arial" font-size="16px"> nhacungcap</text>
-   <rect width="110" height="20" x="1126" y="1091" style="fill:#aea;stroke:black;"/>
-   <text width="110" height="20" x="1131" y="1105" style="fill:black;" font-family="Arial" font-size="16px">ncc_ma</text>
-   <rect width="110" height="20" x="1126" y="1111" style="fill:none;stroke:black;"/>
-   <text width="110" height="20" x="1131" y="1125" style="fill:black;" font-family="Arial" font-size="16px">ncc_ten</text>
-   <rect width="110" height="20" x="1126" y="1131" style="fill:none;stroke:black;"/>
-   <text width="110" height="20" x="1131" y="1145" style="fill:black;" font-family="Arial" font-size="16px">ncc_daiDien</text>
-   <rect width="110" height="20" x="1126" y="1151" style="fill:none;stroke:black;"/>
-   <text width="110" height="20" x="1131" y="1165" style="fill:black;" font-family="Arial" font-size="16px">ncc_diaChi</text>
-   <rect width="110" height="20" x="1126" y="1171" style="fill:none;stroke:black;"/>
-   <text width="110" height="20" x="1131" y="1185" style="fill:black;" font-family="Arial" font-size="16px">ncc_dienThoai</text>
-   <rect width="110" height="20" x="1126" y="1191" style="fill:none;stroke:black;"/>
-   <text width="110" height="20" x="1131" y="1205" style="fill:black;" font-family="Arial" font-size="16px">ncc_email</text>
-   <rect width="110" height="20" x="1126" y="1211" style="fill:none;stroke:black;"/>
-   <text width="110" height="20" x="1131" y="1225" style="fill:black;" font-family="Arial" font-size="16px">ncc_taoMoi</text>
-   <rect width="110" height="20" x="1126" y="1231" style="fill:none;stroke:black;"/>
-   <text width="110" height="20" x="1131" y="1245" style="fill:black;" font-family="Arial" font-size="16px">ncc_capNhat</text>
-   <rect width="110" height="20" x="1126" y="1251" style="fill:none;stroke:black;"/>
-   <text width="110" height="20" x="1131" y="1265" style="fill:black;" font-family="Arial" font-size="16px">ncc_trangThai</text>
-   <rect width="110" height="20" x="1126" y="1271" style="fill:none;stroke:black;"/>
-   <text width="110" height="20" x="1131" y="1285" style="fill:black;" font-family="Arial" font-size="16px">xx_ma</text>
-   <rect width="102" height="20" x="1088" y="53" style="fill:#007;stroke:black;"/>
-   <text width="102" height="20" x="1093" y="67" style="fill:#fff;" font-family="Arial" font-size="16px"> nhanvien</text>
-   <rect width="102" height="20" x="1088" y="73" style="fill:#aea;stroke:black;"/>
-   <text width="102" height="20" x="1093" y="87" style="fill:black;" font-family="Arial" font-size="16px">nv_ma</text>
-   <rect width="102" height="20" x="1088" y="93" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="1093" y="107" style="fill:black;" font-family="Arial" font-size="16px">nv_taiKhoan</text>
-   <rect width="102" height="20" x="1088" y="113" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="1093" y="127" style="fill:black;" font-family="Arial" font-size="16px">nv_matKhau</text>
-   <rect width="102" height="20" x="1088" y="133" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="1093" y="147" style="fill:black;" font-family="Arial" font-size="16px">nv_hoTen</text>
-   <rect width="102" height="20" x="1088" y="153" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="1093" y="167" style="fill:black;" font-family="Arial" font-size="16px">nv_gioiTinh</text>
-   <rect width="102" height="20" x="1088" y="173" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="1093" y="187" style="fill:black;" font-family="Arial" font-size="16px">nv_email</text>
-   <rect width="102" height="20" x="1088" y="193" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="1093" y="207" style="fill:black;" font-family="Arial" font-size="16px">nv_ngaySinh</text>
-   <rect width="102" height="20" x="1088" y="213" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="1093" y="227" style="fill:black;" font-family="Arial" font-size="16px">nv_diaChi</text>
-   <rect width="102" height="20" x="1088" y="233" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="1093" y="247" style="fill:black;" font-family="Arial" font-size="16px">nv_dienThoai</text>
-   <rect width="102" height="20" x="1088" y="253" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="1093" y="267" style="fill:black;" font-family="Arial" font-size="16px">nv_taoMoi</text>
-   <rect width="102" height="20" x="1088" y="273" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="1093" y="287" style="fill:black;" font-family="Arial" font-size="16px">nv_capNhat</text>
-   <rect width="102" height="20" x="1088" y="293" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="1093" y="307" style="fill:black;" font-family="Arial" font-size="16px">nv_trangThai</text>
-   <rect width="102" height="20" x="1088" y="313" style="fill:none;stroke:black;"/>
-   <text width="102" height="20" x="1093" y="327" style="fill:black;" font-family="Arial" font-size="16px">q_ma</text>
-   <rect width="139" height="20" x="734" y="448" style="fill:#007;stroke:black;"/>
-   <text width="139" height="20" x="739" y="462" style="fill:#fff;" font-family="Arial" font-size="16px"> nhapkho</text>
-   <rect width="139" height="20" x="734" y="468" style="fill:#aea;stroke:black;"/>
-   <text width="139" height="20" x="739" y="482" style="fill:black;" font-family="Arial" font-size="16px">nk_ma</text>
-   <rect width="139" height="20" x="734" y="488" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="739" y="502" style="fill:black;" font-family="Arial" font-size="16px">nk_soHoaDon</text>
-   <rect width="139" height="20" x="734" y="508" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="739" y="522" style="fill:black;" font-family="Arial" font-size="16px">nk_lydo</text>
-   <rect width="139" height="20" x="734" y="528" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="739" y="542" style="fill:black;" font-family="Arial" font-size="16px">nv_nguoiLapPhieu</text>
-   <rect width="139" height="20" x="734" y="548" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="739" y="562" style="fill:black;" font-family="Arial" font-size="16px">nk_ngayLapPhieu</text>
-   <rect width="139" height="20" x="734" y="568" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="739" y="582" style="fill:black;" font-family="Arial" font-size="16px">nk_tongtien</text>
-   <rect width="139" height="20" x="734" y="588" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="739" y="602" style="fill:black;" font-family="Arial" font-size="16px">nv_thuKho</text>
-   <rect width="139" height="20" x="734" y="608" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="739" y="622" style="fill:black;" font-family="Arial" font-size="16px">nk_ngayNhapKho</text>
-   <rect width="139" height="20" x="734" y="628" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="739" y="642" style="fill:black;" font-family="Arial" font-size="16px">nk_taoMoi</text>
-   <rect width="139" height="20" x="734" y="648" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="739" y="662" style="fill:black;" font-family="Arial" font-size="16px">nk_capNhat</text>
-   <rect width="139" height="20" x="734" y="668" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="739" y="682" style="fill:black;" font-family="Arial" font-size="16px">nk_trangThai</text>
-   <rect width="139" height="20" x="734" y="688" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="739" y="702" style="fill:black;" font-family="Arial" font-size="16px">ncc_ma</text>
-   <rect width="123" height="20" x="142" y="1159" style="fill:#007;stroke:black;"/>
-   <text width="123" height="20" x="147" y="1173" style="fill:#fff;" font-family="Arial" font-size="16px"> password_resets</text>
-   <rect width="123" height="20" x="142" y="1179" style="fill:none;stroke:black;"/>
-   <text width="123" height="20" x="147" y="1193" style="fill:black;" font-family="Arial" font-size="16px">email</text>
-   <rect width="123" height="20" x="142" y="1199" style="fill:none;stroke:black;"/>
-   <text width="123" height="20" x="147" y="1213" style="fill:black;" font-family="Arial" font-size="16px">token</text>
-   <rect width="123" height="20" x="142" y="1219" style="fill:none;stroke:black;"/>
-   <text width="123" height="20" x="147" y="1233" style="fill:black;" font-family="Arial" font-size="16px">created_at</text>
-   <rect width="91" height="20" x="103" y="476" style="fill:#007;stroke:black;"/>
-   <text width="91" height="20" x="108" y="490" style="fill:#fff;" font-family="Arial" font-size="16px"> quyen</text>
-   <rect width="91" height="20" x="103" y="496" style="fill:#aea;stroke:black;"/>
-   <text width="91" height="20" x="108" y="510" style="fill:black;" font-family="Arial" font-size="16px">q_ma</text>
-   <rect width="91" height="20" x="103" y="516" style="fill:none;stroke:black;"/>
-   <text width="91" height="20" x="108" y="530" style="fill:black;" font-family="Arial" font-size="16px">q_ten</text>
-   <rect width="91" height="20" x="103" y="536" style="fill:none;stroke:black;"/>
-   <text width="91" height="20" x="108" y="550" style="fill:black;" font-family="Arial" font-size="16px">q_dienGiai</text>
-   <rect width="91" height="20" x="103" y="556" style="fill:none;stroke:black;"/>
-   <text width="91" height="20" x="108" y="570" style="fill:black;" font-family="Arial" font-size="16px">q_taoMoi</text>
-   <rect width="91" height="20" x="103" y="576" style="fill:none;stroke:black;"/>
-   <text width="91" height="20" x="108" y="590" style="fill:black;" font-family="Arial" font-size="16px">q_capNhat</text>
-   <rect width="91" height="20" x="103" y="596" style="fill:none;stroke:black;"/>
-   <text width="91" height="20" x="108" y="610" style="fill:black;" font-family="Arial" font-size="16px">q_trangThai</text>
-   <rect width="99" height="20" x="1107" y="766" style="fill:#007;stroke:black;"/>
-   <text width="99" height="20" x="1112" y="780" style="fill:#fff;" font-family="Arial" font-size="16px"> sanpham</text>
-   <rect width="99" height="20" x="1107" y="786" style="fill:#aea;stroke:black;"/>
-   <text width="99" height="20" x="1112" y="800" style="fill:black;" font-family="Arial" font-size="16px">sp_ma</text>
-   <rect width="99" height="20" x="1107" y="806" style="fill:none;stroke:black;"/>
-   <text width="99" height="20" x="1112" y="820" style="fill:black;" font-family="Arial" font-size="16px">sp_ten</text>
-   <rect width="99" height="20" x="1107" y="826" style="fill:none;stroke:black;"/>
-   <text width="99" height="20" x="1112" y="840" style="fill:black;" font-family="Arial" font-size="16px">sp_gia</text>
-   <rect width="99" height="20" x="1107" y="846" style="fill:none;stroke:black;"/>
-   <text width="99" height="20" x="1112" y="860" style="fill:black;" font-family="Arial" font-size="16px">sp_hinh</text>
-   <rect width="99" height="20" x="1107" y="866" style="fill:none;stroke:black;"/>
-   <text width="99" height="20" x="1112" y="880" style="fill:black;" font-family="Arial" font-size="16px">sp_thongTin</text>
-   <rect width="99" height="20" x="1107" y="886" style="fill:none;stroke:black;"/>
-   <text width="99" height="20" x="1112" y="900" style="fill:black;" font-family="Arial" font-size="16px">sp_danhGia</text>
-   <rect width="99" height="20" x="1107" y="906" style="fill:none;stroke:black;"/>
-   <text width="99" height="20" x="1112" y="920" style="fill:black;" font-family="Arial" font-size="16px">sp_taoMoi</text>
-   <rect width="99" height="20" x="1107" y="926" style="fill:none;stroke:black;"/>
-   <text width="99" height="20" x="1112" y="940" style="fill:black;" font-family="Arial" font-size="16px">sp_capNhat</text>
-   <rect width="99" height="20" x="1107" y="946" style="fill:none;stroke:black;"/>
-   <text width="99" height="20" x="1112" y="960" style="fill:black;" font-family="Arial" font-size="16px">sp_trangThai</text>
-   <rect width="99" height="20" x="1107" y="966" style="fill:none;stroke:black;"/>
-   <text width="99" height="20" x="1112" y="980" style="fill:black;" font-family="Arial" font-size="16px">l_ma</text>
-   <rect width="99" height="20" x="1107" y="986" style="fill:none;stroke:black;"/>
-   <text width="99" height="20" x="1112" y="1000" style="fill:black;" font-family="Arial" font-size="16px">kho_ma</text>
-   <rect width="91" height="20" x="490" y="110" style="fill:#007;stroke:black;"/>
-   <text width="91" height="20" x="495" y="124" style="fill:#fff;" font-family="Arial" font-size="16px"> thanhtoan</text>
-   <rect width="91" height="20" x="490" y="130" style="fill:#aea;stroke:black;"/>
-   <text width="91" height="20" x="495" y="144" style="fill:black;" font-family="Arial" font-size="16px">tt_ma</text>
-   <rect width="91" height="20" x="490" y="150" style="fill:none;stroke:black;"/>
-   <text width="91" height="20" x="495" y="164" style="fill:black;" font-family="Arial" font-size="16px">tt_ten</text>
-   <rect width="91" height="20" x="490" y="170" style="fill:none;stroke:black;"/>
-   <text width="91" height="20" x="495" y="184" style="fill:black;" font-family="Arial" font-size="16px">tt_dienGiai</text>
-   <rect width="91" height="20" x="490" y="190" style="fill:none;stroke:black;"/>
-   <text width="91" height="20" x="495" y="204" style="fill:black;" font-family="Arial" font-size="16px">tt_taoMoi</text>
-   <rect width="91" height="20" x="490" y="210" style="fill:none;stroke:black;"/>
-   <text width="91" height="20" x="495" y="224" style="fill:black;" font-family="Arial" font-size="16px">tt_capNhat</text>
-   <rect width="91" height="20" x="490" y="230" style="fill:none;stroke:black;"/>
-   <text width="91" height="20" x="495" y="244" style="fill:black;" font-family="Arial" font-size="16px">tt_trangThai</text>
-   <rect width="127" height="20" x="1429" y="256" style="fill:#007;stroke:black;"/>
-   <text width="127" height="20" x="1434" y="270" style="fill:#fff;" font-family="Arial" font-size="16px"> users</text>
-   <rect width="127" height="20" x="1429" y="276" style="fill:#aea;stroke:black;"/>
-   <text width="127" height="20" x="1434" y="290" style="fill:black;" font-family="Arial" font-size="16px">id</text>
-   <rect width="127" height="20" x="1429" y="296" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1434" y="310" style="fill:black;" font-family="Arial" font-size="16px">name</text>
-   <rect width="127" height="20" x="1429" y="316" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1434" y="330" style="fill:black;" font-family="Arial" font-size="16px">email</text>
-   <rect width="127" height="20" x="1429" y="336" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1434" y="350" style="fill:black;" font-family="Arial" font-size="16px">password</text>
-   <rect width="127" height="20" x="1429" y="356" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1434" y="370" style="fill:black;" font-family="Arial" font-size="16px">remember_token</text>
-   <rect width="127" height="20" x="1429" y="376" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1434" y="390" style="fill:black;" font-family="Arial" font-size="16px">created_at</text>
-   <rect width="127" height="20" x="1429" y="396" style="fill:none;stroke:black;"/>
-   <text width="127" height="20" x="1434" y="410" style="fill:black;" font-family="Arial" font-size="16px">updated_at</text>
-   <rect width="98" height="20" x="443" y="424" style="fill:#007;stroke:black;"/>
-   <text width="98" height="20" x="448" y="438" style="fill:#fff;" font-family="Arial" font-size="16px"> vanchuyen</text>
-   <rect width="98" height="20" x="443" y="444" style="fill:#aea;stroke:black;"/>
-   <text width="98" height="20" x="448" y="458" style="fill:black;" font-family="Arial" font-size="16px">vc_ma</text>
-   <rect width="98" height="20" x="443" y="464" style="fill:none;stroke:black;"/>
-   <text width="98" height="20" x="448" y="478" style="fill:black;" font-family="Arial" font-size="16px">vc_ten</text>
-   <rect width="98" height="20" x="443" y="484" style="fill:none;stroke:black;"/>
-   <text width="98" height="20" x="448" y="498" style="fill:black;" font-family="Arial" font-size="16px">vc_chiPhi</text>
-   <rect width="98" height="20" x="443" y="504" style="fill:none;stroke:black;"/>
-   <text width="98" height="20" x="448" y="518" style="fill:black;" font-family="Arial" font-size="16px">vc_dienGiai</text>
-   <rect width="98" height="20" x="443" y="524" style="fill:none;stroke:black;"/>
-   <text width="98" height="20" x="448" y="538" style="fill:black;" font-family="Arial" font-size="16px">vc_taoMoi</text>
-   <rect width="98" height="20" x="443" y="544" style="fill:none;stroke:black;"/>
-   <text width="98" height="20" x="448" y="558" style="fill:black;" font-family="Arial" font-size="16px">vc_capNhat</text>
-   <rect width="98" height="20" x="443" y="564" style="fill:none;stroke:black;"/>
-   <text width="98" height="20" x="448" y="578" style="fill:black;" font-family="Arial" font-size="16px">vc_trangThai</text>
-   <rect width="139" height="20" x="1058" y="511" style="fill:#007;stroke:black;"/>
-   <text width="139" height="20" x="1063" y="525" style="fill:#fff;" font-family="Arial" font-size="16px"> xuatkho</text>
-   <rect width="139" height="20" x="1058" y="531" style="fill:#aea;stroke:black;"/>
-   <text width="139" height="20" x="1063" y="545" style="fill:black;" font-family="Arial" font-size="16px">xk_ma</text>
-   <rect width="139" height="20" x="1058" y="551" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="1063" y="565" style="fill:black;" font-family="Arial" font-size="16px">xk_soHoaDon</text>
-   <rect width="139" height="20" x="1058" y="571" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="1063" y="585" style="fill:black;" font-family="Arial" font-size="16px">xk_lydo</text>
-   <rect width="139" height="20" x="1058" y="591" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="1063" y="605" style="fill:black;" font-family="Arial" font-size="16px">kh_diaChi</text>
-   <rect width="139" height="20" x="1058" y="611" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="1063" y="625" style="fill:black;" font-family="Arial" font-size="16px">nv_nguoiLapPhieu</text>
-   <rect width="139" height="20" x="1058" y="631" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="1063" y="645" style="fill:black;" font-family="Arial" font-size="16px">xk_ngayLapPhieu</text>
-   <rect width="139" height="20" x="1058" y="651" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="1063" y="665" style="fill:black;" font-family="Arial" font-size="16px">nk_tongtien</text>
-   <rect width="139" height="20" x="1058" y="671" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="1063" y="685" style="fill:black;" font-family="Arial" font-size="16px">nv_thuKho</text>
-   <rect width="139" height="20" x="1058" y="691" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="1063" y="705" style="fill:black;" font-family="Arial" font-size="16px">xk_ngayXuatKho</text>
-   <rect width="139" height="20" x="1058" y="711" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="1063" y="725" style="fill:black;" font-family="Arial" font-size="16px">xk_taoMoi</text>
-   <rect width="139" height="20" x="1058" y="731" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="1063" y="745" style="fill:black;" font-family="Arial" font-size="16px">xk_capNhat</text>
-   <rect width="139" height="20" x="1058" y="751" style="fill:none;stroke:black;"/>
-   <text width="139" height="20" x="1063" y="765" style="fill:black;" font-family="Arial" font-size="16px">xk_trangThai</text>
-   <rect width="98" height="20" x="448" y="586" style="fill:#007;stroke:black;"/>
-   <text width="98" height="20" x="453" y="600" style="fill:#fff;" font-family="Arial" font-size="16px"> xuatxu</text>
-   <rect width="98" height="20" x="448" y="606" style="fill:#aea;stroke:black;"/>
-   <text width="98" height="20" x="453" y="620" style="fill:black;" font-family="Arial" font-size="16px">xx_ma</text>
-   <rect width="98" height="20" x="448" y="626" style="fill:none;stroke:black;"/>
-   <text width="98" height="20" x="453" y="640" style="fill:black;" font-family="Arial" font-size="16px">xx_ten</text>
-   <rect width="98" height="20" x="448" y="646" style="fill:none;stroke:black;"/>
-   <text width="98" height="20" x="453" y="660" style="fill:black;" font-family="Arial" font-size="16px">xx_taoMoi</text>
-   <rect width="98" height="20" x="448" y="666" style="fill:none;stroke:black;"/>
-   <text width="98" height="20" x="453" y="680" style="fill:black;" font-family="Arial" font-size="16px">xx_capNhat</text>
-   <rect width="98" height="20" x="448" y="686" style="fill:none;stroke:black;"/>
-   <text width="98" height="20" x="453" y="700" style="fill:black;" font-family="Arial" font-size="16px">xx_trangThai</text>
+<svg viewBox="49 -7 1345 1320" width="1296px" height="1327px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+   <line x1="955" y1="894" x2="965" y2="894" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="1114" y1="574" x2="1124" y2="574" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="965" y1="894" x2="1114" y2="574" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="962.5" y1="894" x2="958.96446609407" y2="897.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="962.5" y1="894" x2="958.96446609407" y2="890.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="1119" y1="574" x2="1115.4644660941" y2="577.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="1119" y1="574" x2="1115.4644660941" y2="570.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="955" y1="974" x2="965" y2="974" style="stroke:#333;stroke-width:1;"/>
+   <line x1="1186" y1="228" x2="1196" y2="228" style="stroke:#333;stroke-width:1;"/>
+   <line x1="965" y1="974" x2="1186" y2="228" style="stroke:#333;stroke-width:1;"/>
+   <line x1="962.5" y1="974" x2="958.96446609407" y2="977.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="962.5" y1="974" x2="958.96446609407" y2="970.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1191" y1="228" x2="1187.4644660941" y2="231.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1191" y1="228" x2="1187.4644660941" y2="224.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="842" y1="914" x2="832" y2="914" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="422" y1="477" x2="412" y2="477" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="832" y1="914" x2="422" y2="477" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="834.5" y1="914" x2="838.03553390593" y2="917.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="834.5" y1="914" x2="838.03553390593" y2="910.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="417" y1="477" x2="420.53553390593" y2="480.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="417" y1="477" x2="420.53553390593" y2="473.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="568" y1="342" x2="558" y2="342" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="578" y1="438" x2="588" y2="438" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="558" y1="342" x2="578" y2="438" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="560.5" y1="342" x2="564.03553390593" y2="345.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="560.5" y1="342" x2="564.03553390593" y2="338.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="583" y1="438" x2="579.46446609407" y2="441.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="583" y1="438" x2="579.46446609407" y2="434.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="678" y1="262" x2="688" y2="262" style="stroke:#333;stroke-width:1;"/>
+   <line x1="1186" y1="228" x2="1196" y2="228" style="stroke:#333;stroke-width:1;"/>
+   <line x1="688" y1="262" x2="1186" y2="228" style="stroke:#333;stroke-width:1;"/>
+   <line x1="685.5" y1="262" x2="681.96446609407" y2="265.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="685.5" y1="262" x2="681.96446609407" y2="258.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1191" y1="228" x2="1187.4644660941" y2="231.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1191" y1="228" x2="1187.4644660941" y2="224.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="568" y1="322" x2="558" y2="322" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="413" y1="201" x2="403" y2="201" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="558" y1="322" x2="413" y2="201" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="560.5" y1="322" x2="564.03553390593" y2="325.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="560.5" y1="322" x2="564.03553390593" y2="318.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="408" y1="201" x2="411.53553390593" y2="204.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="408" y1="201" x2="411.53553390593" y2="197.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="568" y1="302" x2="558" y2="302" style="stroke:#333;stroke-width:1;"/>
+   <line x1="422" y1="477" x2="412" y2="477" style="stroke:#333;stroke-width:1;"/>
+   <line x1="558" y1="302" x2="422" y2="477" style="stroke:#333;stroke-width:1;"/>
+   <line x1="560.5" y1="302" x2="564.03553390593" y2="305.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="560.5" y1="302" x2="564.03553390593" y2="298.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="417" y1="477" x2="420.53553390593" y2="480.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="417" y1="477" x2="420.53553390593" y2="473.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="876" y1="530" x2="866" y2="530" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="709" y1="438" x2="699" y2="438" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="866" y1="530" x2="709" y2="438" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="868.5" y1="530" x2="872.03553390593" y2="533.53553390593" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="868.5" y1="530" x2="872.03553390593" y2="526.46446609407" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="704" y1="438" x2="707.53553390593" y2="441.53553390593" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="704" y1="438" x2="707.53553390593" y2="434.46446609407" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="985" y1="450" x2="995" y2="450" style="stroke:#333;stroke-width:1;"/>
+   <line x1="1186" y1="228" x2="1196" y2="228" style="stroke:#333;stroke-width:1;"/>
+   <line x1="995" y1="450" x2="1186" y2="228" style="stroke:#333;stroke-width:1;"/>
+   <line x1="992.5" y1="450" x2="988.96446609407" y2="453.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="992.5" y1="450" x2="988.96446609407" y2="446.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1191" y1="228" x2="1187.4644660941" y2="231.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1191" y1="228" x2="1187.4644660941" y2="224.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="876" y1="490" x2="866" y2="490" style="stroke:#0b0;stroke-width:1;"/>
+   <line x1="422" y1="477" x2="412" y2="477" style="stroke:#0b0;stroke-width:1;"/>
+   <line x1="866" y1="490" x2="422" y2="477" style="stroke:#0b0;stroke-width:1;"/>
+   <line x1="868.5" y1="490" x2="872.03553390593" y2="493.53553390593" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="868.5" y1="490" x2="872.03553390593" y2="486.46446609407" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="417" y1="477" x2="420.53553390593" y2="480.53553390593" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="417" y1="477" x2="420.53553390593" y2="473.46446609407" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="876" y1="510" x2="866" y2="510" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="413" y1="201" x2="403" y2="201" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="866" y1="510" x2="413" y2="201" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="868.5" y1="510" x2="872.03553390593" y2="513.53553390593" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="868.5" y1="510" x2="872.03553390593" y2="506.46446609407" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="408" y1="201" x2="411.53553390593" y2="204.53553390593" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="408" y1="201" x2="411.53553390593" y2="197.46446609407" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="1124" y1="594" x2="1114" y2="594" style="stroke:#333;stroke-width:1;"/>
+   <line x1="467" y1="827" x2="457" y2="827" style="stroke:#333;stroke-width:1;"/>
+   <line x1="1114" y1="594" x2="467" y2="827" style="stroke:#333;stroke-width:1;"/>
+   <line x1="1116.5" y1="594" x2="1120.0355339059" y2="597.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1116.5" y1="594" x2="1120.0355339059" y2="590.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="462" y1="827" x2="465.53553390593" y2="830.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="462" y1="827" x2="465.53553390593" y2="823.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1124" y1="814" x2="1114" y2="814" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="776" y1="630" x2="766" y2="630" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="1114" y1="814" x2="776" y2="630" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="1116.5" y1="814" x2="1120.0355339059" y2="817.53553390593" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="1116.5" y1="814" x2="1120.0355339059" y2="810.46446609407" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="771" y1="630" x2="774.53553390593" y2="633.53553390593" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="771" y1="630" x2="774.53553390593" y2="626.46446609407" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="1124" y1="774" x2="1114" y2="774" style="stroke:#333;stroke-width:1;"/>
+   <line x1="776" y1="630" x2="766" y2="630" style="stroke:#333;stroke-width:1;"/>
+   <line x1="1114" y1="774" x2="776" y2="630" style="stroke:#333;stroke-width:1;"/>
+   <line x1="1116.5" y1="774" x2="1120.0355339059" y2="777.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1116.5" y1="774" x2="1120.0355339059" y2="770.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="771" y1="630" x2="774.53553390593" y2="633.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="771" y1="630" x2="774.53553390593" y2="626.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1124" y1="954" x2="1114" y2="954" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="549" y1="61" x2="539" y2="61" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="1114" y1="954" x2="549" y2="61" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="1116.5" y1="954" x2="1120.0355339059" y2="957.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="1116.5" y1="954" x2="1120.0355339059" y2="950.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="544" y1="61" x2="547.53553390593" y2="64.535533905933" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="544" y1="61" x2="547.53553390593" y2="57.464466094067" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="1124" y1="934" x2="1114" y2="934" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="195" y1="38" x2="185" y2="38" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="1114" y1="934" x2="195" y2="38" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="1116.5" y1="934" x2="1120.0355339059" y2="937.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="1116.5" y1="934" x2="1120.0355339059" y2="930.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="190" y1="38" x2="193.53553390593" y2="41.535533905933" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="190" y1="38" x2="193.53553390593" y2="34.464466094067" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="168" y1="848" x2="178" y2="848" style="stroke:#333;stroke-width:1;"/>
+   <line x1="345" y1="827" x2="355" y2="827" style="stroke:#333;stroke-width:1;"/>
+   <line x1="178" y1="848" x2="345" y2="827" style="stroke:#333;stroke-width:1;"/>
+   <line x1="175.5" y1="848" x2="171.96446609407" y2="851.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="175.5" y1="848" x2="171.96446609407" y2="844.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="350" y1="827" x2="346.46446609407" y2="830.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="350" y1="827" x2="346.46446609407" y2="823.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="168" y1="868" x2="178" y2="868" style="stroke:#333;stroke-width:1;"/>
+   <line x1="303" y1="477" x2="313" y2="477" style="stroke:#333;stroke-width:1;"/>
+   <line x1="178" y1="868" x2="303" y2="477" style="stroke:#333;stroke-width:1;"/>
+   <line x1="175.5" y1="868" x2="171.96446609407" y2="871.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="175.5" y1="868" x2="171.96446609407" y2="864.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="308" y1="477" x2="304.46446609407" y2="480.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="308" y1="477" x2="304.46446609407" y2="473.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="132" y1="658" x2="142" y2="658" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="303" y1="477" x2="313" y2="477" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="142" y1="658" x2="303" y2="477" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="139.5" y1="658" x2="135.96446609407" y2="661.53553390593" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="139.5" y1="658" x2="135.96446609407" y2="654.46446609407" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="308" y1="477" x2="304.46446609407" y2="480.53553390593" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="308" y1="477" x2="304.46446609407" y2="473.46446609407" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="1196" y1="428" x2="1186" y2="428" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="776" y1="630" x2="766" y2="630" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="1186" y1="428" x2="776" y2="630" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="1188.5" y1="428" x2="1192.0355339059" y2="431.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="1188.5" y1="428" x2="1192.0355339059" y2="424.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="771" y1="630" x2="774.53553390593" y2="633.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="771" y1="630" x2="774.53553390593" y2="626.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="1196" y1="388" x2="1186" y2="388" style="stroke:#333;stroke-width:1;"/>
+   <line x1="776" y1="630" x2="766" y2="630" style="stroke:#333;stroke-width:1;"/>
+   <line x1="1186" y1="388" x2="776" y2="630" style="stroke:#333;stroke-width:1;"/>
+   <line x1="1188.5" y1="388" x2="1192.0355339059" y2="391.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1188.5" y1="388" x2="1192.0355339059" y2="384.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="771" y1="630" x2="774.53553390593" y2="633.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="771" y1="630" x2="774.53553390593" y2="626.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1196" y1="348" x2="1186" y2="348" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="776" y1="630" x2="766" y2="630" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="1186" y1="348" x2="776" y2="630" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="1188.5" y1="348" x2="1192.0355339059" y2="351.53553390593" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="1188.5" y1="348" x2="1192.0355339059" y2="344.46446609407" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="771" y1="630" x2="774.53553390593" y2="633.53553390593" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="771" y1="630" x2="774.53553390593" y2="626.46446609407" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="1330" y1="79" x2="1340" y2="79" style="stroke:#333;stroke-width:1;"/>
+   <line x1="1333" y1="228" x2="1323" y2="228" style="stroke:#333;stroke-width:1;"/>
+   <line x1="1340" y1="79" x2="1333" y2="228" style="stroke:#333;stroke-width:1;"/>
+   <line x1="1337.5" y1="79" x2="1333.9644660941" y2="82.535533905933" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1337.5" y1="79" x2="1333.9644660941" y2="75.464466094067" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1328" y1="228" x2="1331.5355339059" y2="231.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1328" y1="228" x2="1331.5355339059" y2="224.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1174" y1="99" x2="1164" y2="99" style="stroke:#333;stroke-width:1;"/>
+   <line x1="422" y1="477" x2="412" y2="477" style="stroke:#333;stroke-width:1;"/>
+   <line x1="1164" y1="99" x2="422" y2="477" style="stroke:#333;stroke-width:1;"/>
+   <line x1="1166.5" y1="99" x2="1170.0355339059" y2="102.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1166.5" y1="99" x2="1170.0355339059" y2="95.464466094067" style="stroke:#333;stroke-width:2;"/>
+   <line x1="417" y1="477" x2="420.53553390593" y2="480.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="417" y1="477" x2="420.53553390593" y2="473.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="343" y1="1295" x2="333" y2="1295" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="186" y1="502" x2="176" y2="502" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="333" y1="1295" x2="186" y2="502" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="335.5" y1="1295" x2="339.03553390593" y2="1298.5355339059" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="335.5" y1="1295" x2="339.03553390593" y2="1291.4644660941" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="181" y1="502" x2="184.53553390593" y2="505.53553390593" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="181" y1="502" x2="184.53553390593" y2="498.46446609407" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="664" y1="870" x2="654" y2="870" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="626" y1="933" x2="636" y2="933" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="654" y1="870" x2="626" y2="933" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="656.5" y1="870" x2="660.03553390593" y2="873.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="656.5" y1="870" x2="660.03553390593" y2="866.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="631" y1="933" x2="627.46446609407" y2="936.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="631" y1="933" x2="627.46446609407" y2="929.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="403" y1="421" x2="413" y2="421" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="463" y1="1115" x2="453" y2="1115" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="413" y1="421" x2="463" y2="1115" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="410.5" y1="421" x2="406.96446609407" y2="424.53553390593" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="410.5" y1="421" x2="406.96446609407" y2="417.46446609407" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="458" y1="1115" x2="461.53553390593" y2="1118.5355339059" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="458" y1="1115" x2="461.53553390593" y2="1111.4644660941" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="403" y1="261" x2="413" y2="261" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="654" y1="630" x2="664" y2="630" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="413" y1="261" x2="654" y2="630" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="410.5" y1="261" x2="406.96446609407" y2="264.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="410.5" y1="261" x2="406.96446609407" y2="257.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="659" y1="630" x2="655.46446609407" y2="633.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="659" y1="630" x2="655.46446609407" y2="626.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="403" y1="321" x2="413" y2="321" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="654" y1="630" x2="664" y2="630" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="413" y1="321" x2="654" y2="630" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="410.5" y1="321" x2="406.96446609407" y2="324.53553390593" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="410.5" y1="321" x2="406.96446609407" y2="317.46446609407" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="659" y1="630" x2="655.46446609407" y2="633.53553390593" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="659" y1="630" x2="655.46446609407" y2="626.46446609407" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="412" y1="677" x2="422" y2="677" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="578" y1="438" x2="588" y2="438" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="422" y1="677" x2="578" y2="438" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="419.5" y1="677" x2="415.96446609407" y2="680.53553390593" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="419.5" y1="677" x2="415.96446609407" y2="673.46446609407" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="583" y1="438" x2="579.46446609407" y2="441.53553390593" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="583" y1="438" x2="579.46446609407" y2="434.46446609407" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="313" y1="657" x2="303" y2="657" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="160" y1="327" x2="150" y2="327" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="303" y1="657" x2="160" y2="327" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="305.5" y1="657" x2="309.03553390593" y2="660.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="305.5" y1="657" x2="309.03553390593" y2="653.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="155" y1="327" x2="158.53553390593" y2="330.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="155" y1="327" x2="158.53553390593" y2="323.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="856" y1="205" x2="846" y2="205" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="776" y1="630" x2="766" y2="630" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="846" y1="205" x2="776" y2="630" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="848.5" y1="205" x2="852.03553390593" y2="208.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="848.5" y1="205" x2="852.03553390593" y2="201.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="771" y1="630" x2="774.53553390593" y2="633.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="771" y1="630" x2="774.53553390593" y2="626.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="856" y1="265" x2="846" y2="265" style="stroke:#333;stroke-width:1;"/>
+   <line x1="776" y1="630" x2="766" y2="630" style="stroke:#333;stroke-width:1;"/>
+   <line x1="846" y1="265" x2="776" y2="630" style="stroke:#333;stroke-width:1;"/>
+   <line x1="848.5" y1="265" x2="852.03553390593" y2="268.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="848.5" y1="265" x2="852.03553390593" y2="261.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="771" y1="630" x2="774.53553390593" y2="633.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="771" y1="630" x2="774.53553390593" y2="626.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <rect width="113" height="20" x="842" y="864" style="fill:#007;stroke:black;"/>
+   <text width="113" height="20" x="847" y="878" style="fill:#fff;" font-family="Arial" font-size="16px"> chitietdonhang</text>
+   <rect width="113" height="20" x="842" y="884" style="fill:#aea;stroke:black;"/>
+   <text width="113" height="20" x="847" y="898" style="fill:black;" font-family="Arial" font-size="16px">dh_ma</text>
+   <rect width="113" height="20" x="842" y="904" style="fill:#aea;stroke:black;"/>
+   <text width="113" height="20" x="847" y="918" style="fill:black;" font-family="Arial" font-size="16px">sp_ma</text>
+   <rect width="113" height="20" x="842" y="924" style="fill:none;stroke:black;"/>
+   <text width="113" height="20" x="847" y="938" style="fill:black;" font-family="Arial" font-size="16px">ctdh_soLuong</text>
+   <rect width="113" height="20" x="842" y="944" style="fill:none;stroke:black;"/>
+   <text width="113" height="20" x="847" y="958" style="fill:black;" font-family="Arial" font-size="16px">ctdh_donGia</text>
+   <rect width="113" height="20" x="842" y="964" style="fill:none;stroke:black;"/>
+   <text width="113" height="20" x="847" y="978" style="fill:black;" font-family="Arial" font-size="16px">km_giaTri</text>
+   <rect width="110" height="20" x="568" y="192" style="fill:#007;stroke:black;"/>
+   <text width="110" height="20" x="573" y="206" style="fill:#fff;" font-family="Arial" font-size="16px"> chitietnhapkho</text>
+   <rect width="110" height="20" x="568" y="212" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="573" y="226" style="fill:black;" font-family="Arial" font-size="16px">ctnk_soLuong</text>
+   <rect width="110" height="20" x="568" y="232" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="573" y="246" style="fill:black;" font-family="Arial" font-size="16px">ctnk_donGia</text>
+   <rect width="110" height="20" x="568" y="252" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="573" y="266" style="fill:black;" font-family="Arial" font-size="16px">km_giaTri</text>
+   <rect width="110" height="20" x="568" y="272" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="573" y="286" style="fill:black;" font-family="Arial" font-size="16px">ctnk_thanhtien</text>
+   <rect width="110" height="20" x="568" y="292" style="fill:#aea;stroke:black;"/>
+   <text width="110" height="20" x="573" y="306" style="fill:black;" font-family="Arial" font-size="16px">sp_ma</text>
+   <rect width="110" height="20" x="568" y="312" style="fill:#aea;stroke:black;"/>
+   <text width="110" height="20" x="573" y="326" style="fill:black;" font-family="Arial" font-size="16px">nk_ma</text>
+   <rect width="110" height="20" x="568" y="332" style="fill:#aea;stroke:black;"/>
+   <text width="110" height="20" x="573" y="346" style="fill:black;" font-family="Arial" font-size="16px">kho_ma</text>
+   <rect width="109" height="20" x="876" y="380" style="fill:#007;stroke:black;"/>
+   <text width="109" height="20" x="881" y="394" style="fill:#fff;" font-family="Arial" font-size="16px"> chitietxuatkho</text>
+   <rect width="109" height="20" x="876" y="400" style="fill:none;stroke:black;"/>
+   <text width="109" height="20" x="881" y="414" style="fill:black;" font-family="Arial" font-size="16px">ctxk_soLuong</text>
+   <rect width="109" height="20" x="876" y="420" style="fill:none;stroke:black;"/>
+   <text width="109" height="20" x="881" y="434" style="fill:black;" font-family="Arial" font-size="16px">ctxk_donGia</text>
+   <rect width="109" height="20" x="876" y="440" style="fill:none;stroke:black;"/>
+   <text width="109" height="20" x="881" y="454" style="fill:black;" font-family="Arial" font-size="16px">km_giaTri</text>
+   <rect width="109" height="20" x="876" y="460" style="fill:none;stroke:black;"/>
+   <text width="109" height="20" x="881" y="474" style="fill:black;" font-family="Arial" font-size="16px">ctxk_thanhtien</text>
+   <rect width="109" height="20" x="876" y="480" style="fill:#aea;stroke:black;"/>
+   <text width="109" height="20" x="881" y="494" style="fill:black;" font-family="Arial" font-size="16px">sp_ma</text>
+   <rect width="109" height="20" x="876" y="500" style="fill:#aea;stroke:black;"/>
+   <text width="109" height="20" x="881" y="514" style="fill:black;" font-family="Arial" font-size="16px">xk_ma</text>
+   <rect width="109" height="20" x="876" y="520" style="fill:#aea;stroke:black;"/>
+   <text width="109" height="20" x="881" y="534" style="fill:black;" font-family="Arial" font-size="16px">kho_ma</text>
+   <rect width="170" height="20" x="1124" y="544" style="fill:#007;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="558" style="fill:#fff;" font-family="Arial" font-size="16px"> donhang</text>
+   <rect width="170" height="20" x="1124" y="564" style="fill:#aea;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="578" style="fill:black;" font-family="Arial" font-size="16px">dh_ma</text>
+   <rect width="170" height="20" x="1124" y="584" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="598" style="fill:black;" font-family="Arial" font-size="16px">kh_ma</text>
+   <rect width="170" height="20" x="1124" y="604" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="618" style="fill:black;" font-family="Arial" font-size="16px">dh_thoiGianDatHang</text>
+   <rect width="170" height="20" x="1124" y="624" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="638" style="fill:black;" font-family="Arial" font-size="16px">dh_thoiGianNhanHang</text>
+   <rect width="170" height="20" x="1124" y="644" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="658" style="fill:black;" font-family="Arial" font-size="16px">dh_nguoiNhan</text>
+   <rect width="170" height="20" x="1124" y="664" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="678" style="fill:black;" font-family="Arial" font-size="16px">dh_diaChi</text>
+   <rect width="170" height="20" x="1124" y="684" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="698" style="fill:black;" font-family="Arial" font-size="16px">dh_dienThoai</text>
+   <rect width="170" height="20" x="1124" y="704" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="718" style="fill:black;" font-family="Arial" font-size="16px">dh_nguoiGui</text>
+   <rect width="170" height="20" x="1124" y="724" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="738" style="fill:black;" font-family="Arial" font-size="16px">dh_loiChuc</text>
+   <rect width="170" height="20" x="1124" y="744" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="758" style="fill:black;" font-family="Arial" font-size="16px">dh_daThanhToan</text>
+   <rect width="170" height="20" x="1124" y="764" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="778" style="fill:black;" font-family="Arial" font-size="16px">nv_xuLy</text>
+   <rect width="170" height="20" x="1124" y="784" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="798" style="fill:black;" font-family="Arial" font-size="16px">dh_ngayXuLy</text>
+   <rect width="170" height="20" x="1124" y="804" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="818" style="fill:black;" font-family="Arial" font-size="16px">nv_giaoHang</text>
+   <rect width="170" height="20" x="1124" y="824" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="838" style="fill:black;" font-family="Arial" font-size="16px">dh_ngayLapPhieuGiao</text>
+   <rect width="170" height="20" x="1124" y="844" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="858" style="fill:black;" font-family="Arial" font-size="16px">dh_ngayGiaoHang</text>
+   <rect width="170" height="20" x="1124" y="864" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="878" style="fill:black;" font-family="Arial" font-size="16px">dh_taoMoi</text>
+   <rect width="170" height="20" x="1124" y="884" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="898" style="fill:black;" font-family="Arial" font-size="16px">dh_capNhat</text>
+   <rect width="170" height="20" x="1124" y="904" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="918" style="fill:black;" font-family="Arial" font-size="16px">dh_trangThai</text>
+   <rect width="170" height="20" x="1124" y="924" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="938" style="fill:black;" font-family="Arial" font-size="16px">vc_ma</text>
+   <rect width="170" height="20" x="1124" y="944" style="fill:none;stroke:black;"/>
+   <text width="170" height="20" x="1129" y="958" style="fill:black;" font-family="Arial" font-size="16px">tt_ma</text>
+   <rect width="99" height="20" x="69" y="758" style="fill:#007;stroke:black;"/>
+   <text width="99" height="20" x="74" y="772" style="fill:#fff;" font-family="Arial" font-size="16px"> gopy</text>
+   <rect width="99" height="20" x="69" y="778" style="fill:#aea;stroke:black;"/>
+   <text width="99" height="20" x="74" y="792" style="fill:black;" font-family="Arial" font-size="16px">gy_ma</text>
+   <rect width="99" height="20" x="69" y="798" style="fill:none;stroke:black;"/>
+   <text width="99" height="20" x="74" y="812" style="fill:black;" font-family="Arial" font-size="16px">gy_thoiGian</text>
+   <rect width="99" height="20" x="69" y="818" style="fill:none;stroke:black;"/>
+   <text width="99" height="20" x="74" y="832" style="fill:black;" font-family="Arial" font-size="16px">gy_noiDung</text>
+   <rect width="99" height="20" x="69" y="838" style="fill:none;stroke:black;"/>
+   <text width="99" height="20" x="74" y="852" style="fill:black;" font-family="Arial" font-size="16px">kh_ma</text>
+   <rect width="99" height="20" x="69" y="858" style="fill:none;stroke:black;"/>
+   <text width="99" height="20" x="74" y="872" style="fill:black;" font-family="Arial" font-size="16px">sp_ma</text>
+   <rect width="99" height="20" x="69" y="878" style="fill:none;stroke:black;"/>
+   <text width="99" height="20" x="74" y="892" style="fill:black;" font-family="Arial" font-size="16px">gy_trangThai</text>
+   <rect width="62" height="20" x="70" y="628" style="fill:#007;stroke:black;"/>
+   <text width="62" height="20" x="75" y="642" style="fill:#fff;" font-family="Arial" font-size="16px"> hinhanh</text>
+   <rect width="62" height="20" x="70" y="648" style="fill:#aea;stroke:black;"/>
+   <text width="62" height="20" x="75" y="662" style="fill:black;" font-family="Arial" font-size="16px">sp_ma</text>
+   <rect width="62" height="20" x="70" y="668" style="fill:#aea;stroke:black;"/>
+   <text width="62" height="20" x="75" y="682" style="fill:black;" font-family="Arial" font-size="16px">ha_stt</text>
+   <rect width="62" height="20" x="70" y="688" style="fill:none;stroke:black;"/>
+   <text width="62" height="20" x="75" y="702" style="fill:black;" font-family="Arial" font-size="16px">ha_ten</text>
+   <rect width="102" height="20" x="355" y="757" style="fill:#007;stroke:black;"/>
+   <text width="102" height="20" x="360" y="771" style="fill:#fff;" font-family="Arial" font-size="16px"> khachhang</text>
+   <rect width="102" height="20" x="355" y="777" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="360" y="791" style="fill:black;" font-family="Arial" font-size="16px">created_at</text>
+   <rect width="102" height="20" x="355" y="797" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="360" y="811" style="fill:black;" font-family="Arial" font-size="16px">updated_at</text>
+   <rect width="102" height="20" x="355" y="817" style="fill:#aea;stroke:black;"/>
+   <text width="102" height="20" x="360" y="831" style="fill:black;" font-family="Arial" font-size="16px">kh_ma</text>
+   <rect width="102" height="20" x="355" y="837" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="360" y="851" style="fill:black;" font-family="Arial" font-size="16px">kh_taiKhoan</text>
+   <rect width="102" height="20" x="355" y="857" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="360" y="871" style="fill:black;" font-family="Arial" font-size="16px">kh_matKhau</text>
+   <rect width="102" height="20" x="355" y="877" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="360" y="891" style="fill:black;" font-family="Arial" font-size="16px">kh_hoTen</text>
+   <rect width="102" height="20" x="355" y="897" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="360" y="911" style="fill:black;" font-family="Arial" font-size="16px">kh_gioiTinh</text>
+   <rect width="102" height="20" x="355" y="917" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="360" y="931" style="fill:black;" font-family="Arial" font-size="16px">kh_email</text>
+   <rect width="102" height="20" x="355" y="937" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="360" y="951" style="fill:black;" font-family="Arial" font-size="16px">kh_ngaySinh</text>
+   <rect width="102" height="20" x="355" y="957" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="360" y="971" style="fill:black;" font-family="Arial" font-size="16px">kh_diaChi</text>
+   <rect width="102" height="20" x="355" y="977" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="360" y="991" style="fill:black;" font-family="Arial" font-size="16px">kh_dienThoai</text>
+   <rect width="102" height="20" x="355" y="997" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="360" y="1011" style="fill:black;" font-family="Arial" font-size="16px">kh_taoMoi</text>
+   <rect width="102" height="20" x="355" y="1017" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="360" y="1031" style="fill:black;" font-family="Arial" font-size="16px">kh_capNhat</text>
+   <rect width="102" height="20" x="355" y="1037" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="360" y="1051" style="fill:black;" font-family="Arial" font-size="16px">kh_trangThai</text>
+   <rect width="111" height="20" x="588" y="408" style="fill:#007;stroke:black;"/>
+   <text width="111" height="20" x="593" y="422" style="fill:#fff;" font-family="Arial" font-size="16px"> khohang</text>
+   <rect width="111" height="20" x="588" y="428" style="fill:#aea;stroke:black;"/>
+   <text width="111" height="20" x="593" y="442" style="fill:black;" font-family="Arial" font-size="16px">kho_ma</text>
+   <rect width="111" height="20" x="588" y="448" style="fill:none;stroke:black;"/>
+   <text width="111" height="20" x="593" y="462" style="fill:black;" font-family="Arial" font-size="16px">kho_ten</text>
+   <rect width="111" height="20" x="588" y="468" style="fill:none;stroke:black;"/>
+   <text width="111" height="20" x="593" y="482" style="fill:black;" font-family="Arial" font-size="16px">kho_lienHe</text>
+   <rect width="111" height="20" x="588" y="488" style="fill:none;stroke:black;"/>
+   <text width="111" height="20" x="593" y="502" style="fill:black;" font-family="Arial" font-size="16px">kho_diaChi</text>
+   <rect width="111" height="20" x="588" y="508" style="fill:none;stroke:black;"/>
+   <text width="111" height="20" x="593" y="522" style="fill:black;" font-family="Arial" font-size="16px">kho_dienThoai</text>
+   <rect width="111" height="20" x="588" y="528" style="fill:none;stroke:black;"/>
+   <text width="111" height="20" x="593" y="542" style="fill:black;" font-family="Arial" font-size="16px">kho_quanLy</text>
+   <rect width="111" height="20" x="588" y="548" style="fill:none;stroke:black;"/>
+   <text width="111" height="20" x="593" y="562" style="fill:black;" font-family="Arial" font-size="16px">kho_ghiChu</text>
+   <rect width="127" height="20" x="1196" y="198" style="fill:#007;stroke:black;"/>
+   <text width="127" height="20" x="1201" y="212" style="fill:#fff;" font-family="Arial" font-size="16px"> khuyenmai</text>
+   <rect width="127" height="20" x="1196" y="218" style="fill:#aea;stroke:black;"/>
+   <text width="127" height="20" x="1201" y="232" style="fill:black;" font-family="Arial" font-size="16px">km_ma</text>
+   <rect width="127" height="20" x="1196" y="238" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="1201" y="252" style="fill:black;" font-family="Arial" font-size="16px">km_ten</text>
+   <rect width="127" height="20" x="1196" y="258" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="1201" y="272" style="fill:black;" font-family="Arial" font-size="16px">km_noiDung</text>
+   <rect width="127" height="20" x="1196" y="278" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="1201" y="292" style="fill:black;" font-family="Arial" font-size="16px">km_batDau</text>
+   <rect width="127" height="20" x="1196" y="298" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="1201" y="312" style="fill:black;" font-family="Arial" font-size="16px">km_ketThuc</text>
+   <rect width="127" height="20" x="1196" y="318" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="1201" y="332" style="fill:black;" font-family="Arial" font-size="16px">km_giaTri</text>
+   <rect width="127" height="20" x="1196" y="338" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="1201" y="352" style="fill:black;" font-family="Arial" font-size="16px">nv_nguoiLap</text>
+   <rect width="127" height="20" x="1196" y="358" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="1201" y="372" style="fill:black;" font-family="Arial" font-size="16px">km_ngayLap</text>
+   <rect width="127" height="20" x="1196" y="378" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="1201" y="392" style="fill:black;" font-family="Arial" font-size="16px">nv_kyNhay</text>
+   <rect width="127" height="20" x="1196" y="398" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="1201" y="412" style="fill:black;" font-family="Arial" font-size="16px">km_ngayKyNhay</text>
+   <rect width="127" height="20" x="1196" y="418" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="1201" y="432" style="fill:black;" font-family="Arial" font-size="16px">nv_kyDuyet</text>
+   <rect width="127" height="20" x="1196" y="438" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="1201" y="452" style="fill:black;" font-family="Arial" font-size="16px">km_ngayDuyet</text>
+   <rect width="127" height="20" x="1196" y="458" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="1201" y="472" style="fill:black;" font-family="Arial" font-size="16px">km_taoMoi</text>
+   <rect width="127" height="20" x="1196" y="478" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="1201" y="492" style="fill:black;" font-family="Arial" font-size="16px">km_capNhat</text>
+   <rect width="127" height="20" x="1196" y="498" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="1201" y="512" style="fill:black;" font-family="Arial" font-size="16px">km_trangThai</text>
+   <rect width="156" height="20" x="1174" y="49" style="fill:#007;stroke:black;"/>
+   <text width="156" height="20" x="1179" y="63" style="fill:#fff;" font-family="Arial" font-size="16px"> khuyenmai_sanpham</text>
+   <rect width="156" height="20" x="1174" y="69" style="fill:#aea;stroke:black;"/>
+   <text width="156" height="20" x="1179" y="83" style="fill:black;" font-family="Arial" font-size="16px">km_ma</text>
+   <rect width="156" height="20" x="1174" y="89" style="fill:#aea;stroke:black;"/>
+   <text width="156" height="20" x="1179" y="103" style="fill:black;" font-family="Arial" font-size="16px">sp_ma</text>
+   <rect width="156" height="20" x="1174" y="109" style="fill:none;stroke:black;"/>
+   <text width="156" height="20" x="1179" y="123" style="fill:black;" font-family="Arial" font-size="16px">kmsp_giaTri</text>
+   <rect width="156" height="20" x="1174" y="129" style="fill:none;stroke:black;"/>
+   <text width="156" height="20" x="1179" y="143" style="fill:black;" font-family="Arial" font-size="16px">kmsp_trangThai</text>
+   <rect width="86" height="20" x="64" y="297" style="fill:#007;stroke:black;"/>
+   <text width="86" height="20" x="69" y="311" style="fill:#fff;" font-family="Arial" font-size="16px"> loai</text>
+   <rect width="86" height="20" x="64" y="317" style="fill:#aea;stroke:black;"/>
+   <text width="86" height="20" x="69" y="331" style="fill:black;" font-family="Arial" font-size="16px">l_ma</text>
+   <rect width="86" height="20" x="64" y="337" style="fill:none;stroke:black;"/>
+   <text width="86" height="20" x="69" y="351" style="fill:black;" font-family="Arial" font-size="16px">l_ten</text>
+   <rect width="86" height="20" x="64" y="357" style="fill:none;stroke:black;"/>
+   <text width="86" height="20" x="69" y="371" style="fill:black;" font-family="Arial" font-size="16px">l_taoMoi</text>
+   <rect width="86" height="20" x="64" y="377" style="fill:none;stroke:black;"/>
+   <text width="86" height="20" x="69" y="391" style="fill:black;" font-family="Arial" font-size="16px">l_capNhat</text>
+   <rect width="86" height="20" x="64" y="397" style="fill:none;stroke:black;"/>
+   <text width="86" height="20" x="69" y="411" style="fill:black;" font-family="Arial" font-size="16px">l_trangThai</text>
+   <rect width="83" height="20" x="894" y="1058" style="fill:#007;stroke:black;"/>
+   <text width="83" height="20" x="899" y="1072" style="fill:#fff;" font-family="Arial" font-size="16px"> migrations</text>
+   <rect width="83" height="20" x="894" y="1078" style="fill:#aea;stroke:black;"/>
+   <text width="83" height="20" x="899" y="1092" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="83" height="20" x="894" y="1098" style="fill:none;stroke:black;"/>
+   <text width="83" height="20" x="899" y="1112" style="fill:black;" font-family="Arial" font-size="16px">migration</text>
+   <rect width="83" height="20" x="894" y="1118" style="fill:none;stroke:black;"/>
+   <text width="83" height="20" x="899" y="1132" style="fill:black;" font-family="Arial" font-size="16px">batch</text>
+   <rect width="110" height="20" x="343" y="1085" style="fill:#007;stroke:black;"/>
+   <text width="110" height="20" x="348" y="1099" style="fill:#fff;" font-family="Arial" font-size="16px"> nhacungcap</text>
+   <rect width="110" height="20" x="343" y="1105" style="fill:#aea;stroke:black;"/>
+   <text width="110" height="20" x="348" y="1119" style="fill:black;" font-family="Arial" font-size="16px">ncc_ma</text>
+   <rect width="110" height="20" x="343" y="1125" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="348" y="1139" style="fill:black;" font-family="Arial" font-size="16px">ncc_ten</text>
+   <rect width="110" height="20" x="343" y="1145" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="348" y="1159" style="fill:black;" font-family="Arial" font-size="16px">ncc_daiDien</text>
+   <rect width="110" height="20" x="343" y="1165" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="348" y="1179" style="fill:black;" font-family="Arial" font-size="16px">ncc_diaChi</text>
+   <rect width="110" height="20" x="343" y="1185" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="348" y="1199" style="fill:black;" font-family="Arial" font-size="16px">ncc_dienThoai</text>
+   <rect width="110" height="20" x="343" y="1205" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="348" y="1219" style="fill:black;" font-family="Arial" font-size="16px">ncc_email</text>
+   <rect width="110" height="20" x="343" y="1225" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="348" y="1239" style="fill:black;" font-family="Arial" font-size="16px">ncc_taoMoi</text>
+   <rect width="110" height="20" x="343" y="1245" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="348" y="1259" style="fill:black;" font-family="Arial" font-size="16px">ncc_capNhat</text>
+   <rect width="110" height="20" x="343" y="1265" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="348" y="1279" style="fill:black;" font-family="Arial" font-size="16px">ncc_trangThai</text>
+   <rect width="110" height="20" x="343" y="1285" style="fill:none;stroke:black;"/>
+   <text width="110" height="20" x="348" y="1299" style="fill:black;" font-family="Arial" font-size="16px">xx_ma</text>
+   <rect width="102" height="20" x="664" y="600" style="fill:#007;stroke:black;"/>
+   <text width="102" height="20" x="669" y="614" style="fill:#fff;" font-family="Arial" font-size="16px"> nhanvien</text>
+   <rect width="102" height="20" x="664" y="620" style="fill:#aea;stroke:black;"/>
+   <text width="102" height="20" x="669" y="634" style="fill:black;" font-family="Arial" font-size="16px">nv_ma</text>
+   <rect width="102" height="20" x="664" y="640" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="669" y="654" style="fill:black;" font-family="Arial" font-size="16px">nv_taiKhoan</text>
+   <rect width="102" height="20" x="664" y="660" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="669" y="674" style="fill:black;" font-family="Arial" font-size="16px">nv_matKhau</text>
+   <rect width="102" height="20" x="664" y="680" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="669" y="694" style="fill:black;" font-family="Arial" font-size="16px">nv_hoTen</text>
+   <rect width="102" height="20" x="664" y="700" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="669" y="714" style="fill:black;" font-family="Arial" font-size="16px">nv_gioiTinh</text>
+   <rect width="102" height="20" x="664" y="720" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="669" y="734" style="fill:black;" font-family="Arial" font-size="16px">nv_email</text>
+   <rect width="102" height="20" x="664" y="740" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="669" y="754" style="fill:black;" font-family="Arial" font-size="16px">nv_ngaySinh</text>
+   <rect width="102" height="20" x="664" y="760" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="669" y="774" style="fill:black;" font-family="Arial" font-size="16px">nv_diaChi</text>
+   <rect width="102" height="20" x="664" y="780" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="669" y="794" style="fill:black;" font-family="Arial" font-size="16px">nv_dienThoai</text>
+   <rect width="102" height="20" x="664" y="800" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="669" y="814" style="fill:black;" font-family="Arial" font-size="16px">nv_taoMoi</text>
+   <rect width="102" height="20" x="664" y="820" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="669" y="834" style="fill:black;" font-family="Arial" font-size="16px">nv_capNhat</text>
+   <rect width="102" height="20" x="664" y="840" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="669" y="854" style="fill:black;" font-family="Arial" font-size="16px">nv_trangThai</text>
+   <rect width="102" height="20" x="664" y="860" style="fill:none;stroke:black;"/>
+   <text width="102" height="20" x="669" y="874" style="fill:black;" font-family="Arial" font-size="16px">q_ma</text>
+   <rect width="139" height="20" x="264" y="171" style="fill:#007;stroke:black;"/>
+   <text width="139" height="20" x="269" y="185" style="fill:#fff;" font-family="Arial" font-size="16px"> nhapkho</text>
+   <rect width="139" height="20" x="264" y="191" style="fill:#aea;stroke:black;"/>
+   <text width="139" height="20" x="269" y="205" style="fill:black;" font-family="Arial" font-size="16px">nk_ma</text>
+   <rect width="139" height="20" x="264" y="211" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="269" y="225" style="fill:black;" font-family="Arial" font-size="16px">nk_soHoaDon</text>
+   <rect width="139" height="20" x="264" y="231" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="269" y="245" style="fill:black;" font-family="Arial" font-size="16px">nk_lydo</text>
+   <rect width="139" height="20" x="264" y="251" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="269" y="265" style="fill:black;" font-family="Arial" font-size="16px">nv_nguoiLapPhieu</text>
+   <rect width="139" height="20" x="264" y="271" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="269" y="285" style="fill:black;" font-family="Arial" font-size="16px">nk_ngayLapPhieu</text>
+   <rect width="139" height="20" x="264" y="291" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="269" y="305" style="fill:black;" font-family="Arial" font-size="16px">nk_tongtien</text>
+   <rect width="139" height="20" x="264" y="311" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="269" y="325" style="fill:black;" font-family="Arial" font-size="16px">nv_thuKho</text>
+   <rect width="139" height="20" x="264" y="331" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="269" y="345" style="fill:black;" font-family="Arial" font-size="16px">nk_ngayNhapKho</text>
+   <rect width="139" height="20" x="264" y="351" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="269" y="365" style="fill:black;" font-family="Arial" font-size="16px">nk_taoMoi</text>
+   <rect width="139" height="20" x="264" y="371" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="269" y="385" style="fill:black;" font-family="Arial" font-size="16px">nk_capNhat</text>
+   <rect width="139" height="20" x="264" y="391" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="269" y="405" style="fill:black;" font-family="Arial" font-size="16px">nk_trangThai</text>
+   <rect width="139" height="20" x="264" y="411" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="269" y="425" style="fill:black;" font-family="Arial" font-size="16px">ncc_ma</text>
+   <rect width="123" height="20" x="623" y="1056" style="fill:#007;stroke:black;"/>
+   <text width="123" height="20" x="628" y="1070" style="fill:#fff;" font-family="Arial" font-size="16px"> password_resets</text>
+   <rect width="123" height="20" x="623" y="1076" style="fill:none;stroke:black;"/>
+   <text width="123" height="20" x="628" y="1090" style="fill:black;" font-family="Arial" font-size="16px">email</text>
+   <rect width="123" height="20" x="623" y="1096" style="fill:none;stroke:black;"/>
+   <text width="123" height="20" x="628" y="1110" style="fill:black;" font-family="Arial" font-size="16px">token</text>
+   <rect width="123" height="20" x="623" y="1116" style="fill:none;stroke:black;"/>
+   <text width="123" height="20" x="628" y="1130" style="fill:black;" font-family="Arial" font-size="16px">created_at</text>
+   <rect width="91" height="20" x="636" y="903" style="fill:#007;stroke:black;"/>
+   <text width="91" height="20" x="641" y="917" style="fill:#fff;" font-family="Arial" font-size="16px"> quyen</text>
+   <rect width="91" height="20" x="636" y="923" style="fill:#aea;stroke:black;"/>
+   <text width="91" height="20" x="641" y="937" style="fill:black;" font-family="Arial" font-size="16px">q_ma</text>
+   <rect width="91" height="20" x="636" y="943" style="fill:none;stroke:black;"/>
+   <text width="91" height="20" x="641" y="957" style="fill:black;" font-family="Arial" font-size="16px">q_ten</text>
+   <rect width="91" height="20" x="636" y="963" style="fill:none;stroke:black;"/>
+   <text width="91" height="20" x="641" y="977" style="fill:black;" font-family="Arial" font-size="16px">q_dienGiai</text>
+   <rect width="91" height="20" x="636" y="983" style="fill:none;stroke:black;"/>
+   <text width="91" height="20" x="641" y="997" style="fill:black;" font-family="Arial" font-size="16px">q_taoMoi</text>
+   <rect width="91" height="20" x="636" y="1003" style="fill:none;stroke:black;"/>
+   <text width="91" height="20" x="641" y="1017" style="fill:black;" font-family="Arial" font-size="16px">q_capNhat</text>
+   <rect width="91" height="20" x="636" y="1023" style="fill:none;stroke:black;"/>
+   <text width="91" height="20" x="641" y="1037" style="fill:black;" font-family="Arial" font-size="16px">q_trangThai</text>
+   <rect width="99" height="20" x="313" y="447" style="fill:#007;stroke:black;"/>
+   <text width="99" height="20" x="318" y="461" style="fill:#fff;" font-family="Arial" font-size="16px"> sanpham</text>
+   <rect width="99" height="20" x="313" y="467" style="fill:#aea;stroke:black;"/>
+   <text width="99" height="20" x="318" y="481" style="fill:black;" font-family="Arial" font-size="16px">sp_ma</text>
+   <rect width="99" height="20" x="313" y="487" style="fill:none;stroke:black;"/>
+   <text width="99" height="20" x="318" y="501" style="fill:black;" font-family="Arial" font-size="16px">sp_ten</text>
+   <rect width="99" height="20" x="313" y="507" style="fill:none;stroke:black;"/>
+   <text width="99" height="20" x="318" y="521" style="fill:black;" font-family="Arial" font-size="16px">sp_gia</text>
+   <rect width="99" height="20" x="313" y="527" style="fill:none;stroke:black;"/>
+   <text width="99" height="20" x="318" y="541" style="fill:black;" font-family="Arial" font-size="16px">sp_hinh</text>
+   <rect width="99" height="20" x="313" y="547" style="fill:none;stroke:black;"/>
+   <text width="99" height="20" x="318" y="561" style="fill:black;" font-family="Arial" font-size="16px">sp_thongTin</text>
+   <rect width="99" height="20" x="313" y="567" style="fill:none;stroke:black;"/>
+   <text width="99" height="20" x="318" y="581" style="fill:black;" font-family="Arial" font-size="16px">sp_danhGia</text>
+   <rect width="99" height="20" x="313" y="587" style="fill:none;stroke:black;"/>
+   <text width="99" height="20" x="318" y="601" style="fill:black;" font-family="Arial" font-size="16px">sp_taoMoi</text>
+   <rect width="99" height="20" x="313" y="607" style="fill:none;stroke:black;"/>
+   <text width="99" height="20" x="318" y="621" style="fill:black;" font-family="Arial" font-size="16px">sp_capNhat</text>
+   <rect width="99" height="20" x="313" y="627" style="fill:none;stroke:black;"/>
+   <text width="99" height="20" x="318" y="641" style="fill:black;" font-family="Arial" font-size="16px">sp_trangThai</text>
+   <rect width="99" height="20" x="313" y="647" style="fill:none;stroke:black;"/>
+   <text width="99" height="20" x="318" y="661" style="fill:black;" font-family="Arial" font-size="16px">l_ma</text>
+   <rect width="99" height="20" x="313" y="667" style="fill:none;stroke:black;"/>
+   <text width="99" height="20" x="318" y="681" style="fill:black;" font-family="Arial" font-size="16px">kho_ma</text>
+   <rect width="91" height="20" x="448" y="31" style="fill:#007;stroke:black;"/>
+   <text width="91" height="20" x="453" y="45" style="fill:#fff;" font-family="Arial" font-size="16px"> thanhtoan</text>
+   <rect width="91" height="20" x="448" y="51" style="fill:#aea;stroke:black;"/>
+   <text width="91" height="20" x="453" y="65" style="fill:black;" font-family="Arial" font-size="16px">tt_ma</text>
+   <rect width="91" height="20" x="448" y="71" style="fill:none;stroke:black;"/>
+   <text width="91" height="20" x="453" y="85" style="fill:black;" font-family="Arial" font-size="16px">tt_ten</text>
+   <rect width="91" height="20" x="448" y="91" style="fill:none;stroke:black;"/>
+   <text width="91" height="20" x="453" y="105" style="fill:black;" font-family="Arial" font-size="16px">tt_dienGiai</text>
+   <rect width="91" height="20" x="448" y="111" style="fill:none;stroke:black;"/>
+   <text width="91" height="20" x="453" y="125" style="fill:black;" font-family="Arial" font-size="16px">tt_taoMoi</text>
+   <rect width="91" height="20" x="448" y="131" style="fill:none;stroke:black;"/>
+   <text width="91" height="20" x="453" y="145" style="fill:black;" font-family="Arial" font-size="16px">tt_capNhat</text>
+   <rect width="91" height="20" x="448" y="151" style="fill:none;stroke:black;"/>
+   <text width="91" height="20" x="453" y="165" style="fill:black;" font-family="Arial" font-size="16px">tt_trangThai</text>
+   <rect width="127" height="20" x="84" y="952" style="fill:#007;stroke:black;"/>
+   <text width="127" height="20" x="89" y="966" style="fill:#fff;" font-family="Arial" font-size="16px"> users</text>
+   <rect width="127" height="20" x="84" y="972" style="fill:#aea;stroke:black;"/>
+   <text width="127" height="20" x="89" y="986" style="fill:black;" font-family="Arial" font-size="16px">id</text>
+   <rect width="127" height="20" x="84" y="992" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="89" y="1006" style="fill:black;" font-family="Arial" font-size="16px">name</text>
+   <rect width="127" height="20" x="84" y="1012" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="89" y="1026" style="fill:black;" font-family="Arial" font-size="16px">email</text>
+   <rect width="127" height="20" x="84" y="1032" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="89" y="1046" style="fill:black;" font-family="Arial" font-size="16px">password</text>
+   <rect width="127" height="20" x="84" y="1052" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="89" y="1066" style="fill:black;" font-family="Arial" font-size="16px">remember_token</text>
+   <rect width="127" height="20" x="84" y="1072" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="89" y="1086" style="fill:black;" font-family="Arial" font-size="16px">created_at</text>
+   <rect width="127" height="20" x="84" y="1092" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="89" y="1106" style="fill:black;" font-family="Arial" font-size="16px">updated_at</text>
+   <rect width="98" height="20" x="87" y="8" style="fill:#007;stroke:black;"/>
+   <text width="98" height="20" x="92" y="22" style="fill:#fff;" font-family="Arial" font-size="16px"> vanchuyen</text>
+   <rect width="98" height="20" x="87" y="28" style="fill:#aea;stroke:black;"/>
+   <text width="98" height="20" x="92" y="42" style="fill:black;" font-family="Arial" font-size="16px">vc_ma</text>
+   <rect width="98" height="20" x="87" y="48" style="fill:none;stroke:black;"/>
+   <text width="98" height="20" x="92" y="62" style="fill:black;" font-family="Arial" font-size="16px">vc_ten</text>
+   <rect width="98" height="20" x="87" y="68" style="fill:none;stroke:black;"/>
+   <text width="98" height="20" x="92" y="82" style="fill:black;" font-family="Arial" font-size="16px">vc_chiPhi</text>
+   <rect width="98" height="20" x="87" y="88" style="fill:none;stroke:black;"/>
+   <text width="98" height="20" x="92" y="102" style="fill:black;" font-family="Arial" font-size="16px">vc_dienGiai</text>
+   <rect width="98" height="20" x="87" y="108" style="fill:none;stroke:black;"/>
+   <text width="98" height="20" x="92" y="122" style="fill:black;" font-family="Arial" font-size="16px">vc_taoMoi</text>
+   <rect width="98" height="20" x="87" y="128" style="fill:none;stroke:black;"/>
+   <text width="98" height="20" x="92" y="142" style="fill:black;" font-family="Arial" font-size="16px">vc_capNhat</text>
+   <rect width="98" height="20" x="87" y="148" style="fill:none;stroke:black;"/>
+   <text width="98" height="20" x="92" y="162" style="fill:black;" font-family="Arial" font-size="16px">vc_trangThai</text>
+   <rect width="139" height="20" x="856" y="95" style="fill:#007;stroke:black;"/>
+   <text width="139" height="20" x="861" y="109" style="fill:#fff;" font-family="Arial" font-size="16px"> xuatkho</text>
+   <rect width="139" height="20" x="856" y="115" style="fill:#aea;stroke:black;"/>
+   <text width="139" height="20" x="861" y="129" style="fill:black;" font-family="Arial" font-size="16px">xk_ma</text>
+   <rect width="139" height="20" x="856" y="135" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="861" y="149" style="fill:black;" font-family="Arial" font-size="16px">xk_soHoaDon</text>
+   <rect width="139" height="20" x="856" y="155" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="861" y="169" style="fill:black;" font-family="Arial" font-size="16px">xk_lydo</text>
+   <rect width="139" height="20" x="856" y="175" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="861" y="189" style="fill:black;" font-family="Arial" font-size="16px">kh_diaChi</text>
+   <rect width="139" height="20" x="856" y="195" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="861" y="209" style="fill:black;" font-family="Arial" font-size="16px">nv_nguoiLapPhieu</text>
+   <rect width="139" height="20" x="856" y="215" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="861" y="229" style="fill:black;" font-family="Arial" font-size="16px">xk_ngayLapPhieu</text>
+   <rect width="139" height="20" x="856" y="235" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="861" y="249" style="fill:black;" font-family="Arial" font-size="16px">nk_tongtien</text>
+   <rect width="139" height="20" x="856" y="255" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="861" y="269" style="fill:black;" font-family="Arial" font-size="16px">nv_thuKho</text>
+   <rect width="139" height="20" x="856" y="275" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="861" y="289" style="fill:black;" font-family="Arial" font-size="16px">xk_ngayXuatKho</text>
+   <rect width="139" height="20" x="856" y="295" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="861" y="309" style="fill:black;" font-family="Arial" font-size="16px">xk_taoMoi</text>
+   <rect width="139" height="20" x="856" y="315" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="861" y="329" style="fill:black;" font-family="Arial" font-size="16px">xk_capNhat</text>
+   <rect width="139" height="20" x="856" y="335" style="fill:none;stroke:black;"/>
+   <text width="139" height="20" x="861" y="349" style="fill:black;" font-family="Arial" font-size="16px">xk_trangThai</text>
+   <rect width="98" height="20" x="78" y="472" style="fill:#007;stroke:black;"/>
+   <text width="98" height="20" x="83" y="486" style="fill:#fff;" font-family="Arial" font-size="16px"> xuatxu</text>
+   <rect width="98" height="20" x="78" y="492" style="fill:#aea;stroke:black;"/>
+   <text width="98" height="20" x="83" y="506" style="fill:black;" font-family="Arial" font-size="16px">xx_ma</text>
+   <rect width="98" height="20" x="78" y="512" style="fill:none;stroke:black;"/>
+   <text width="98" height="20" x="83" y="526" style="fill:black;" font-family="Arial" font-size="16px">xx_ten</text>
+   <rect width="98" height="20" x="78" y="532" style="fill:none;stroke:black;"/>
+   <text width="98" height="20" x="83" y="546" style="fill:black;" font-family="Arial" font-size="16px">xx_taoMoi</text>
+   <rect width="98" height="20" x="78" y="552" style="fill:none;stroke:black;"/>
+   <text width="98" height="20" x="83" y="566" style="fill:black;" font-family="Arial" font-size="16px">xx_capNhat</text>
+   <rect width="98" height="20" x="78" y="572" style="fill:none;stroke:black;"/>
+   <text width="98" height="20" x="83" y="586" style="fill:black;" font-family="Arial" font-size="16px">xx_trangThai</text>
 </svg>

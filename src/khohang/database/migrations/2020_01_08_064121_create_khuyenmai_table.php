@@ -20,7 +20,7 @@ class CreateKhuyenmaiTable extends Migration
             $table->text('km_noiDung')->comment('Thông tin chi tiết # Nội dung chi tiết chương trình khuyến mãi');
             $table->dateTime('km_batDau')->comment('Thời điểm bắt đầu # Thời điểm bắt đầu khuyến mãi');
             $table->dateTime('km_ketThuc')->nullable()->default(NULL)->comment('Thời điểm kết thúc # Thời điểm kết thúc khuyến mãi');
-            $table->string('km_giaTri', 50)->default('100;100')->comment('Giá trị khuyến mãi # Giá trị khuyến mãi trên tổng hóa đơn (giảm tiền/giảm % tiền, giảm % vận chuyển), định dạng: tien;VanChuyen');
+            $table->unsignedInteger('km_giaTri')->comment('Giá trị khuyến mãi # Giá trị khuyến mãi trên tổng hóa đơn (giảm tiền/giảm % tiền, giảm % vận chuyển), định dạng: tien;VanChuyen');
             $table->unsignedSmallInteger('nv_nguoiLap')->comment('Lập kế hoạch # nv_ma # nv_hoTen # Mã nhân viên (người lập chương trình khuyến mãi)');
             $table->dateTime('km_ngayLap')->default(DB::raw('CURRENT_TIMESTAMP'))->comment('Thời điểm lập # Thời điểm lập kế hoạch khuyến mãi');
             $table->unsignedSmallInteger('nv_kyNhay')->default('1')->comment('Kế toán # nv_ma # nv_hoTen # Mã nhân viên (kế toán ký nháy), 1-chưa phân công');
