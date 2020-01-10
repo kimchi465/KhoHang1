@@ -17,6 +17,7 @@ class CreateChitietxuatkhoTable extends Migration
             $table->engine = 'InnoDB';
             //$table->bigIncrements('ctxk_ma')->comment('Mã phiếu xuất kho'); //khóa chính tự tăng
             $table->unsignedSmallInteger('ctxk_soLuong')->comment('Số lượng # Số lượng sản phẩm');
+            $table->string('ctxk_donViTinh', 50);
             $table->unsignedInteger('ctxk_donGia');
             $table->unsignedBigInteger('km_giaTri');
             $table->unsignedInteger('ctxk_thanhtien');

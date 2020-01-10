@@ -36,6 +36,48 @@ class NhanvienTableSeeder extends Seeder
             'nv_capNhat'   => $today->format('Y-m-d H:i:s'),
             'q_ma'         => 5
         ]);
+        array_push($list, [
+            'nv_ma'        => 2,
+            'nv_taiKhoan'  => "Taikhoanb",
+            'nv_matKhau'   => bcrypt('123456'),
+            'nv_hoTen'     => "Nguyễn Thị Kim Chi",
+            'nv_gioiTinh'  => false,
+            'nv_email'     => "chi@gmail.com",
+            'nv_ngaySinh'  => $today->format('Y-m-d H:i:s'),
+            'nv_diaChi'    => "Ninh Kiều, TP. Cần Thơ",
+            'nv_dienThoai' => "0928348134",
+            'nv_taoMoi'    => $today->format('Y-m-d H:i:s'),
+            'nv_capNhat'   => $today->format('Y-m-d H:i:s'),
+            'q_ma'         => 4
+        ]);
+        array_push($list, [
+            'nv_ma'        => 3,
+            'nv_taiKhoan'  => "Taikhoanc",
+            'nv_matKhau'   => bcrypt('123456'),
+            'nv_hoTen'     => "Trần văn An",
+            'nv_gioiTinh'  => true,
+            'nv_email'     => "An@gmail.com",
+            'nv_ngaySinh'  => $today->format('Y-m-d H:i:s'),
+            'nv_diaChi'    => "Vĩnh Long",
+            'nv_dienThoai' => "0172635487",
+            'nv_taoMoi'    => $today->format('Y-m-d H:i:s'),
+            'nv_capNhat'   => $today->format('Y-m-d H:i:s'),
+            'q_ma'         => 5
+        ]);
+        array_push($list, [
+            'nv_ma'        => 4,
+            'nv_taiKhoan'  => "Taikhoand",
+            'nv_matKhau'   => bcrypt('123456'),
+            'nv_hoTen'     => "Trần văn Thanh",
+            'nv_gioiTinh'  => true,
+            'nv_email'     => "Thanh@gmail.com",
+            'nv_ngaySinh'  => $today->format('Y-m-d H:i:s'),
+            'nv_diaChi'    => "Cần Thơ",
+            'nv_dienThoai' => "0918276548",
+            'nv_taoMoi'    => $today->format('Y-m-d H:i:s'),
+            'nv_capNhat'   => $today->format('Y-m-d H:i:s'),
+            'q_ma'         => 3
+        ]);
         
         // Admin
         array_push($list, [

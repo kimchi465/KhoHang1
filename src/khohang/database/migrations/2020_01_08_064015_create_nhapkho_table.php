@@ -17,6 +17,7 @@ class CreateNhapkhoTable extends Migration
             $table->engine = 'InnoDB';
             $table->bigIncrements('nk_ma')->comment('Mã phiếu nhập kho');
             $table->string('nk_soHoaDon', 15)->comment('Số hóa đơn # Số hóa đơn');
+            $table->string('nk_hoTenNguoiGiaoHang', 191)->comment('Họ tên # Họ tên người giao hàng');
             $table->string('nk_lydo', 191)->comment('Lý do # Lý do nhập kho');
             $table->unsignedSmallInteger('nv_nguoiLapPhieu')->comment('Lập phiếu # Mã nhân viên (người lập phiếu nhập)');
             $table->dateTime('nk_ngayLapPhieu')->default(DB::raw('CURRENT_TIMESTAMP'))->comment('Thời điểm lập phiếu # Thời điểm lập phiếu nhập kho');

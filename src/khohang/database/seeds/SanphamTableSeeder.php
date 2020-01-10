@@ -24,7 +24,7 @@ class SanphamTableSeeder extends Seeder
                     "Mãng cầu Bà Đen", "Sầu riêng Ri6", "Cam mật Cần Thơ", "Măng cụt Thái Liêu-Bình Dương", "Dừa sáp Trà Vinh", "Cam sành", "Bưởi da xanh Bến Tre", "Vú sữa Lò Rèn", "Xoài cát hòa lộc", "Quýt đường Trà Vinh",
                     "Táo đỏ Mỹ", "Dâu Tây Nhật", "Dưa lưới", "Kiwi-Newzealand", "cherry Úc", "Lựu đỏ", "Nho đen không hạt Mỹ", "Ổi Đài Loan"];
         $types2 = ["50.000", "60.000", "80.000", "40.000", "90.000", "80.000", "120.000", "60.000",
-                    "120.000", "70.000", "30.000", "20.000", "70.000", "50.000", "50.000",
+                    "120.000", "70.000", "30.000", "20.000", "70.000", "50.000",
                     "80.000", "140.000", "45.000", "90.000", "180.000", "30.000", "70.000", "40.000", "120.000", "90.000",
                     "60.000", "190.000", "90.000", "200.000", "220.000", "80.000", "190.000", "40.000"];
         $types3 = ["1", "1", "1", "1", "1", "1", "1", "1",
@@ -36,7 +36,7 @@ class SanphamTableSeeder extends Seeder
                     "3", "2", "3", "4", "5", "3",
                     "5", "4", "2", "1", "3", "4", "2", "4"];
         
-        sort($types);
+        //sort($types);
         $today = new DateTime('2020-01-01 08:00:00');
         for($i=1; $i <= count($types); $i++){
             array_push($list, [
