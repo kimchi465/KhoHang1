@@ -2,8 +2,8 @@
 
 namespace App;
 
-use IlluminateDatabaseEloquentBuilder;
-use IlluminateDatabaseEloquentModel;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Builder;
 
 class HinhAnh extends Model
 {
@@ -15,6 +15,11 @@ class HinhAnh extends Model
 
     protected $primaryKey   = ['sp_ma', 'ha_stt'];
     public    $incrementing = false;
+
+    public function hinhanhs()
+    {
+        return $this->belongsTo('App\SanPham', 'sp_ma', 'sp_ma');
+    }  
 
     /**
      * Set the keys for a save update query.

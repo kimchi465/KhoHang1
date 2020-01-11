@@ -40,11 +40,6 @@ Hiệu chỉnh sản phẩm
     <div class="form-group">
         <label for="sp_gia">Giá Sản phẩm</label>
         <input type="number" class="form-control" id="sp_gia" name="sp_gia" value="{{ old('sp_gia', $sp->sp_gia) }}">
-    <!-- </div>
-    <div class="form-group">
-        <label for="sp_giaGoc">Giá bán</label>
-        <input type="number" class="form-control" id="sp_giaBan" name="sp_giaBan" value="{{ old('sp_giaBan', $sp->sp_giaBan) }}">
-    </div> -->
     <div class="form-group">
         <label for="kho_ma">Kho hàng</label>
         <!-- <input type="text" class="form-control" id="kho_ma" name="kho_ma" value="{{ old('kho_ma') }}"> -->

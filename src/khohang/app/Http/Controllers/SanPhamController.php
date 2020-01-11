@@ -71,7 +71,6 @@ class SanPhamController extends Controller
         $sp = new SanPham();
         $sp->sp_ten = $request->sp_ten;
         $sp->sp_gia = $request->sp_gia;
-        //$sp->sp_giaBan = $request->sp_giaBan;
         $sp->sp_thongTin = $request->sp_thongTin;
         $sp->sp_danhGia = $request->sp_danhGia;
         $sp->sp_taoMoi = $request->sp_taoMoi;
@@ -105,7 +104,7 @@ class SanPhamController extends Controller
             }
         }
         Session::flash('alert-info', 'Thêm mới thành công ^^~!!!');
-        return redirect()->route('backend.sanpham.index');
+        return redirect()->route('backend.sanpham.index'); //
     
     }
 
@@ -207,6 +206,22 @@ class SanPhamController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $sp = SanPham::where("sp_ma",  $id)->first();
+        if(empty($sp) == false)
+        {
+            // DELETE các dòng liên quan trong table `HinhAnh`
+            foreach($sp->hinhanhlienquan()->get() as $hinhAnh)
+            {
+                // Xóa hình cũ để tránh rác
+                Storage::delete('public/photos/' . $hinhAnh->ha_ten);
+                // Xóa record
+                $hinhAnh->delete();
+            }
+            // Xóa hình cũ để tránh rác
+            Storage::delete('public/photos/' . $sp->sp_hinh);
+        }
+        $sp->delete();
+        Session::flash('alert-info', 'Xóa sản phẩm thành công ^^~!!!');
+        return redirect()->route('danhsachsanpham.index');
     }
 }
