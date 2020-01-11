@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/admin/sanpham', 'SanPhamController@index')->name('backend.sanpham.index');
+Route::get('/admin/sanpham/create', 'SanPhamController@create')->name('backend.sanpham.create');
+// route Danh mục Sản phẩm
+Route::resource('/admin/danhsachsanpham', 'SanPhamController');
+
