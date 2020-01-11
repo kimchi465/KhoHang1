@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
         // sử dụng cho câu lệnh "php artisan db:seed"
         $this->call(KhohangTableSeeder::class);
         $this->call(LoaiTableSeeder::class);
-        $this->call(KhachhangSeeder::class);
+        $this->call(KhachhangTableSeeder::class);
         $this->call(QuyenTableSeeder::class);
         $this->call(NhanvienTableSeeder::class);
         $this->call(KhuyenmaiTableSeeder::class);
