@@ -1,5 +1,8 @@
 # Dự án Kho hàng
 
+## Tạo database trước
+Mở HeidiSQL -> tạo database tên là `khohang`, với chuẩn là `utf8mb4_unicode_ci`
+
 ## Cách sử dụng code
 ### 1. Clone source hoặc Download
 Nếu clone sử dụng cú pháp
