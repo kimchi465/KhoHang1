@@ -16,6 +16,9 @@ Route::get('/', function () {
 });
 Route::get('/admin/sanpham', 'SanPhamController@index')->name('backend.sanpham.index');
 Route::get('/admin/sanpham/create', 'SanPhamController@create')->name('backend.sanpham.create');
+Route::get('/admin/danhsachsanpham/print', 'SanPhamController@print')->name('danhsachsanpham.print');
+Route::get('/admin/danhsachsanpham/excel', 'SanPhamController@excel')->name('danhsachsanpham.excel');
+Route::get('/admin/danhsachsanpham/pdf', 'SanPhamController@pdf')->name('danhsachsanpham.pdf');
 // route Danh mục Sản phẩm
 Route::resource('/admin/danhsachsanpham', 'SanPhamController');
 

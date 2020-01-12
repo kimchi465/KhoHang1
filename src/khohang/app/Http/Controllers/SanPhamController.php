@@ -10,6 +10,8 @@ use App\Khohang;
 use App\Hinhanh;
 use Session;
 use Storage;
+use App\Exports\SanPhamExport;
+use Maatwebsite\Excel\Facades\Excel as Excel;
 use Barryvdh\DomPDF\Facade as PDF;
 
 class SanPhamController extends Controller
@@ -223,5 +225,55 @@ class SanPhamController extends Controller
         $sp->delete();
         Session::flash('alert-info', 'Xóa sản phẩm thành công ^^~!!!');
         return redirect()->route('danhsachsanpham.index');
+    }
+    /**
+     * Action hiển thị biểu mẫu xem trước khi in trên Web
+     */
+    public function print()
+    {
+        $ds_sanpham = Sanpham::all();
+        $ds_loai    = Loai::all();
+        return view('backend.sanpham.print')
+            ->with('danhsachsanpham', $ds_sanpham)
+            ->with('danhsachloai', $ds_loai);
+    }
+     /**
+     * Action xuất Excel
+     */
+    public function excel() 
+    {
+        /* Code dành cho việc debug
+        - Khi debug cần hiển thị view để xem trước khi Export Excel
+        */
+        $ds_sanpham = Sanpham::all();
+        $ds_loai    = Loai::all();
+        // $data = [
+        //     'danhsachsanpham' => $ds_sanpham,
+        //     'danhsachloai'    => $ds_loai,
+        // ];
+        // return view('backend.sanpham.excel')
+        //     ->with('danhsachsanpham', $ds_sanpham)
+        //     ->with('danhsachloai', $ds_loai);
+        return Excel::download(new SanPhamExport, 'backend.sanpham.xlsx');
+    }
+      /**
+     * Action xuất PDF
+     */
+    public function pdf() 
+    {
+        $ds_sanpham = Sanpham::all();
+        $ds_loai    = Loai::all();
+        $data = [
+            'danhsachsanpham' => $ds_sanpham,
+            'danhsachloai'    => $ds_loai,
+        ];
+        /* Code dành cho việc debug
+        - Khi debug cần hiển thị view để xem trước khi Export PDF
+        */
+        // return view('backend.sanpham.pdf')
+        //     ->with('danhsachsanpham', $ds_sanpham)
+        //     ->with('danhsachloai', $ds_loai);
+        $pdf = PDF::loadView('backend.sanpham.pdf', $data);
+        return $pdf->download('DanhMucSanPham.pdf');
     }
 }
