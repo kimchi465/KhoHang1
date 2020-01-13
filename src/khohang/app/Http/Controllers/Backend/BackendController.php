@@ -8,6 +8,10 @@ use App\Http\Controllers\Controller;
 
 class BackendController extends Controller
 {
+    public function dashboard() {
+        return view('backend.dashboard');
+    }
+
     public function activate(Request $request, $nv_ma) 
     {
         $nv = Nhanvien::find($nv_ma);
