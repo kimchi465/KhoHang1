@@ -22,3 +22,8 @@ Route::get('/admin/danhsachsanpham/pdf', 'SanPhamController@pdf')->name('danhsac
 // route Danh mục Sản phẩm
 Route::resource('/admin/danhsachsanpham', 'SanPhamController');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/admin/activate/{nv_ma}', 'Backend\BackendController@activate')->name('activate');

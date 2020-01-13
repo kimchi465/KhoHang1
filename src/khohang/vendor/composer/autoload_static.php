@@ -470,6 +470,7 @@ class ComposerStaticInitc096a26e7209a54dbfa5f6ff24359fe1
     );
 
     public static $classMap = array (
+        'App\\Auth\\CustomUserProvider' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/CustomUserProvider.php',
         'App\\Chitietdonhang' => __DIR__ . '/../..' . '/app/Chitietdonhang.php',
         'App\\Chitietnhapkho' => __DIR__ . '/../..' . '/app/Chitietnhapkho.php',
         'App\\Chitietxuatkho' => __DIR__ . '/../..' . '/app/Chitietxuatkho.php',
@@ -484,6 +485,7 @@ class ComposerStaticInitc096a26e7209a54dbfa5f6ff24359fe1
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\SanPhamController' => __DIR__ . '/../..' . '/app/Http/Controllers/SanPhamController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',

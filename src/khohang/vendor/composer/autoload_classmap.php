@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Auth\\CustomUserProvider' => $baseDir . '/app/Http/Controllers/Auth/CustomUserProvider.php',
     'App\\Chitietdonhang' => $baseDir . '/app/Chitietdonhang.php',
     'App\\Chitietnhapkho' => $baseDir . '/app/Chitietnhapkho.php',
     'App\\Chitietxuatkho' => $baseDir . '/app/Chitietxuatkho.php',
@@ -20,6 +21,7 @@ return array(
     'App\\Http\\Controllers\\Auth\\RegisterController' => $baseDir . '/app/Http/Controllers/Auth/RegisterController.php',
     'App\\Http\\Controllers\\Auth\\ResetPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ResetPasswordController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+    'App\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',
     'App\\Http\\Controllers\\SanPhamController' => $baseDir . '/app/Http/Controllers/SanPhamController.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\EncryptCookies' => $baseDir . '/app/Http/Middleware/EncryptCookies.php',

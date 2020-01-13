@@ -2,10 +2,15 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Nhanvien;
 use App\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Carbon\Carbon;
+use Mail;
+use App\Mail\RegisterMailer;
+
 
 class RegisterController extends Controller
 {
@@ -47,10 +52,17 @@ class RegisterController extends Controller
      */
     protected function validator(array $data)
     {
+       
         return Validator::make($data, [
-            'name' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:6|confirmed',
+            'nv_taiKhoan' => 'required|string|max:50',
+            'nv_matKhau' => 'required|string|min:6|confirmed',
+            'nv_hoTen' => 'required|string|max:100',
+            'nv_gioiTinh' => 'required',
+            'nv_email' => 'required|email:rfc,dns',
+            'nv_ngaySinh' => 'required',
+            'nv_diaChi' => 'required',
+            'nv_dienThoai' => 'required'
+            
         ]);
     }
 
@@ -62,10 +74,23 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => bcrypt($data['password']),
+        $nv = Nhanvien::create([
+            'nv_taiKhoan' => $data['nv_taiKhoan'],
+            'nv_matKhau' => bcrypt($data['nv_matKhau']), //123456
+            'nv_hoTen' => $data['nv_hoTen'],
+            'nv_gioiTinh' => $data['nv_gioiTinh'],
+            'nv_email' => $data['nv_email'],
+            'nv_ngaySinh' => $data['nv_ngaySinh'],
+            'nv_diaChi' => $data['nv_diaChi'],
+            'nv_dienThoai' => $data['nv_dienThoai'],
+            'nv_taoMoi' => Carbon::now(), // Lấy ngày giờ hiện tại (sử dụng Carbon)
+            'nv_capNhat' => Carbon::now(), // Lấy ngày giờ hiện tại (sử dụng Carbon)
+            'nv_trangThai' => 1, // Mặc định là 2-Khả dụng
+            'q_ma' => 2, // Mặc định là 2-Quản trị
         ]);
+        // Gởi mail thông báo đăng ký thành công
+        Mail::to('nguyenkimchi468@gmail.com')
+            ->send(new RegisterMailer($nv));
+        return $nv;
     }
 }
