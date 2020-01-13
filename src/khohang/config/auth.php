@@ -70,6 +70,7 @@ return [
             'model' => App\Nhanvien::class,
         ],
 
+        
         // 'users' => [
         //     'driver' => 'database',
         //     'table' => 'users',

@@ -12,6 +12,7 @@ class BackendController extends Controller
         return view('backend.dashboard');
     }
 
+    
     public function activate(Request $request, $nv_ma) 
     {
         $nv = Nhanvien::find($nv_ma);

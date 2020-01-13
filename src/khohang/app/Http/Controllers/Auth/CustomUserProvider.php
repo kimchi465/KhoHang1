@@ -4,6 +4,7 @@ use Illuminate\Support\Str;
 use Illuminate\Auth\EloquentUserProvider;
 use Illuminate\Contracts\Auth\UserProvider as UserProviderContract;
 use Illuminate\Contracts\Auth\Authenticatable as UserContract;
+
 class CustomUserProvider extends EloquentUserProvider implements UserProviderContract
 {
     /**
