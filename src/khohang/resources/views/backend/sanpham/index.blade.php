@@ -25,7 +25,11 @@ Danh sách sản phẩm
 - Đường dẫn URL là đường dẫn được tạo ra bằng route có tên `danhsachsanpham.create`
 - Sẽ có dạng http://tenmiencuaban.com/admin/danhsachsanpham/create
 -->
-<a href="{{ route('danhsachsanpham.create') }}" class="btn btn-primary">Thêm mới sản phẩm</a>
+@if(Auth::check())
+    @if(auth()->user()->can('them_san_pham'))
+    <a href="{{ route('danhsachsanpham.create') }}" class="btn btn-primary">Thêm mới sản phẩm</a>
+    @endif
+@endif
 <!-- Tạo nút xem biểu mẫu khi in trên web
 - Theo quy ước, các route đã được đăng ký trong file `web.php` đều phải được đặt tên để dễ dàng bảo trì code sau này.
 - Đường dẫn URL là đường dẫn được tạo ra bằng route có tên `sanpham.print`
@@ -75,7 +79,11 @@ Danh sách sản phẩm
                     - Các tham số cần truyền vào hàm route() là 1 array[]
                     - Sẽ có dạng http://tenmiencuaban.com/admin/danhsachsanpham/{id}/edit
                     -->
-                    <a href="{{ route('danhsachsanpham.edit', ['id' => $sp->sp_ma]) }}" class="btn btn-primary pull-left">Sửa</a>
+                    @if(Auth::check())
+                        @if(auth()->user()->can('sua_san_pham'))
+                        <a href="{{ route('danhsachsanpham.edit', ['id' => $sp->sp_ma]) }}" class="btn btn-primary pull-left">Sửa</a>
+                        @endif
+                    @endif
 
                     <!-- Tạo nút Xóa sản phẩm 
                     - Theo quy ước, các route đã được đăng ký trong file `web.php` đều phải được đặt tên để dễ dàng bảo trì code sau này.
@@ -84,7 +92,9 @@ Danh sách sản phẩm
                     - Các tham số cần truyền vào hàm route() là 1 array[]
                     - Sẽ có dạng http://tenmiencuaban.com/admin/danhsachsanpham/{id}
                     -->
+                    
                     <form method="post" action="{{ route('danhsachsanpham.destroy', ['id' => $sp->sp_ma]) }}" class="pull-left">
+                    
                         <!-- Khi gởi Request Xóa dữ liệu, Laravel Framework mặc định chỉ chấp nhận thực thi nếu có gởi kèm field `_method=DELETE` -->
                         <input type="hidden" name="_method" value="DELETE" />
                         <!-- Khi gởi bất kỳ Request POST, Laravel Framework mặc định cần có token để chống lỗi bảo mật CSRF 
@@ -92,7 +102,12 @@ Danh sách sản phẩm
                         - Thay vào đó, sử dụng hàm `csrf_field()` để tự sinh ra 1 input có token dành riêng cho CSRF
                         -->
                         {{ csrf_field() }}
-                        <button type="submit" class="btn btn-danger">Xóa</button>
+                        @if(Auth::check())
+                            @if(auth()->user()->can('xoa_san_pham'))
+                            <button type="submit" class="btn btn-danger">Xóa</button>
+                            @endif
+                        @endif
+                           
                     </form>
                 </td>
             </tr>

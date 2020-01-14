@@ -4,10 +4,16 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
+use Illuminate\Notifications\Notifiable;
+use Illuminate\Foundation\Auth\User;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Spatie\Permission\Traits\HasRoles;
 
-class Nhanvien extends Model implements
+class Nhanvien extends Authenticatable implements
     AuthenticatableContract
 {
+    use Notifiable;
+    use HasRoles;
     
     const     CREATED_AT    = 'nv_taoMoi';
     const     UPDATED_AT    = 'nv_capNhat';

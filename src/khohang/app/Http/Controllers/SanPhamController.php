@@ -13,9 +13,16 @@ use Storage;
 use App\Exports\SanPhamExport;
 use Maatwebsite\Excel\Facades\Excel as Excel;
 use Barryvdh\DomPDF\Facade as PDF;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Auth\Middleware\Authenticate;
+
 
 class SanPhamController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -40,6 +47,7 @@ class SanPhamController extends Controller
      */
     public function create()
     {
+        
          // Sử dụng Eloquent Model để truy vấn dữ liệu
         $ds_loai = Loai::all(); // SELECT * FROM loai
         // Đường dẫn đến view được quy định như sau: <FolderName>.<ViewName>
@@ -64,6 +72,7 @@ class SanPhamController extends Controller
      */
     public function store(Request $request)
     {
+        
         $validation = $request->validate([
             'sp_hinh' => 'required|file|image|mimes:jpeg,png,gif,webp|max:2048',
             // Cú pháp dùng upload nhiều file
