@@ -38,6 +38,18 @@ Route::get('/capquyen', function(){
     $user->givePermissionTo('xuatdulieu_pdf_san_pham');
     $user->givePermissionTo('indulieu_san_pham');
 
+    $user2 = Nhanvien::find(3);
+    $user2->givePermissionTo('xem_san_pham');
+    $user2->givePermissionTo('xuatdulieu_excel_san_pham');
+    $user2->givePermissionTo('xuatdulieu_pdf_san_pham');
+    $user2->givePermissionTo('indulieu_san_pham');
+
+    $user3 = Nhanvien::find(4);
+    $user3->givePermissionTo('xem_san_pham');
+    $user3->givePermissionTo('xuatdulieu_excel_san_pham');
+    $user3->givePermissionTo('xuatdulieu_pdf_san_pham');
+    $user3->givePermissionTo('indulieu_san_pham');
+
     $user1 = Nhanvien::find(1);
     $user1->givePermissionTo('xem_san_pham');
     $user1->givePermissionTo('them_san_pham');
@@ -46,6 +58,15 @@ Route::get('/capquyen', function(){
     $user1->givePermissionTo('xuatdulieu_excel_san_pham');
     $user1->givePermissionTo('xuatdulieu_pdf_san_pham');
     $user1->givePermissionTo('indulieu_san_pham');
+
+    $user4 = Nhanvien::find(100);
+    $user4->givePermissionTo('xem_san_pham');
+    $user4->givePermissionTo('them_san_pham');
+    $user4->givePermissionTo('sua_san_pham');
+    $user4->givePermissionTo('xoa_san_pham');
+    $user4->givePermissionTo('xuatdulieu_excel_san_pham');
+    $user4->givePermissionTo('xuatdulieu_pdf_san_pham');
+    $user4->givePermissionTo('indulieu_san_pham');
     
 
     return 'cap quyen okey';

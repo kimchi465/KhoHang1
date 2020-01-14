@@ -35,20 +35,31 @@ Danh sách sản phẩm
 - Đường dẫn URL là đường dẫn được tạo ra bằng route có tên `sanpham.print`
 - Sẽ có dạng http://tenmiencuaban.com/admin/sanpham/print
 -->
-
+@if(Auth::check())
+    @if(auth()->user()->can('indulieu_san_pham'))
 <a href="{{ route('danhsachsanpham.print') }}" class="btn btn-primary">In ấn</a>
+    @endif
+@endif
 <!-- Tạo nút Xuất Excel danh sách sản phẩm
 - Theo quy ước, các route đã được đăng ký trong file `web.php` đều phải được đặt tên để dễ dàng bảo trì code sau này.
 - Đường dẫn URL là đường dẫn được tạo ra bằng route có tên `danhsachsanpham.excel`
 - Sẽ có dạng http://tenmiencuaban.com/admin/danhsachsanpham/excel
 -->
+@if(Auth::check())
+    @if(auth()->user()->can('xuatdulieu_excel_san_pham'))
 <a href="{{ route('danhsachsanpham.excel') }}" class="btn btn-primary">Xuất Excel</a>
+    @endif
+@endif
 <!-- Tạo nút Xuất PDF danh sách sản phẩm
 - Theo quy ước, các route đã được đăng ký trong file `web.php` đều phải được đặt tên để dễ dàng bảo trì code sau này.
 - Đường dẫn URL là đường dẫn được tạo ra bằng route có tên `danhsachsanpham.pdf`
 - Sẽ có dạng http://tenmiencuaban.com/admin/danhsachsanpham/pdf
 -->
+@if(Auth::check())
+    @if(auth()->user()->can('xuatdulieu_pdf_san_pham'))
 <a href="{{ route('danhsachsanpham.pdf') }}" class="btn btn-primary">Xuất PDF</a>
+    @endif
+@endif
 
 <!-- Tạo table hiển thị danh sách các sản phẩm -->
 <table class="table table-bordered">
