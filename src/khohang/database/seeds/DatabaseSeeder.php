@@ -27,6 +27,7 @@ class DatabaseSeeder extends Seeder
         $this->call(ChitietnhapkhoTableSeeder::class);
         $this->call(XuatkhoTableSeeder::class);
         $this->call(ChitietxuatkhoTableSeeder::class);
+        $this->call(PermissionSeeder::class);
         
     }
 }
