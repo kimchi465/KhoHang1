@@ -11,6 +11,8 @@
 |
 */
 use App\Nhanvien;
+
+use Illuminate\Support\Facades\DB;
 Route::get('/', function () {
     return view('welcome');
 });
@@ -26,6 +28,12 @@ Route::get('/lien-he', 'Frontend\FrontendController@contact')->name('frontend.co
 Route::post('/lien-he/goi-loi-nhan', 'Frontend\FrontendController@sendMailContactForm')->name('frontend.contact.sendMailContactForm');
 Route::get('/san-pham', 'Frontend\FrontendController@product')->name('frontend.product');
 
+Route::get('/test', function () {
+    $data = DB::select('select * from loai');
+    return $data;
+});
+
+Route::get('/san-pham/{id}', 'FrontendController@productDetail')->name('frontend.productDetail');
 // route Danh mục Sản phẩm
 Route::resource('/admin/danhsachsanpham', 'SanPhamController');
 

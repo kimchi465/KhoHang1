@@ -101,5 +101,26 @@ class FrontendController extends Controller
             ->with('danhsachloai', $danhsachloai);
     }
 
+    /**
+     * Action hiển thị chi tiết Sản phẩm
+     */
+    public function productDetail(Request $request, $id)
+    {
+        $sanpham = SanPham::find($id);
+        // Query Lấy các hình ảnh liên quan của các Sản phẩm đã được lọc
+        $danhsachhinhanhlienquan = DB::table('cusc_hinhanh')
+                                ->where('sp_ma', $id)
+                                ->get();
+        // Query danh sách Loại
+        $danhsachloai = Loai::all();
+        // Query danh sách màu
+        $danhsachmau = Mau::all();
+        return view('frontend.pages.product-detail')
+            ->with('sp', $sanpham)
+            ->with('danhsachhinhanhlienquan', $danhsachhinhanhlienquan)
+            ->with('danhsachmau', $danhsachmau)
+            ->with('danhsachloai', $danhsachloai);
+    }
+
 
 }
