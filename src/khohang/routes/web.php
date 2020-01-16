@@ -27,6 +27,9 @@ Route::get('/gioi-thieu', 'Frontend\FrontendController@about')->name('frontend.a
 Route::get('/lien-he', 'Frontend\FrontendController@contact')->name('frontend.contact');
 Route::post('/lien-he/goi-loi-nhan', 'Frontend\FrontendController@sendMailContactForm')->name('frontend.contact.sendMailContactForm');
 Route::get('/san-pham', 'Frontend\FrontendController@product')->name('frontend.product');
+Route::get('/gio-hang', 'Frontend\FrontendController@cart')->name('frontend.cart');
+Route::post('/dat-hang', 'Frontend\FrontendController@order')->name('frontend.order');
+Route::get('/dat-hang/hoan-tat', 'Frontend\FrontendController@orderFinish')->name('frontend.orderFinish');
 
 Route::get('/test', function () {
     $data = DB::select('select * from loai');
