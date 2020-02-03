@@ -60,7 +60,7 @@ Giới thiệu Shop Hoa tươi - Sunshine
             <div class="col-11 col-md-5 col-lg-4 m-lr-auto">
                 <div class="how-bor1 ">
                     <div class="hov-img0">
-                        <img src="{{ asset('themes/cozastore/images/about-01.jpg') }}" alt="IMG">
+                        <img src="{{ asset('themes/cozastore/images/aboutTC-01.jpg') }}" alt="IMG" style="height:410px">
                     </div>
                 </div>
             </div>

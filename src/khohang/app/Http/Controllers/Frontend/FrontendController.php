@@ -190,7 +190,7 @@ class FrontendController extends Controller
                 $chitietdonhang = new Chitietdonhang();
                 $chitietdonhang->dh_ma = $donhang->dh_ma;
                 $chitietdonhang->sp_ma = $sp['_id'];
-                $chitietdonhang->m_ma = 1;
+                
                 $chitietdonhang->ctdh_soLuong = $sp['_quantity'];
                 $chitietdonhang->ctdh_donGia = $sp['_price'];
                 $chitietdonhang->save();

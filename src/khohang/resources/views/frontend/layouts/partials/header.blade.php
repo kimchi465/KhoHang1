@@ -37,33 +37,6 @@
                 </a>
 
                 <!-- Menu desktop -->
-                <!-- <div class="menu-desktop">
-                    <ul class="main-menu">
-                        <li class="{{ Request::is('') ? 'active-menu' : '' }}">
-                            <a href="">Home</a>
-                        </li>
-
-                        <li>
-                            <a href="product.html">Shop</a>
-                        </li>
-
-                        <li class="label1" data-label1="hot">
-                            <a href="shoping-cart.html">Features</a>
-                        </li>
-
-                        <li>
-                            <a href="blog.html">Blog</a>
-                        </li>
-
-                        <li class="{{ Request::is('gioi-thieu') ? 'active-menu' : '' }}">
-                            <a href="">About</a>
-                        </li>
-
-                        <li class="{{ Request::is('lien-he') ? 'active-menu' : '' }}">
-                            <a href="">Contact</a>
-                        </li>
-                    </ul>
-                </div> -->
                 <div class="menu-desktop">
                     <ul class="main-menu">
                         <li class="{{ Request::is('') ? 'active-menu' : '' }}">

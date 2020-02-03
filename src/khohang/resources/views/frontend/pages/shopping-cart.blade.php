@@ -224,8 +224,8 @@ Giỏ hàng Shop trái cây - Freshfruit
                     method: "POST",
                     data: JSON.stringify(dataInputOrderForm)
                 }).then(function successCallback(response) {
-                    // Clear giỏ hàng ngCart
-                    //$scope.ngCart.empty();
+                    //Clear giỏ hàng ngCart
+                    $scope.ngCart.empty();
 
                     // Gởi mail thành công, thông báo cho khách hàng biết
                     swal('Đơn hàng hoàn tất!', 'Xin cám ơn Quý khách!', 'success');

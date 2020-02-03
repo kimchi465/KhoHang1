@@ -11,6 +11,11 @@
 |
 */
 use App\Nhanvien;
+use App\Khachhang;
+use App\Donhang;
+use App\Sanpham;
+use App\Chitietdonhang;
+use App\Mail\OrderMailer;
 
 use Illuminate\Support\Facades\DB;
 Route::get('/', function () {
@@ -90,4 +95,19 @@ Route::get('/capquyen', function(){
 });
 Route::post('/admin/activate/{nv_ma}', 'Backend\BackendController@activate')->name('activate');
 
+Route::get('testMail', function(){
+    $dataMail = [];
+    $khachhang = Khachhang::find(1);
+    $dataMail['khachhang'] = $khachhang->toArray();
 
+    $donhang = Donhang::find(9);
+    $dataMail['donhang'] = $donhang->toArray();
+
+    $chitietdonhang = Donhang::where('dh_ma', '=', 9)->first();
+    $dataMail['donhang']['chitiet'][] = $chitietdonhang->toArray();
+
+    $sp = Sanpham::find(1);
+    $dataMail['donhang']['giohang'][] = $sp;
+
+    Mail::to('kellyfire611@gmail.com')->send(new OrderMailer($dataMail));
+});
