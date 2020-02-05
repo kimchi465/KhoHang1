@@ -5,7 +5,7 @@
         <div class="top-bar">
             <div class="content-topbar flex-sb-m h-full container">
                 <div class="left-top-bar">
-                    Free shipping for standard order over $100
+                    {{ __('freshfruit.pages.free') }}
                 </div>
 
                 <div class="right-top-bar flex-w h-full">
@@ -13,8 +13,8 @@
                         Help & FAQs
                     </a>
 
-                    <a href="#" class="flex-c-m trans-04 p-lr-25">
-                        My Account
+                    <a href="{{ route('login') }}" class="flex-c-m trans-04 p-lr-25">
+                        {{ __('freshfruit.pages.myAccount') }}
                     </a>
 
                     <a href="{{ route('app.setLocale', ['locale' => 'en']) }}" class="flex-c-m trans-04 p-lr-25">

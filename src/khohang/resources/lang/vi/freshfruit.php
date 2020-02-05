@@ -15,5 +15,7 @@ return [
         'little' => 'Những điều nhỏ nhặt tạo nên sự khác biệt lớn',
         'shopNow' => 'Mua Ngay',
         'hot' => 'Sản phẩm hot 2020',
+        'free' => 'Giao hàng miễn phí cho đơn hàng trên $ 100',
+        'myAccount' => 'Tài khoản của tôi',
     ]
 ];
