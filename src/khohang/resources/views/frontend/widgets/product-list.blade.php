@@ -3,7 +3,7 @@
         <div class="flex-w flex-sb-m p-b-52">
             <div class="flex-w flex-l-m filter-tope-group m-tb-10">
                 <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
-                    Tất cả
+                {{ __('freshfruit.pages.all') }}
                 </button>
 
                 @foreach($danhsachloai as $loai)
@@ -52,7 +52,7 @@
                         <img src="{{ asset('storage/photos/' . $sp->sp_hinh) }}" alt="IMG-PRODUCT">
 
                         <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal" data-sp-ma="{{ $sp->sp_ma }}">
-                            Quick View
+                        {{ __('freshfruit.pages.quickView') }}
                         </a>
                     </div>
 
@@ -78,7 +78,7 @@
         <!-- Load more -->
         <div class="flex-c-m flex-w w-full p-t-45">
             <a href="#" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
-                Load More
+                {{ __('freshfruit.pages.loadMore') }}
             </a>
         </div>
     </div>

@@ -17,8 +17,11 @@
                         My Account
                     </a>
 
-                    <a href="#" class="flex-c-m trans-04 p-lr-25">
+                    <a href="{{ route('app.setLocale', ['locale' => 'en']) }}" class="flex-c-m trans-04 p-lr-25">
                         EN
+                    </a>
+                    <a href="{{ route('app.setLocale', ['locale' => 'vi']) }}" class="flex-c-m trans-04 p-lr-25">
+                        VI
                     </a>
 
                     <a href="#" class="flex-c-m trans-04 p-lr-25">
@@ -40,22 +43,22 @@
                 <div class="menu-desktop">
                     <ul class="main-menu">
                         <li class="{{ Request::is('') ? 'active-menu' : '' }}">
-                        <a href="{{ route('frontend.home') }}">Home</a>
+                        <a href="{{ route('frontend.home') }}">{{ __('freshfruit.pages.home') }}</a> <!-- freshfruit.php-->
                         </li>
                         <li class="{{ Request::is('san-pham') ? 'active-menu' : '' }}">
-                        <a href="{{ route('frontend.product') }}">Shop</a>
+                        <a href="{{ route('frontend.product') }}">{{ __('freshfruit.pages.shop')}}</a>
                         </li>
                         <li class="label1" data-label1="hot">
-                        <a href="shoping-cart.html">Features</a>
+                        <a href="shoping-cart.html">{{ __('freshfruit.pages.features')}}</a>
                         </li>
                         <li>
-                        <a href="blog.html">Blog</a>
+                        <a href="blog.html">{{ __('freshfruit.pages.blog')}}</a>
                         </li>
                         <li class="{{ Request::is('gioi-thieu') ? 'active-menu' : '' }}">
-                        <a href="{{ route('frontend.about') }}">About</a>
+                        <a href="{{ route('frontend.about') }}">{{ __('freshfruit.pages.about') }}</a>
                         </li>
                         <li class="{{ Request::is('lien-he') ? 'active-menu' : '' }}">
-                        <a href="{{ route('frontend.contact') }}">Contact</a>
+                        <a href="{{ route('frontend.contact') }}">{{ __('freshfruit.pages.contact') }}</a>
                         </li>
                     </ul>
                     </div>  

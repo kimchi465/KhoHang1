@@ -111,3 +111,9 @@ Route::get('testMail', function(){
 
     Mail::to('kellyfire611@gmail.com')->send(new OrderMailer($dataMail));
 });
+Route::get('setLocale/{locale}', function ($locale) {
+    if (in_array($locale, Config::get('app.locales'))) {
+      Session::put('locale', $locale);
+    }
+    return redirect()->back();
+})->name('app.setLocale');

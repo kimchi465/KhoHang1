@@ -12,6 +12,10 @@ Freshfruit-Shop Trái Cây Ngon Ngon
 
 {{-- Thay thế nội dung vào Placeholder `main-content` của view `frontend.layouts.master` --}}
 @section('main-content')
+<div class="container text-center">
+    <h1>{{ __('freshfruit.welcome') }}</h1>
+</div>
+
 <!-- Slider -->
 @include('frontend.widgets.homepage-slider')
 <!-- Banner -->
