@@ -40,6 +40,7 @@ class SanPhamController extends Controller
         ->with('danhsachsanpham', $ds_sanpham);
     }
 
+
     /**
      * Show the form for creating a new resource.
      *
@@ -118,6 +119,7 @@ class SanPhamController extends Controller
         return redirect()->route('backend.sanpham.index'); //
     
     }
+
 
     /**
      * Display the specified resource.

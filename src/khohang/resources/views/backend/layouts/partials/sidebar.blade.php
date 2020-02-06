@@ -11,8 +11,9 @@
      
         <li class="treeview {{ Request::is('admin/danhsachsanpham*') ? 'menu-open' : '' }}">
        
-            <a href="#"><i class="fa fa-link"></i> <span>Danh mục sản phẩm</span>
-           
+            <a href="{{ route('danhsachsanpham.index') }}"><i class="fa fa-link"></i> <span>Danh mục sản phẩm</span>
+            
+
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
@@ -27,6 +28,28 @@
         @endif
       @endif
         <!-- /.Danh mục Sản phẩm -->
+
+        <!-- Quản lý kho -->
+     
+        <li class="treeview {{ Request::is('admin/danhsachkho*') ? 'menu-open' : '' }}">
+       
+            <a href="{{ route('danhsachkho.index') }}"><i class="fa fa-link"></i> <span>Quản lý kho</span>
+           
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+        <!-- PQuyen... -->
+          <ul class="treeview-menu" style="display: {{ Request::is('admin/danhsachkho*') ? 'block' : 'none' }};">
+            <li class="{{ Request::is('admin/danhsachkho') ? 'active' : '' }}"><a href="{{ route('danhsachkho.index') }}">Quản lý kho</a></li>
+            <li class="{{ Request::is('admin/danhsachsanpham/create') ? 'active' : '' }}"><a href="{{ route('danhsachsanpham.create') }}">Quản lý nhập hàng</a></li>
+            <li class="{{ Request::is('admin/danhsachsanpham/create') ? 'active' : '' }}"><a href="{{ route('danhsachsanpham.create') }}">Quản lý xuất hàng</a></li>
+            <li class="{{ Request::is('admin/danhsachsanpham/create') ? 'active' : '' }}"><a href="{{ route('danhsachsanpham.create') }}">Báo cáo doanh thu</a></li>
+            <li class="{{ Request::is('admin/danhsachsanpham/create') ? 'active' : '' }}"><a href="{{ route('danhsachsanpham.create') }}">Báo có số lượng tồn</a></li>
+          </ul>
+        </li>
+         <!-- /.PQuyen... -->
+        <!-- /.Quản lý kho -->
         
         </ul>
     </div>

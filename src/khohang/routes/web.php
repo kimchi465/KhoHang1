@@ -27,6 +27,10 @@ Route::get('/admin/danhsachsanpham/print', 'SanPhamController@print')->name('dan
 Route::get('/admin/danhsachsanpham/excel', 'SanPhamController@excel')->name('danhsachsanpham.excel');
 Route::get('/admin/danhsachsanpham/pdf', 'SanPhamController@pdf')->name('danhsachsanpham.pdf');
 
+Route::get('/admin/danhsachkho/index', 'KhoHangController@index')->name('danhsachkho.index');
+Route::get('/admin/danhsachkho/create', 'KhoHangController@create')->name('danhsachkho.create');
+
+
 Route::get('/', 'Frontend\FrontendController@index')->name('frontend.home');
 Route::get('/gioi-thieu', 'Frontend\FrontendController@about')->name('frontend.about');
 Route::get('/lien-he', 'Frontend\FrontendController@contact')->name('frontend.contact');
@@ -44,6 +48,8 @@ Route::get('/test', function () {
 Route::get('/san-pham/{id}', 'FrontendController@productDetail')->name('frontend.productDetail');
 // route Danh mục Sản phẩm
 Route::resource('/admin/danhsachsanpham', 'SanPhamController');
+// route Danh mục kho
+Route::resource('/admin/danhsachkho', 'KhoHangController');
 
 Route::get('/admin/sanpham', 'SanPhamController@index')
         ->middleware('auth')
