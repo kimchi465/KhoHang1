@@ -8,6 +8,8 @@ use App\SanPham;
 use App\Loai;
 use App\Khohang;
 use App\Hinhanh;
+use App\Nhapkho;
+use App\Chitietnhapkho;
 use Session;
 use Storage;
 use App\Exports\SanPhamExport;
@@ -154,5 +156,44 @@ class KhoHangController extends Controller
         $k->delete();
         Session::flash('alert-info', 'Xóa sản phẩm thành công ^^~!!!');
         return redirect()->route('danhsachkho.index');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function nhapkho()
+    {
+        // Sử dụng Eloquent Model để truy vấn dữ liệu
+    $ds_nhapkho = Nhapkho::all(); // SELECT * FROM Nhapkho
+    // Đường dẫn đến view được quy định như sau: <FolderName>.<ViewName>
+    // Mặc định đường dẫn gốc của method view() là thư mục `resources/views`
+    // Hiển thị view `backend.sanpham.kho`
+    return view('backend.khohang.nhapkho')
+        // với dữ liệu truyền từ Controller qua View, được đặt tên là `danhsachkho`
+        ->with('danhsachnhapkho', $ds_nhapkho);
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function xuatphieunhap()
+    {
+        
+         //$pn = Nhapkho::where("nk_ma",  $id)->first();
+         $ds_nhapkho = Nhapkho::all();
+         $ds_chitietnk = Chitietnhapkho::all();
+        //  $data = [
+        //      'danhsachnhapkho' => $ds_nhapkho,
+        //      'danhsachchitietnk'    => $ds_chitietnk,
+        //  ];
+         return view('backend.khohang.xuatphieunhap')
+             // với dữ liệu truyền từ Controller qua View, được đặt tên là `danhsachloai`
+             //->with('pn', $pn)
+             ->with('danhsachnhapkho', $ds_nhapkho)
+             ->with('danhsachchitietnk', $ds_chitietnk);
     }
 }

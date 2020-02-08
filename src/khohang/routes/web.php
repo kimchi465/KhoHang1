@@ -29,6 +29,8 @@ Route::get('/admin/danhsachsanpham/pdf', 'SanPhamController@pdf')->name('danhsac
 
 Route::get('/admin/danhsachkho/index', 'KhoHangController@index')->name('danhsachkho.index');
 Route::get('/admin/danhsachkho/create', 'KhoHangController@create')->name('danhsachkho.create');
+Route::get('/admin/danhsachkho/nhapkho', 'KhoHangController@nhapkho')->name('danhsachkho.nhapkho');
+Route::get('/admin/danhsachkho/xuatphieunhap', 'KhoHangController@xuatphieunhap')->name('danhsachkho.xuatphieunhap');
 
 
 Route::get('/', 'Frontend\FrontendController@index')->name('frontend.home');

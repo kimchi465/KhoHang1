@@ -42,10 +42,10 @@
         <!-- PQuyen... -->
           <ul class="treeview-menu" style="display: {{ Request::is('admin/danhsachkho*') ? 'block' : 'none' }};">
             <li class="{{ Request::is('admin/danhsachkho') ? 'active' : '' }}"><a href="{{ route('danhsachkho.index') }}">Quản lý kho</a></li>
-            <li class="{{ Request::is('admin/danhsachsanpham/create') ? 'active' : '' }}"><a href="{{ route('danhsachsanpham.create') }}">Quản lý nhập hàng</a></li>
-            <li class="{{ Request::is('admin/danhsachsanpham/create') ? 'active' : '' }}"><a href="{{ route('danhsachsanpham.create') }}">Quản lý xuất hàng</a></li>
+            <li class="{{ Request::is('admin/danhsachkho/nhapkho') ? 'active' : '' }}"><a href="{{ route('danhsachkho.nhapkho') }}">Quản lý nhập kho</a></li>
+            <li class="{{ Request::is('admin/danhsachsanpham/create') ? 'active' : '' }}"><a href="{{ route('danhsachsanpham.create') }}">Quản lý xuất kho</a></li>
             <li class="{{ Request::is('admin/danhsachsanpham/create') ? 'active' : '' }}"><a href="{{ route('danhsachsanpham.create') }}">Báo cáo doanh thu</a></li>
-            <li class="{{ Request::is('admin/danhsachsanpham/create') ? 'active' : '' }}"><a href="{{ route('danhsachsanpham.create') }}">Báo có số lượng tồn</a></li>
+            <li class="{{ Request::is('admin/danhsachsanpham/create') ? 'active' : '' }}"><a href="{{ route('danhsachsanpham.create') }}">Báo cáo số lượng tồn</a></li>
           </ul>
         </li>
          <!-- /.PQuyen... -->
