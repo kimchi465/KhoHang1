@@ -1,6 +1,6 @@
-@extends('print.layout.paper2')
+@extends('print.layout.paper3')
 @section('title')
-Biểu mẫu Phiếu nhập kho
+Biểu mẫu Phiếu xuất kho
 @endsection
 @section('paper-size') A4 @endsection
 @section('paper-class') A4 @endsection
@@ -18,7 +18,7 @@ h2{
 
 <input type="hidden" name="_method" value="PUT" />
     {{ csrf_field() }}
-<h2>PHIẾU NHẬP KHO</h2>
+<h2>PHIẾU XUẤT KHO</h2>
 <table border="0" align="center">
     <tr>
         <td>Ngày lập phiếu: </td>
@@ -32,15 +32,15 @@ h2{
 
 <table border="0">
     <tr>
-        <td>Họ tên người giao hàng: </td>
+        <td>Họ tên người nhận: </td>
         <td></td>
     </tr>
     <tr>
-        <td>Lý do nhập kho: </td>
+        <td>Địa chỉ: </td>
         <td></td>
     </tr>
     <tr>
-        <td>Nhập tại kho: </td>
+        <td>Lý do xuất kho: </td>
         <td></td>
     </tr>
     <tr>

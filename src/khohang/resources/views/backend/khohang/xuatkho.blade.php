@@ -3,7 +3,7 @@
 
 {{-- Thay thế nội dung vào Placeholder `title` của view `backend.layouts.index` --}}
 @section('title')
-Danh sách phiếu nhập kho
+Danh sách phiếu xuất kho
 @endsection
 
 {{-- Thay thế nội dung vào Placeholder `content` của view `backend.layouts.index` --}}
@@ -19,18 +19,19 @@ Danh sách phiếu nhập kho
       @endif
     @endforeach
 </div>
-<h4 style="text-align: center;">DANH SÁCH PHIẾU NHẬP KHO</h4>
+<h4 style="text-align: center;">DANH SÁCH PHIẾU XUẤT KHO</h4>
 
 <table class="table table-bordered">
     <thead>
         <tr>
-            <th>Mã phiếu nhập</th>
+            <th>Mã phiếu xuất</th>
             <th>Số hóa đơn</th>
-            <th>Họ tên người giao hàng</th>
-            <th>Lý do nhập kho</th>
+            <th>Họ tên người nhận</th>
+            <th>Địa chỉ</th>
+            <th>Lý do xuất kho</th>
             <th>Người lập phiếu</th>
             <th>Ngày lập phiếu</th>
-            <th>Ngày nhập kho</th>
+            <th>Ngày xuất kho</th>
             <th>Tổng tiền</th>
             <th>Thủ kho</th>
             <th>Xuất phiếu nhập</th>
@@ -40,17 +41,18 @@ Danh sách phiếu nhập kho
      <!-- Sử dụng vòng lặp foreach để duyệt qua các sản phẩm 
         - Biến $danhsachsanpham là biến được truyền qua từ action `index()` trong controller SanPhamController.
         -->
-        @foreach($danhsachnhapkho as $nk)
+        @foreach($danhsachxuatkho as $xk)
             <tr>
-                <td>{{ $nk->nk_ma }}</td>
-                <td>{{ $nk->nk_soHoaDon }}</td>
-                <td>{{ $nk->nk_hoTenNguoiGiaoHang }}</td>
-                <td>{{ $nk->nk_lydo }}</td>
-                <td>{{ $nk->nhanviens->nv_hoTen }}</td>
-                <td>{{ $nk->nk_ngayLapPhieu }}</td>
-                <td>{{ $nk->nk_ngayNhapKho }}</td>
-                <td>{{ $nk->nk_tongtien }}</td>
-                <td>{{ $nk->nhanviens->nv_hoTen }}</td>
+                <td>{{ $xk->xk_ma }}</td>
+                <td>{{ $xk->xk_soHoaDon }}</td>
+                <td>{{ $xk->xk_hoTenNguoiNhan }}</td>
+                <td>{{ $xk->xk_diaChi }}</td>
+                <td>{{ $xk->xk_lydo }}</td>
+                <td>{{ $xk->nhanviens->nv_hoTen }}</td>
+                <td>{{ $xk->xk_ngayLapPhieu }}</td>
+                <td>{{ $xk->xk_ngayXuatKho }}</td>
+                <td>{{ $xk->xk_tongtien }}</td>
+                <td>{{ $xk->nhanviens->nv_hoTen }}</td>
                 <td>
                     <!-- Tạo nút Sửa sản phẩm 
                     - Theo quy ước, các route đã được đăng ký trong file `web.php` đều phải được đặt tên để dễ dàng bảo trì code sau này.
@@ -60,7 +62,7 @@ Danh sách phiếu nhập kho
                     - Sẽ có dạng http://tenmiencuaban.com/admin/danhsachsanpham/{id}/edit
                     -->
                     
-                        <a href="{{ route('danhsachkho.xuatphieunhap')}}" class="btn btn-primary pull-left">Xuất</a>
+                        <a href="{{ route('danhsachkho.phieuxuatkho')}}" class="btn btn-primary pull-left">Xuất</a>
                            
                            
                     </form>

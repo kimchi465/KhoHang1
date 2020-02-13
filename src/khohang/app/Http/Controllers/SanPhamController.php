@@ -55,10 +55,7 @@ class SanPhamController extends Controller
         // Mặc định đường dẫn gốc của method view() là thư mục `resources/views`
         // Hiển thị view `backend.sanpham.create`
         //$ds_kho = Khohang::all();
-        // $data = [
-        //     'danhsachloai' => $ds_loai,
-        //     'danhsachkho'    => $ds_kho,
-        // ];
+        
         return view('backend.sanpham.create')
             // với dữ liệu truyền từ Controller qua View, được đặt tên là `danhsachloai`
             ->with('danhsachloai', $ds_loai);

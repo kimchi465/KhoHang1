@@ -27,10 +27,16 @@ Route::get('/admin/danhsachsanpham/print', 'SanPhamController@print')->name('dan
 Route::get('/admin/danhsachsanpham/excel', 'SanPhamController@excel')->name('danhsachsanpham.excel');
 Route::get('/admin/danhsachsanpham/pdf', 'SanPhamController@pdf')->name('danhsachsanpham.pdf');
 
+//QLdanh sách kho
 Route::get('/admin/danhsachkho/index', 'KhoHangController@index')->name('danhsachkho.index');
 Route::get('/admin/danhsachkho/create', 'KhoHangController@create')->name('danhsachkho.create');
+//QLPhieu nk
 Route::get('/admin/danhsachkho/nhapkho', 'KhoHangController@nhapkho')->name('danhsachkho.nhapkho');
 Route::get('/admin/danhsachkho/xuatphieunhap', 'KhoHangController@xuatphieunhap')->name('danhsachkho.xuatphieunhap');
+//QLPhieu xk
+Route::get('/admin/danhsachkho/xuatkho', 'KhoHangController@xuatkho')->name('danhsachkho.xuatkho');
+Route::get('/admin/danhsachkho/phieuxuatkho', 'KhoHangController@phieuxuatkho')->name('danhsachkho.phieuxuatkho');
+Route::get('/admin/danhsachkho/baocaosoluong', 'KhoHangController@baocaosoluong')->name('danhsachkho.baocaosoluong');
 
 
 Route::get('/', 'Frontend\FrontendController@index')->name('frontend.home');

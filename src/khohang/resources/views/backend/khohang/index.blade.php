@@ -81,8 +81,7 @@ Danh sách kho hàng
                         - Bạn có thể tắt đi, nhưng lời khuyên là không nên tắt chế độ bảo mật CSRF đi.
                         - Thay vào đó, sử dụng hàm `csrf_field()` để tự sinh ra 1 input có token dành riêng cho CSRF
                         -->
-                        {{ csrf_field() }}
-                        
+                        {{ csrf_field() }}                      
                             <button type="submit" class="btn btn-danger">Xóa</button>
                            
                            

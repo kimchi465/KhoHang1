@@ -27,6 +27,7 @@ class Nhanvien extends Authenticatable implements
                         
     protected $dates    = ['nv_ngaySinh', 'nv_taoMoi', 'nv_capNhat'];
     protected $dataFormat   = 'Y-m-d H:i:s';
+
     /**
      * Tên cột 'Ghi nhớ đăng nhập'
      * The column name of the "remember me" token.
