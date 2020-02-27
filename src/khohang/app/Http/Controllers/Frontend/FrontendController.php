@@ -11,6 +11,7 @@ use App\Khachhang;
 use App\Donhang;
 use App\Thanhtoan;
 use App\Chitietdonhang;
+use App\Gopy;
 use Carbon\Carbon;
 use DB;
 use Mail;
@@ -82,10 +83,24 @@ class FrontendController extends Controller
         return view('frontend.pages.contact');
     }
 
-     /** * Action hiển thị view Liên hệ * GET /contact */ 
-     public function blog()
-     {
+     /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */ 
+     public function blog(Request $request)
+     { 
+       
+        $gopy = new Gopy();
+        $gopy->kh_ma = $request->gopy['kh_ma'];
+        $gopy->sp_ma = $request->gopy['sp_ma'];
+        $gopy->gy_noiDung = $request->gopy['gy_noiDung'];
+        $gopy->gy_thoiGian = Carbon::now();
+        $gopy->gy_trangThai = 3;
+        $gopy->save();
          return view('frontend.pages.blog');
+        
      }
 
     /** 

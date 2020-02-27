@@ -53,8 +53,20 @@ Góp ý Shop trái cây Ngon Ngon - Freshfruit
     </h2>
 </section>
 <!-- Content page -->
-<form name="blogForm">
+<div class="container" ng-controller="blogController">
+<form name="blogForm" ng-submit="submitblogForm()" novalidate>
     <h1 class="title">{{ __('freshfruit.blogs.ttgy') }}</h1><br>
+    <div class="alert alert-danger col-sm-6 col-sm-6" ng-show="blogForm.$invalid" style="margin-left: 400px;">
+    <ul>
+        <li><span class="error" ng-show="blogForm.kh_ma.$error.required">Vui lòng nhập họ tên</span></li>
+        <li><span class="error" ng-show="blogForm.kh_ma.$error.minlength">Tên phải > 6 ký tự</span></li>
+        <li><span class="error" ng-show="blogForm.kh_ma.$error.maxlength">Tên phải <= 100 ký tự</span> </li> 
+        <li><span class="error" ng-show="blogForm.sp_ma.$error.required">Vui lòng nhập tên sản phẩm</span></li>
+        <li><span class="error" ng-show="blogForm.gy_noiDung.$error.required">Vui lòng nhập nội dung góp ý</span></li>
+        <li><span class="error" ng-show="blogForm.gy_noiDung.$error.minlength">Góp ý phải > 6 ký tự</span></li>
+        <li><span class="error" ng-show="blogForm.gy_noiDung.$error.maxlength">Góp ý phải <= 100 ký tự</span> </li>
+    </ul>
+    </div>
     <div class="row">
                         <label for="kh_ma" class="col-sm-2" style="margin-left: 200px;"><b>{{ __('freshfruit.blogs.ten') }}</b></label>
                         <div class="col-sm-6">
@@ -64,17 +76,54 @@ Góp ý Shop trái cây Ngon Ngon - Freshfruit
     <div class="row"> 
                         <label for="sp_ma" class="col-sm-2" style="margin-left: 200px;"><b>{{ __('freshfruit.blogs.spgopy') }}</b></label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="sp_ma" name="sp_ma" ng-model="sp_ma" ng-minlength="6" ng-maxlength="250">
+                        <input type="text" class="form-control" id="sp_ma" name="sp_ma" ng-model="sp_ma" ng-required=true>
                     </div>
     </div>
     </form>
     <div class="row">
                         <label for="gy_noiDung" class="col-sm-2" style="margin-left: 200px;"><b>{{ __('freshfruit.blogs.ndgopy') }}</b></label>
                         <div class="col-sm-6">
-                        <textarea class="form-control1" name="gy_noiDung" id="gy_noiDung" placeholder="{{ __('freshfruit.blogs.ndgopy1') }}" ng-model="gy_noiDung" ng-required=true></textarea>
+                        <textarea class="form-control1" name="gy_noiDung" id="gy_noiDung" placeholder="{{ __('freshfruit.blogs.ndgopy1') }}" ng-model="gy_noiDung" ng-minlength="6" ng-maxlength="100" ng-required=true></textarea>
                         </div>
     </div>
     <!-- Nút submit form -->
         <button type="submit" class="btn" ng-disabled="blogForm.$invalid">{{ __('freshfruit.blogs.goi_gy') }}</button>
 </form>
+</div>
+@endsection
+
+{{-- Thay thế nội dung vào Placeholder `custom-scripts` của view `frontend.layouts.master` --}}
+@section('custom-scripts')
+<script>
+    // Khai báo controller `contactController`
+    app.controller('blogController', function($scope, $http) {
+        // hàm submit form sau khi đã kiểm tra các ràng buộc (validate)
+        $scope.submitblogForm = function() {
+            // kiểm tra các ràng buộc là hợp lệ, gởi AJAX đến action 
+            if ($scope.blogForm.$valid) {
+                // lấy data của Form
+                var dataInputblogForm_GopY = {
+                    "kh_ma": $scope.blogForm.kh_ma.$viewValue,
+                    "sp_ma": $scope.blogForm.sp_ma.$viewValue,
+                    "gy_noiDung": $scope.blogForm.gy_noiDung.$viewValue,
+                };
+                var dataInputblogForm = {
+                    "gopy": dataInputblogForm_GopY,
+                    "_token": "{{ csrf_token() }}",
+                };
+                // sử dụng service $http của AngularJS để gởi request POST đến route `frontend.bog`
+                $http({
+                    url: "{{ route('frontend.blog') }}",
+                    method: "POST",
+                    data: JSON.stringify(dataInputblogForm)
+                }).then(function successCallback(response) {
+                    swal('Gởi góp ý thành công!', 'Chúng tôi cám ơn sự góp ý của quý khách!', 'success');
+                }, function errorCallback(response) {
+                    swal('Có lỗi trong quá trình gởi!', 'Vui lòng thử lại sau vài phút.', 'error');
+                    console.log(response);
+                });
+            }
+        };
+    });
+</script>
 @endsection
