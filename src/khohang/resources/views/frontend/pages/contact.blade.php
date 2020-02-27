@@ -15,7 +15,7 @@ Liên hệ Shop trái cây Ngon Ngon - Freshfruit
 <!-- Title page -->
 <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('{{ asset('themes/cozastore/images/bgTC-01.jpg') }}');">
     <h2 class="ltext-105 cl0 txt-center">
-        Contact
+    {{ __('freshfruit.pages.contact') }}
     </h2>
 </section>
 
@@ -26,7 +26,7 @@ Liên hệ Shop trái cây Ngon Ngon - Freshfruit
             <div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
                 <form name="contactForm" ng-submit="submitContactForm()" novalidate>
                     <h4 class="mtext-105 cl2 txt-center p-b-30">
-                        Gởi lời nhắn cho công ty Freshfruit
+                        {{ __('freshfruit.contacts.loinhan') }}
                     </h4>
 
                     <!-- Div Thông báo lỗi 
@@ -36,35 +36,35 @@ Liên hệ Shop trái cây Ngon Ngon - Freshfruit
                     <div class="alert alert-danger" ng-show="contactForm.$invalid">
                         <ul>
                             <!-- Thông báo lỗi email -->
-                            <li><span class="error" ng-show="contactForm.email.$error.required">Vui lòng nhập email</span></li>
-                            <li><span class="error" ng-show="!contactForm.email.$error.required && contactForm.email.$error.pattern">Chỉ chấp nhập GMAIL, vui lòng kiểm tra lại</span></li>
+                            <li><span class="error" ng-show="contactForm.email.$error.required">{{ __('freshfruit.contacts.ktemail') }}</span></li>
+                            <li><span class="error" ng-show="!contactForm.email.$error.required && contactForm.email.$error.pattern">{{ __('freshfruit.contacts.ktgmail') }}</span></li>
 
                             <!-- Thông báo lỗi message -->
-                            <li><span class="error" ng-show="contactForm.message.$error.required">Vui lòng nhập lời nhắn</span></li>
-                            <li><span class="error" ng-show="contactForm.message.$error.minlength">Lời nhắn phải > 6 ký tự</span></li>
-                            <li><span class="error" ng-show="contactForm.message.$error.maxlength">Lời nhắn phải <= 250 ký tự</span> </li> </li> </div> <!-- Div Thông báo validate hợp lệ Chỉ hiển thị khi các validate trong form `contactForm` không hợp lệ=> contactForm.$valid = true
+                            <li><span class="error" ng-show="contactForm.message.$error.required">{{ __('freshfruit.contacts.ktloinhan') }}</span></li>
+                            <li><span class="error" ng-show="contactForm.message.$error.minlength">{{ __('freshfruit.contacts.minloinhan') }}</span></li>
+                            <li><span class="error" ng-show="contactForm.message.$error.maxlength">{{ __('freshfruit.contacts.maxloinhan') }}</span> </li> </li> </div> <!-- Div Thông báo validate hợp lệ Chỉ hiển thị khi các validate trong form `contactForm` không hợp lệ=> contactForm.$valid = true
                                         Sử dụng tiền chỉ lệnh ng-show="contactForm.$valid"
                                         -->
                                         <div class="alert alert-success" ng-show="contactForm.$valid">
-                                            Thông tin hợp lệ, vui lòng bấm nút <b>"Gởi lời nhắn"</b> để gởi mail đến Quản trị trang web<br />
-                                            Xin chân thành cám ơn các đóng góp, ý kiến, thắc mắc của Quý Khách hàng.
+                                        {{ __('freshfruit.contacts.alert1') }} <b>{{ __('freshfruit.contacts.alert2') }}</b> {{ __('freshfruit.contacts.alert3') }}<br />
+                                            {{ __('freshfruit.contacts.alert4') }}
                                         </div>
 
                                         <!-- Validate email -->
                                         <div class="bor8 m-b-20 how-pos4-parent">
-                                            <input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="email" placeholder="Email của bạn" ng-model="email" ng-pattern="/^.+@gmail.com$/" ng-required=true>
-                                            <span class="valid" ng-show="userInfo.email.$valid">Hợp lệ</span>
+                                            <input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="email" placeholder="{{ __('freshfruit.contacts.nhapemail') }}" ng-model="email" ng-pattern="/^.+@gmail.com$/" ng-required=true>
+                                            <span class="valid" ng-show="userInfo.email.$valid">{{ __('freshfruit.contacts.hople') }}</span>
                                             <img class="how-pos4 pointer-none" src="{{ asset('themes/cozastore/images/icons/icon-email.png') }}" alt="ICON">
                                         </div>
 
                                         <!-- Validate lời nhắm -->
                                         <div class="bor8 m-b-30">
-                                            <textarea class="stext-111 cl2 plh3 size-120 p-lr-28 p-tb-25" name="message" placeholder="Bạn cần chúng tôi giúp đỡ về vấn đề gì?" ng-model="message" ng-minlength="6" ng-maxlength="250" ng-required=true></textarea>
+                                            <textarea class="stext-111 cl2 plh3 size-120 p-lr-28 p-tb-25" name="message" placeholder="{{ __('freshfruit.contacts.yourproblem') }}" ng-model="message" ng-minlength="6" ng-maxlength="250" ng-required=true></textarea>
                                         </div>
 
                                         <!-- Nút submit form -->
                                         <button type="submit" class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer" ng-disabled="contactForm.$invalid">
-                                            Gởi lời nhắn
+                                            {{ __('freshfruit.contacts.goiln') }}
                                         </button>
                 </form>
             </div>
@@ -77,11 +77,11 @@ Liên hệ Shop trái cây Ngon Ngon - Freshfruit
 
                     <div class="size-212 p-t-2">
                         <span class="mtext-110 cl2">
-                            Địa chỉ
+                        {{ __('freshfruit.contacts.dc') }}
                         </span>
 
                         <p class="stext-115 cl6 size-213 p-t-18">
-                            130 Xô Viết Nghệ Tỉnh, Phường An Hội, Quận Ninh Kiều, TP Cần Thơ
+                        {{ __('freshfruit.contacts.dcchitiet') }}
                         </p>
                     </div>
                 </div>
@@ -93,7 +93,7 @@ Liên hệ Shop trái cây Ngon Ngon - Freshfruit
 
                     <div class="size-212 p-t-2">
                         <span class="mtext-110 cl2">
-                            Đường dây nóng
+                            {{ __('freshfruit.contacts.ddn') }}
                         </span>
 
                         <p class="stext-115 cl1 size-213 p-t-18">
@@ -109,7 +109,7 @@ Liên hệ Shop trái cây Ngon Ngon - Freshfruit
 
                     <div class="size-212 p-t-2">
                         <span class="mtext-110 cl2">
-                            Email hỗ trợ
+                            {{ __('freshfruit.contacts.hotro') }}
                         </span>
 
                         <p class="stext-115 cl1 size-213 p-t-18">
@@ -123,7 +123,7 @@ Liên hệ Shop trái cây Ngon Ngon - Freshfruit
         <!-- Bản đồ Địa chỉ công ty -->
         <div class="row mt-4">
             <div class="col-md-12 text-center mb-4">
-                <h2>Địa chỉ liên hệ</h2>
+                <h2>{{ __('freshfruit.contacts.dc_lienhe') }}</h2>
             </div>
             <div class="col-md-12">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.723612696626!2d105.78061631534743!3d10.03965089282403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a062a768a8090b%3A0x4756d383949cafbb!2zMTMwIFjDtCBWaeG6v3QgTmdo4buHIFTEqW5oLCBBbiBI4buZaSwgTmluaCBLaeG7gXUsIEPhuqduIFRoxqEsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1544352305719" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>

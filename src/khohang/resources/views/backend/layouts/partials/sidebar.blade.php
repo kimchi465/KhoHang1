@@ -45,7 +45,7 @@
             <li class="{{ Request::is('admin/danhsachkho/nhapkho') ? 'active' : '' }}"><a href="{{ route('danhsachkho.nhapkho') }}">Quản lý nhập kho</a></li>
             <li class="{{ Request::is('admin/danhsachkho/xuatkho') ? 'active' : '' }}"><a href="{{ route('danhsachkho.xuatkho') }}">Quản lý xuất kho</a></li>
             <li class="{{ Request::is('admin/danhsachkho/baocaosoluong') ? 'active' : '' }}"><a href="{{ route('danhsachkho.baocaosoluong') }}">Báo cáo số lượng tồn</a></li>
-            <li class="{{ Request::is('admin/danhsachsanpham/create') ? 'active' : '' }}"><a href="{{ route('danhsachsanpham.create') }}">Báo cáo doanh thu</a></li>
+            <li class="{{ Request::is('admin/danhsachkho/') ? 'active' : '' }}"><a href="#">Báo cáo doanh thu</a></li>
           </ul>
         </li>
          <!-- /.PQuyen... -->

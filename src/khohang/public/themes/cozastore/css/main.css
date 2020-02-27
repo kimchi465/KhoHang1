@@ -2177,8 +2177,8 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .stext-107 {
-  font-family: Poppins-Regular;
-  font-size: 13px;
+  font-family: Poppins;
+  font-size: 14px;
   line-height: 1.923;
 }
 
@@ -2214,15 +2214,18 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .stext-113 {
-  font-family: Poppins-Light;
-  font-size: 14px;
+  font-family: Poppins;
+  font-size: 16px;
   line-height: 1.7857;
+  text-align: justify;
+  
 }
 
 .stext-114 {
-  font-family: Poppins-Italic;
-  font-size: 15px;
+  font-family: Poppins;
+  font-size: 17px;
   line-height: 1.666667;
+  font-weight: Italic;
 }
 
 .stext-115 {
@@ -2318,9 +2321,10 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .mtext-111 {
-  font-family: Poppins-Bold;
+  font-family: Poppins;
   font-size: 25px;
   line-height: 1.2;
+  font-weight: bold;
 }
 
 .mtext-112 {
@@ -2366,9 +2370,10 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .ltext-105 {
-  font-family: Poppins-Bold;
+  
   font-size: 50px;
-  line-height: 1.1;
+  line-height: 1.1; 
+  font-weight: bold;
 }
 
 .ltext-106 {

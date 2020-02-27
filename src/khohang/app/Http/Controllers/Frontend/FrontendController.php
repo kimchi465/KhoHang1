@@ -82,6 +82,12 @@ class FrontendController extends Controller
         return view('frontend.pages.contact');
     }
 
+     /** * Action hiển thị view Liên hệ * GET /contact */ 
+     public function blog()
+     {
+         return view('frontend.pages.blog');
+     }
+
     /** 
      * Action gởi email với các lời nhắn nhận được từ khách hàng 
      * POST /lien-he/goi-loi-nhan 

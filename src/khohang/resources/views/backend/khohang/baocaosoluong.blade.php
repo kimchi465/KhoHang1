@@ -43,12 +43,12 @@ Báo cáo số lượng lượng tồn
                 <td>{{ $ctnk->sanpham1s->sp_ten }}</td>
                 <td>{{ $ctnk->ctnk_donViTinh }}</td>
                 <td>{{ $ctnk->slnhap }}</td>
-                <td</td>
                 <td></td>
                 <td></td>
                 <td>{{ $ctnk->ctnk_donGia }}</td>
             </tr>
         @endforeach
+        
         
     </tbody>
 </table>

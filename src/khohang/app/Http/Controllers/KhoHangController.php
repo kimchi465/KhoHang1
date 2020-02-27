@@ -253,8 +253,14 @@ class KhoHangController extends Controller
                         ->select('chitietnhapkho.sp_ten', 'chitietnhapkho.ctnk_donViTinh', DB::raw('count(chitietnhapkho.sp_ten)*chitietnhapkho.ctnk_soLuong as slnhap'), 'chitietnhapkho.ctnk_soLuong', 'chitietnhapkho.ctnk_donGia')
                         ->groupBy('sp.sp_ma')
                         ->get();
-        $ds_chitietxk = Chitietxuatkho::all();
-        
+        //$ds_chitietxk = Chitietxuatkho::all();
+        $ds_chitietxk = Chitietxuatkho::join('xuatkho as px', 'chitietxuatkho.xk_ma', '=', 'px.xk_ma')
+                    ->join('khohang as k', 'chitietxuatkho.kho_ma', '=', 'k.kho_ma')
+                    ->join('sanpham as sp', 'chitietxuatkho.sp_ma', '=', 'sp.sp_ma')
+                    ->select('chitietxuatkho.sp_ma', 'chitietxuatkho.ctxk_donViTinh', DB::raw('count(chitietxuatkho.sp_ma)*chitietxuatkho.ctxk_soLuong as slxuat'), 'chitietxuatkho.ctxk_soLuong', 'chitietxuatkho.ctxk_donGia')
+                    ->groupBy('sp.sp_ma')
+                    ->get();
+
          return view('backend.khohang.baocaosoluong')
             // ->with('pn', $pn)
             ->with('danhsachchitietnk', $ds_chitietnk)

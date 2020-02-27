@@ -42,6 +42,7 @@ Route::get('/admin/danhsachkho/baocaosoluong', 'KhoHangController@baocaosoluong'
 Route::get('/', 'Frontend\FrontendController@index')->name('frontend.home');
 Route::get('/gioi-thieu', 'Frontend\FrontendController@about')->name('frontend.about');
 Route::get('/lien-he', 'Frontend\FrontendController@contact')->name('frontend.contact');
+Route::get('/gop-y', 'Frontend\FrontendController@blog')->name('frontend.blog');
 Route::post('/lien-he/goi-loi-nhan', 'Frontend\FrontendController@sendMailContactForm')->name('frontend.contact.sendMailContactForm');
 Route::get('/san-pham', 'Frontend\FrontendController@product')->name('frontend.product');
 Route::get('/gio-hang', 'Frontend\FrontendController@cart')->name('frontend.cart');

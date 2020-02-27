@@ -45,6 +45,38 @@ class XuatkhoTableSeeder extends Seeder
                 'xk_capNhat' => $today->format('Y-m-d H:i:s'),
                 'xk_trangThai' => 2
             ], 
+            [
+                'xk_ma'      => 3,
+                'xk_soHoaDon'     => "PX003",
+                'xk_hoTenNguoiNhan'     => "Văn adh",
+                'xk_diaChi'             => "156 Cần Thơ",
+                'xk_lydo'     => "Yêu cầu từ khách hàng",
+
+                'nv_nguoiLapPhieu'     => 2,
+                'xk_ngayLapPhieu'     => $today->format('Y-m-d H:i:s'),
+                'xk_tongtien'     => "540",
+                'nv_thuKho'     => 2,
+                'xk_ngayXuatKho'     => $today->format('Y-m-d H:i:s'),
+                'xk_taoMoi'  => $today->format('Y-m-d H:i:s'),
+                'xk_capNhat' => $today->format('Y-m-d H:i:s'),
+                'xk_trangThai' => 2
+            ], 
+            [
+                'xk_ma'      => 4,
+                'xk_soHoaDon'     => "PX004",
+                'xk_hoTenNguoiNhan'     => "Nguyễn An",
+                'xk_diaChi'             => "123 An Giang",
+                'xk_lydo'     => "Yêu cầu từ khách hàng",
+
+                'nv_nguoiLapPhieu'     => 1,
+                'xk_ngayLapPhieu'     => $today->format('Y-m-d H:i:s'),
+                'xk_tongtien'     => "450",
+                'nv_thuKho'     => 1,
+                'xk_ngayXuatKho'     => $today->format('Y-m-d H:i:s'),
+                'xk_taoMoi'  => $today->format('Y-m-d H:i:s'),
+                'xk_capNhat' => $today->format('Y-m-d H:i:s'),
+                'xk_trangThai' => 2
+            ], 
         ];
         DB::table('Xuatkho')->insert($list);
     }

@@ -48,18 +48,19 @@
                         <li class="{{ Request::is('san-pham') ? 'active-menu' : '' }}">
                         <a href="{{ route('frontend.product') }}">{{ __('freshfruit.pages.shop')}}</a>
                         </li>
-                        <li class="label1" data-label1="hot">
-                        <a href="shoping-cart.html">{{ __('freshfruit.pages.features')}}</a>
-                        </li>
-                        <li>
-                        <a href="blog.html">{{ __('freshfruit.pages.blog')}}</a>
-                        </li>
                         <li class="{{ Request::is('gioi-thieu') ? 'active-menu' : '' }}">
                         <a href="{{ route('frontend.about') }}">{{ __('freshfruit.pages.about') }}</a>
                         </li>
                         <li class="{{ Request::is('lien-he') ? 'active-menu' : '' }}">
                         <a href="{{ route('frontend.contact') }}">{{ __('freshfruit.pages.contact') }}</a>
                         </li>
+                        <!-- <li class="label1" data-label1="hot">
+                        <a href="{{ route('frontend.cart') }}">{{ __('freshfruit.pages.features')}}</a>
+                        </li> -->
+                        <li class="{{ Request::is('gop-y') ? 'active-menu' : '' }}">
+                        <a href="{{ route('frontend.blog') }}">{{ __('freshfruit.pages.blog')}}</a>
+                        </li>
+                        
                     </ul>
                     </div>  
 
