@@ -62,7 +62,7 @@ Danh sách phiếu xuất kho
                     - Sẽ có dạng http://tenmiencuaban.com/admin/danhsachsanpham/{id}/edit
                     -->
                     
-                        <a href="{{ route('danhsachkho.phieuxuatkho')}}" class="btn btn-primary pull-left">Xuất</a>
+                        <a method="post" href="{{ route('danhsachkho.phieuxuatkho', ['id' => $xk->xk_ma] )}}" class="btn btn-primary pull-left">Xuất</a>
                            
                            
                     </form>

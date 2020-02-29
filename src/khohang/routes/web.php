@@ -32,10 +32,13 @@ Route::get('/admin/danhsachkho/index', 'KhoHangController@index')->name('danhsac
 Route::get('/admin/danhsachkho/create', 'KhoHangController@create')->name('danhsachkho.create');
 //QLPhieu nk
 Route::get('/admin/danhsachkho/nhapkho', 'KhoHangController@nhapkho')->name('danhsachkho.nhapkho');
-Route::get('/admin/danhsachkho/xuatphieunhap', 'KhoHangController@xuatphieunhap')->name('danhsachkho.xuatphieunhap');
+Route::get('/admin/danhsachkho/{id}/xuatphieunhap', 'KhoHangController@xuatphieunhap')->name('danhsachkho.xuatphieunhap');
+Route::get('/admin/danhsachkho/xuatpn', 'KhoHangController@infophieunhap')->name('danhsachkho.infophieunhap');
+
 //QLPhieu xk
 Route::get('/admin/danhsachkho/xuatkho', 'KhoHangController@xuatkho')->name('danhsachkho.xuatkho');
-Route::get('/admin/danhsachkho/phieuxuatkho', 'KhoHangController@phieuxuatkho')->name('danhsachkho.phieuxuatkho');
+Route::get('/admin/danhsachkho/{id}/phieuxuatkho', 'KhoHangController@phieuxuatkho')->name('danhsachkho.phieuxuatkho');
+Route::get('/admin/danhsachkho/xuatpx', 'KhoHangController@infophieuxuat')->name('danhsachkho.infophieuxuat');
 Route::get('/admin/danhsachkho/baocaosoluong', 'KhoHangController@baocaosoluong')->name('danhsachkho.baocaosoluong');
 
 

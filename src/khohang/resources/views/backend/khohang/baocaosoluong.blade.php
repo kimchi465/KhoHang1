@@ -38,15 +38,22 @@ Báo cáo số lượng lượng tồn
         - Biến $danhsachsanpham là biến được truyền qua từ action `index()` trong controller SanPhamController.
         -->       
         @foreach($danhsachchitietnk as $ctnk)
+            
             <tr>
                
                 <td>{{ $ctnk->sanpham1s->sp_ten }}</td>
                 <td>{{ $ctnk->ctnk_donViTinh }}</td>
                 <td>{{ $ctnk->slnhap }}</td>
-                <td></td>
+                <td>
+                @foreach($danhsachchitietxk as $ctxk)
+                {{ $ctxk->slxuat }}
+                @endforeach
+                </td>
+                
                 <td></td>
                 <td>{{ $ctnk->ctnk_donGia }}</td>
             </tr>
+            
         @endforeach
         
         

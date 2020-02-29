@@ -76,6 +76,13 @@ return [
         'spgopy' => 'Tên sản phẩm góp ý:',
         'ndgopy' => 'Nội dung góp ý:',
         'ndgopy1' => 'Vui lòng nhập góp ý',
-        'goi_gy' => 'Gởi góp ý'
+        'goi_gy' => 'Gởi góp ý',
+        'ktten_kh' => 'Vui lòng nhập họ tên',
+        'ktten_khmin' => 'Tên phải > 6 ký tự',
+        'ktten_khmax' => 'Tên phải <= 100 ký tự',
+        'ktten_sp' => 'Vui lòng nhập tên sản phẩm',
+        'ktnd_gy' => 'Vui lòng nhập nội dung góp ý',
+        'minnd' => 'Góp ý phải > 6 ký tự',
+        'maxnd' => 'Góp ý phải <= 100 ký tự'
     ]
 ];

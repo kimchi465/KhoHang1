@@ -121,7 +121,6 @@ class KhoHangController extends Controller
         $k->kho_dienThoai = $request->kho_dienThoai;
         $k->kho_quanLy = $request->kho_quanLy;
         $k->kho_ghiChu = $request->kho_ghiChu;
-         
         $k->save();
         Session::flash('alert-info', 'Cập nhật thành công ^^~!!!');
         return redirect()->route('danhsachkho.index');
@@ -164,18 +163,14 @@ class KhoHangController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function xuatphieunhap()
-    {
-        
-        // $pn = Nhapkho::where("nk_ma",  $id)->first();
-         $ds_nhapkho = Nhapkho::all();
-         $ds_chitietnk = Chitietnhapkho::all();
-        
-         return view('backend.khohang.xuatphieunhap')
-            // ->with('pn', $pn)
-            ->with('danhsachnhapkho', $ds_nhapkho)
-            ->with('danhsachchitietnk', $ds_chitietnk);
-    }
+    public function xuatphieunhap($id)
+        {
+            $nk = Nhapkho::where("nk_ma",  $id)->first();
+            $ds_chitietnk = Chitietnhapkho::all();
+            return view('backend.khohang.xuatphieunhap')
+                ->with('nk', $nk)
+                ->with('danhsachchitietnk', $ds_chitietnk);
+        }
 
     /**
      * Update the specified resource in storage.
@@ -186,13 +181,13 @@ class KhoHangController extends Controller
      */
     public function infophieunhap(Request $request, $id)
     {
-        $pn = Nhapkho::where("nk_ma",  $id)->first();
-        $pn->nk_soHoaDon = $request->nk_soHoaDon;
-        $pn->nk_hoTenNguoiGiaoHang = $request->nk_hoTenNguoiGiaoHang;
-        $pn->nk_lydo = $request->nk_lydo;
-        $pn->nv_thuKho = $request->nv_thuKho;
-        $pn->nv_nguoiLapPhieu = $request->nv_nguoiLapPhieu;
-        $pn->nk_ngayLapPhieu = $request->nk_ngayLapPhieu;
+        $nk = Nhapkho::where("nk_ma",  $id)->first();
+        $nk->nk_ngayLapPhieu = $request->nk_ngayLapPhieu;
+        $nk->nk_soHoaDon = $request->nk_soHoaDon;
+        $nk->nk_hoTenNguoiGiaoHang = $request->nk_hoTenNguoiGiaoHang;
+        $nk->nk_lydo = $request->nk_lydo;
+        $nk->nv_thuKho = $request->nv_thuKho;
+        $nk->nv_nguoiLapPhieu = $request->nv_nguoiLapPhieu; //$nk->nhanviens->nv_hoTen
 
         // $ctnk = Chitietnhapkho::where("nk_ma",  $id)->first();
         // $ctnk->sp_ten = $request->sp_ten;
@@ -227,17 +222,35 @@ class KhoHangController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function phieuxuatkho()
-    {
-        
-        // $pn = Nhapkho::where("nk_ma",  $id)->first();
-         $ds_xuatkho = Xuatkho::all();
-         $ds_chitietxk = Chitietxuatkho::all();
-        
-         return view('backend.khohang.phieuxuatkho')
-            // ->with('pn', $pn)
-            ->with('danhsachxuatkho', $ds_xuatkho)
+    public function phieuxuatkho($id)
+     {
+        $xk = Xuatkho::where("xk_ma",  $id)->first();
+        $ds_chitietxk = Chitietxuatkho::all();
+        return view('backend.khohang.phieuxuatkho')
+            ->with('xk', $xk)
             ->with('danhsachchitietxk', $ds_chitietxk);
+     }
+
+     /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function infophieuxuat(Request $request, $id)
+    {
+        $xk = Xuatkho::where("xk_ma",  $id)->first();
+        $xk->xk_ngayLapPhieu = $request->xk_ngayLapPhieu;
+        $xk->xk_soHoaDon = $request->xk_soHoaDon;
+        $xk->xk_hoTenNguoiNhan = $request->xk_hoTenNguoiNhan;
+        $xk->xk_diaChi = $request->xk_diaChi;
+        $xk->xk_lydo = $request->xk_lydo;
+        $xk->nv_thuKho = $request->nv_thuKho;
+        $xk->nv_nguoiLapPhieu = $request->nv_nguoiLapPhieu; //$nk->nhanviens->nv_hoTen
+        $xk->nk_ngayLapPhieu = $request->nk_ngayLapPhieu;
+
+        return redirect()->route('backend.khohang.phieuxuatkho');
     }
 
     /**
@@ -252,6 +265,7 @@ class KhoHangController extends Controller
                         ->join('sanpham as sp', 'chitietnhapkho.sp_ten', '=', 'sp.sp_ma')
                         ->select('chitietnhapkho.sp_ten', 'chitietnhapkho.ctnk_donViTinh', DB::raw('count(chitietnhapkho.sp_ten)*chitietnhapkho.ctnk_soLuong as slnhap'), 'chitietnhapkho.ctnk_soLuong', 'chitietnhapkho.ctnk_donGia')
                         ->groupBy('sp.sp_ma')
+                        ->orderBy('sp.sp_ten')
                         ->get();
         //$ds_chitietxk = Chitietxuatkho::all();
         $ds_chitietxk = Chitietxuatkho::join('xuatkho as px', 'chitietxuatkho.xk_ma', '=', 'px.xk_ma')
@@ -259,6 +273,8 @@ class KhoHangController extends Controller
                     ->join('sanpham as sp', 'chitietxuatkho.sp_ma', '=', 'sp.sp_ma')
                     ->select('chitietxuatkho.sp_ma', 'chitietxuatkho.ctxk_donViTinh', DB::raw('count(chitietxuatkho.sp_ma)*chitietxuatkho.ctxk_soLuong as slxuat'), 'chitietxuatkho.ctxk_soLuong', 'chitietxuatkho.ctxk_donGia')
                     ->groupBy('sp.sp_ma')
+                    ->orderBy('sp.sp_ten')
+                    // ->havingRaw('count(chitietxuatkho.ctxk_soLuong) = 0')
                     ->get();
 
          return view('backend.khohang.baocaosoluong')

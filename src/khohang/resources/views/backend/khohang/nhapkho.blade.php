@@ -60,8 +60,8 @@ Danh sách phiếu nhập kho
                     - Sẽ có dạng http://tenmiencuaban.com/admin/danhsachsanpham/{id}/edit
                     -->
                     
-                        <a href="{{ route('danhsachkho.xuatphieunhap')}}" class="btn btn-primary pull-left">Xuất</a>
-                           
+                        <a method="post" href="{{ route('danhsachkho.xuatphieunhap', ['id' => $nk->nk_ma] )}}" class="btn btn-primary pull-left">Xuất</a>
+                        {{ csrf_field() }}
                            
                     </form>
                 </td>

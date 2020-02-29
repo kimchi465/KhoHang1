@@ -76,6 +76,13 @@ return [
         'spgopy' => 'Product name:',
         'ndgopy' => 'Content blog:',
         'ndgopy1' => 'Please enter blog',
-        'goi_gy' => 'Submit'
+        'goi_gy' => 'Submit',
+        'ktten_kh' => 'Please enter your full name',
+        'ktten_khmin' => 'Name must be > 6 characters',
+        'ktten_khmax' => 'Name must be <= 100 characters',
+        'ktten_sp' => 'Please enter the product name',
+        'ktnd_gy' => 'Please enter the comment text',
+        'minnd' => 'Blog must be> 6 characters',
+        'maxnd' => 'Blog must be <= 100 characters'
     ]
 ];

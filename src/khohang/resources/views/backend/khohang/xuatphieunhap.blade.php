@@ -5,6 +5,10 @@ Biểu mẫu Phiếu nhập kho
 @section('paper-size') A4 @endsection
 @section('paper-class') A4 @endsection
 @section('custom-css')
+<!-- Các css dành cho thư viện bootstrap-fileinput -->
+<link href="{{ asset('vendor/bootstrap-fileinput/css/fileinput.css') }}" media="all" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
+<link href="{{ asset('vendor/bootstrap-fileinput/themes/explorer-fas/theme.css') }}" media="all" rel="stylesheet" type="text/css"/>
 <style>
 h2{
     text-align: center;
@@ -13,8 +17,17 @@ h2{
 </style>
 @endsection
 @section('content')
+@if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
 
-<form method="post" action="#">
+<form method="post" action="{{ route('danhsachkho.infophieunhap', ['id' => $nk->nk_ma]) }}" enctype="multipart/form-data">
 
 <input type="hidden" name="_method" value="PUT" />
     {{ csrf_field() }}
@@ -22,34 +35,34 @@ h2{
 <table border="0" align="center">
     <tr>
         <td>Ngày lập phiếu: </td>
-        <td></td>
+        <td>{{ old('nk_ngayLapPhieu', $nk->nk_ngayLapPhieu) }}</td>
     </tr>
     <tr>
-        <td>Số Phiếu: </td>
+        <td>Số Phiếu: {{ old('nk_soHoaDon', $nk->nk_soHoaDon) }}</td>
         <td></td>
     </tr>
 </table>
 
 <table border="0">
     <tr>
-        <td>Họ tên người giao hàng: </td>
+        <td><b><i>Họ tên người giao hàng: </i></b></td>
+        <td>{{ old('nk_hoTenNguoiGiaoHang', $nk->nk_hoTenNguoiGiaoHang) }}</td>
+    </tr>
+    <tr>
+        <td><b><i>Lý do nhập kho: </i></b></td>
+        <td>{{ old('nk_lydo', $nk->nk_lydo) }}</td>
+    </tr>
+    <tr>
+        <td><b><i>Thủ kho: </i></b></td>
+        <td>{{ old('nv_thuKho', $nk->nhanviens->nv_hoTen) }}</td>
+    </tr>
+    <tr>
+        <td><b><i>Nhập tại kho: </i></b></td>
         <td></td>
     </tr>
     <tr>
-        <td>Lý do nhập kho: </td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Nhập tại kho: </td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Thủ kho: </td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Người lập phiếu: </td>
-        <td></td>
+        <td><b><i>Người lập phiếu: </i></b></td>
+        <td>{{ old('nv_nguoiLapPhieu', $nk->nhanviens->nv_hoTen) }}</td>
     </tr>
 </table>
 
@@ -71,7 +84,7 @@ h2{
             <td> </td>
             <td> </td>
             <td> </td>
-            <td> </td>
+            <td></td>
             <td> </td>
             <td> </td>
         </tr>
@@ -79,10 +92,19 @@ h2{
 </table>
 <table>
     <tr>
-        <td>Tổng tiền: </td>
+        <td><b>Tổng tiền: </b></td>
         <td></td>
     </tr>
 </table>
 </form>
-
+</script>
+<!-- Các script dành cho thư viện Mặt nạ nhập liệu InputMask -->
+<script src="{{ asset('theme/adminlte/plugins/input-mask/jquery.inputmask.js') }}"></script>
+<script src="{{ asset('theme/adminlte/plugins/input-mask/jquery.inputmask.date.extensions.js') }}"></script>
+<script src="{{ asset('theme/adminlte/plugins/input-mask/jquery.inputmask.extensions.js') }}"></script>
+<script>
+$(document).ready(function(){
+    
+});
+</script>
 @endsection

@@ -58,13 +58,13 @@ Góp ý Shop trái cây Ngon Ngon - Freshfruit
     <h1 class="title">{{ __('freshfruit.blogs.ttgy') }}</h1><br>
     <div class="alert alert-danger col-sm-6 col-sm-6" ng-show="blogForm.$invalid" style="margin-left: 400px;">
     <ul>
-        <li><span class="error" ng-show="blogForm.kh_ma.$error.required">Vui lòng nhập họ tên</span></li>
-        <li><span class="error" ng-show="blogForm.kh_ma.$error.minlength">Tên phải > 6 ký tự</span></li>
-        <li><span class="error" ng-show="blogForm.kh_ma.$error.maxlength">Tên phải <= 100 ký tự</span> </li> 
-        <li><span class="error" ng-show="blogForm.sp_ma.$error.required">Vui lòng nhập tên sản phẩm</span></li>
-        <li><span class="error" ng-show="blogForm.gy_noiDung.$error.required">Vui lòng nhập nội dung góp ý</span></li>
-        <li><span class="error" ng-show="blogForm.gy_noiDung.$error.minlength">Góp ý phải > 6 ký tự</span></li>
-        <li><span class="error" ng-show="blogForm.gy_noiDung.$error.maxlength">Góp ý phải <= 100 ký tự</span> </li>
+        <li><span class="error" ng-show="blogForm.kh_ma.$error.required">{{ __('freshfruit.blogs.ktten_kh') }}</span></li>
+        <li><span class="error" ng-show="blogForm.kh_ma.$error.minlength">{{ __('freshfruit.blogs.ktten_khmin') }}</span></li>
+        <li><span class="error" ng-show="blogForm.kh_ma.$error.maxlength">{{ __('freshfruit.blogs.ktten_khmax') }}</span> </li> 
+        <li><span class="error" ng-show="blogForm.sp_ma.$error.required">{{ __('freshfruit.blogs.ktten_sp') }}</span></li>
+        <li><span class="error" ng-show="blogForm.gy_noiDung.$error.required">{{ __('freshfruit.blogs.ktnd_gy') }}</span></li>
+        <li><span class="error" ng-show="blogForm.gy_noiDung.$error.minlength">{{ __('freshfruit.blogs.minnd') }}</span></li>
+        <li><span class="error" ng-show="blogForm.gy_noiDung.$error.maxlength">{{ __('freshfruit.blogs.maxnd') }}</span> </li> 
     </ul>
     </div>
     <div class="row">

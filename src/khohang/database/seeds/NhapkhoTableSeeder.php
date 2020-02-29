@@ -16,7 +16,7 @@ class NhapkhoTableSeeder extends Seeder
             [
                 'nk_ma'      => 1,
                 'nk_soHoaDon'     => "PN001",
-                'nk_hoTenNguoiGiaoHang'     => "Nguyễn Văn A",
+                'nk_hoTenNguoiGiaoHang'     => "Nguyễn Văn B",
                 'nk_lydo'     => "Thêm sản phẩm vào kho",
                 'nv_nguoiLapPhieu'     => 1,
                 'nk_ngayLapPhieu'     => $today->format('Y-m-d H:i:s'),

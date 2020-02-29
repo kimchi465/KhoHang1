@@ -14,7 +14,7 @@ h2{
 @endsection
 @section('content')
 
-<form method="post" action="#">
+<form method="post" action="{{ route('danhsachkho.infophieuxuat', ['id' => $xk->xk_ma]) }}" enctype="multipart/form-data">
 
 <input type="hidden" name="_method" value="PUT" />
     {{ csrf_field() }}
@@ -22,34 +22,34 @@ h2{
 <table border="0" align="center">
     <tr>
         <td>Ngày lập phiếu: </td>
-        <td></td>
+        <td>{{ old('xk_ngayLapPhieu', $xk->xk_ngayLapPhieu) }}</td>
     </tr>
     <tr>
         <td>Số Phiếu: </td>
-        <td></td>
+        <td>{{ old('xk_soHoaDon', $xk->xk_soHoaDon) }}</td>
     </tr>
 </table>
 
 <table border="0">
     <tr>
-        <td>Họ tên người nhận: </td>
-        <td></td>
+        <td><b><i>Họ tên người nhận: </b></i></td>
+        <td>{{ old('xk_hoTenNguoiNhan', $xk->xk_hoTenNguoiNhan) }}</td>
     </tr>
     <tr>
-        <td>Địa chỉ: </td>
-        <td></td>
+        <td><b><i>Địa chỉ: </b></i></td>
+        <td>{{ old('xk_diaChi', $xk->xk_diaChi) }}</td>
     </tr>
     <tr>
-        <td>Lý do xuất kho: </td>
-        <td></td>
+        <td><b><i>Thủ kho: </b></i></td>
+        <td>{{ old('nv_thuKho', $xk->nhanviens->nv_hoTen) }}</td>
     </tr>
     <tr>
-        <td>Thủ kho: </td>
-        <td></td>
+        <td><b><i>Lý do xuất kho: </b></i></td>
+        <td>{{ old('xk_lydo', $xk->xk_lydo) }}</td>
     </tr>
     <tr>
-        <td>Người lập phiếu: </td>
-        <td></td>
+        <td><b><i>Người lập phiếu: </b></i></td>
+        <td>{{ old('nv_nguoiLapPhieu', $xk->nhanviens->nv_hoTen) }}</td>
     </tr>
 </table>
 
@@ -79,7 +79,7 @@ h2{
 </table>
 <table>
     <tr>
-        <td>Tổng tiền: </td>
+        <td><b>Tổng tiền: </b></td>
         <td></td>
     </tr>
 </table>
