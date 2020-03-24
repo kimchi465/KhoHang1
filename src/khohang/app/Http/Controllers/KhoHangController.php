@@ -98,10 +98,9 @@ class KhoHangController extends Controller
     public function edit($id)
     {
         $k = Khohang::where("kho_ma",  $id)->first();
-        //$ds_loai = Loai::all();
+        
         return view('backend.khohang.edit')
             ->with('k', $k);
-            //->with('danhsachloai', $ds_loai);
     }
 
     /**
@@ -135,7 +134,6 @@ class KhoHangController extends Controller
     public function destroy($id)
     {
         $k = Khohang::where("kho_ma",  $id)->first();
-        
         $k->delete();
         Session::flash('alert-info', 'Xóa sản phẩm thành công ^^~!!!');
         return redirect()->route('danhsachkho.index');
@@ -151,7 +149,6 @@ class KhoHangController extends Controller
         // Sử dụng Eloquent Model để truy vấn dữ liệu
     $ds_nhapkho = Nhapkho::all(); // SELECT * FROM Nhapkho
     $ds_nhanvien = Nhanvien::all();
-    // $ds_nhanvien = Nhanvien::where("nv_ma", $ds_nhapkho->nv_hoTen)->first();
     return view('backend.khohang.nhapkho')
         // với dữ liệu truyền từ Controller qua View, được đặt tên là `danhsachkho`
         ->with('danhsachnhapkho', $ds_nhapkho)
@@ -166,10 +163,10 @@ class KhoHangController extends Controller
     public function xuatphieunhap($id)
         {
             $nk = Nhapkho::where("nk_ma",  $id)->first();
-            $ds_chitietnk = Chitietnhapkho::all();
+            $ctnk = Chitietnhapkho::where("nk_ma",  $id)->first();
             return view('backend.khohang.xuatphieunhap')
                 ->with('nk', $nk)
-                ->with('danhsachchitietnk', $ds_chitietnk);
+                ->with('ctnk', $ctnk);
         }
 
     /**
@@ -189,13 +186,13 @@ class KhoHangController extends Controller
         $nk->nv_thuKho = $request->nv_thuKho;
         $nk->nv_nguoiLapPhieu = $request->nv_nguoiLapPhieu; //$nk->nhanviens->nv_hoTen
 
-        // $ctnk = Chitietnhapkho::where("nk_ma",  $id)->first();
-        // $ctnk->sp_ten = $request->sp_ten;
-        // $ctnk->ctnk_donViTinh = $request->ctnk_donViTinh;
-        // $ctnk->ctnk_soLuong = $request->ctnk_soLuong;
-        // $ctnk->ctnk_donGia = $request->ctnk_donGia;
-        // $ctnk->ctnk_thanhtien = $request->ctnk_thanhtien;
-        // $ctnk->kho_ma = $request->kho_ma;
+        $ctnk = Chitietnhapkho::where("nk_ma",  $id)->first();
+        $ctnk->sp_ten = $request->sp_ten;
+        $ctnk->ctnk_donViTinh = $request->ctnk_donViTinh;
+        $ctnk->ctnk_soLuong = $request->ctnk_soLuong;
+        $ctnk->ctnk_donGia = $request->ctnk_donGia;
+        $ctnk->ctnk_thanhtien = $request->ctnk_thanhtien;
+        $ctnk->kho_ma = $request->kho_ma;
 
         return redirect()->route('backend.khohang.xuatphieunhap');
     }
@@ -210,7 +207,6 @@ class KhoHangController extends Controller
         // Sử dụng Eloquent Model để truy vấn dữ liệu
     $ds_xuatkho = Xuatkho::all(); // SELECT * FROM Nhapkho
     $ds_nhanvien = Nhanvien::all();
-    // $ds_nhanvien = Nhanvien::where("nv_ma", $ds_nhapkho->nv_hoTen)->first();
     return view('backend.khohang.xuatkho')
         // với dữ liệu truyền từ Controller qua View, được đặt tên là `danhsachkho`
         ->with('danhsachxuatkho', $ds_xuatkho)
@@ -225,10 +221,10 @@ class KhoHangController extends Controller
     public function phieuxuatkho($id)
      {
         $xk = Xuatkho::where("xk_ma",  $id)->first();
-        $ds_chitietxk = Chitietxuatkho::all();
+        $ctxk = Chitietxuatkho::where("xk_ma",  $id)->first();
         return view('backend.khohang.phieuxuatkho')
             ->with('xk', $xk)
-            ->with('danhsachchitietxk', $ds_chitietxk);
+            ->with('ctxk', $ctxk);
      }
 
      /**
@@ -249,6 +245,14 @@ class KhoHangController extends Controller
         $xk->nv_thuKho = $request->nv_thuKho;
         $xk->nv_nguoiLapPhieu = $request->nv_nguoiLapPhieu; //$nk->nhanviens->nv_hoTen
         $xk->nk_ngayLapPhieu = $request->nk_ngayLapPhieu;
+
+        $ctxk = Chitietxuatkho::where("xk_ma",  $id)->first();
+        $ctxk->sp_ma = $request->sp_ma;
+        $ctxk->ctxk_donViTinh = $request->ctxk_donViTinh;
+        $ctxk->ctnk_soLuong = $request->ctnk_soLuong;
+        $ctxk->ctxk_donGia = $request->ctxk_donGia;
+        $ctxk->ctxk_thanhtien = $request->ctxk_thanhtien;
+        $ctnk->kho_ma = $request->kho_ma;
 
         return redirect()->route('backend.khohang.phieuxuatkho');
     }
@@ -278,7 +282,6 @@ class KhoHangController extends Controller
                     ->get();
 
          return view('backend.khohang.baocaosoluong')
-            // ->with('pn', $pn)
             ->with('danhsachchitietnk', $ds_chitietnk)
             ->with('danhsachchitietxk', $ds_chitietxk);
     }

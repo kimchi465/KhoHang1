@@ -14,7 +14,7 @@ h2{
 @endsection
 @section('content')
 
-<form method="post" action="{{ route('danhsachkho.infophieuxuat', ['id' => $xk->xk_ma]) }}" enctype="multipart/form-data">
+<form method="post" action="{{ route('danhsachkho.infophieuxuat', ['id' => $xk->xk_ma], ['id' => $ctxk->xk_ma]) }}" enctype="multipart/form-data">
 
 <input type="hidden" name="_method" value="PUT" />
     {{ csrf_field() }}
@@ -68,12 +68,12 @@ h2{
     <tbody>
     <tr>
             <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
+            <td>{{ $ctxk->sanpham1s->sp_ma }}</td>
+            <td>{{ $ctxk->sanpham1s->sp_ten }}</td>
+            <td>{{ old('ctxk_donViTinh', $ctxk->ctxk_donViTinh) }}</td>
+            <td>{{ old('ctxk_soLuong', $ctxk->ctxk_soLuong) }}</td>
+            <td>{{ old('ctxk_donGia', $ctxk->ctxk_donGia) }}</td>
+            <td>{{ old('ctxk_thanhtien', $ctxk->ctxk_thanhtien) }}</td>
         </tr>
     </tbody>
 </table>

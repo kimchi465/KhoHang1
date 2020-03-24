@@ -25,6 +25,7 @@ class PermissionSeeder extends Seeder
         $permission_xuatdulieu_excel_san_pham = Permission::create(['name' => 'xuatdulieu_excel_san_pham']);
         $permission_xuatdulieu_pdf_san_pham = Permission::create(['name' => 'xuatdulieu_pdf_san_pham']);
         $permission_indulieu_san_pham = Permission::create(['name' => 'indulieu_san_pham']);
+        $permission_quanly_kho = Permission::create(['name' => 'quanly_kho']);
 
         //Cấp quyền cho vai trò
         $role_quan_tri->givePermissionTo($permission_xem_san_pham);
@@ -34,6 +35,7 @@ class PermissionSeeder extends Seeder
         $role_quan_tri->givePermissionTo($permission_xuatdulieu_excel_san_pham);
         $role_quan_tri->givePermissionTo($permission_xuatdulieu_pdf_san_pham);
         $role_quan_tri->givePermissionTo($permission_indulieu_san_pham);
+        $role_quan_tri->givePermissionTo($permission_quanly_kho);
 
         $role_user->givePermissionTo($permission_xem_san_pham);
         $role_user->givePermissionTo($permission_xuatdulieu_excel_san_pham);

@@ -11,7 +11,7 @@ class ChitietnhapkhoTableSeeder extends Seeder
      */
     public function run()
     {
-        $today = new DateTime('2020-01-01 08:00:00');
+        $today = new DateTime('2020-03-01 08:00:00');
         $list = [
             [
                 'ctnk_soLuong'      => 10,
@@ -133,7 +133,87 @@ class ChitietnhapkhoTableSeeder extends Seeder
                 'nk_ma'     => 12,
                 'kho_ma'     => 5
             ], 
+            [
+                'ctnk_soLuong'      => 20,
+                'ctnk_donViTinh'     => "kg",
+                'ctnk_donGia'     => 120,
+                'km_giaTri'     => 1,
+                'ctnk_thanhtien'     => 20*120,
+                'sp_ten'     => 9,
+                'nk_ma'     => 1,
+                'kho_ma'     => 2
+            ], 
+            [
+                'ctnk_soLuong'      => 20,
+                'ctnk_donViTinh'     => "kg",
+                'ctnk_donGia'     => 40,
+                'km_giaTri'     => 1,
+                'ctnk_thanhtien'     => 20*40,
+                'sp_ten'     => 32,
+                'nk_ma'     => 1,
+                'kho_ma'     => 1
+            ], 
+            [
+                'ctnk_soLuong'      => 20,
+                'ctnk_donViTinh'     => "kg",
+                'ctnk_donGia'     => 40,
+                'km_giaTri'     => 1,
+                'ctnk_thanhtien'     => 20*40,
+                'sp_ten'     => 32,
+                'nk_ma'     => 13,
+                'kho_ma'     => 1
+            ], 
+            [
+                'ctnk_soLuong'      => 20,
+                'ctnk_donViTinh'     => "kg",
+                'ctnk_donGia'     => 120,
+                'km_giaTri'     => 1,
+                'ctnk_thanhtien'     => 20*120,
+                'sp_ten'     => 9,
+                'nk_ma'     => 13,
+                'kho_ma'     => 2
+            ], 
+            [
+                'ctnk_soLuong'      => 30,
+                'ctnk_donViTinh'     => "kg",
+                'ctnk_donGia'     => 40,
+                'km_giaTri'     => 1,
+                'ctnk_thanhtien'     => 30*40,
+                'sp_ten'     => 32,
+                'nk_ma'     => 2,
+                'kho_ma'     => 5
+            ], 
+            [
+                'ctnk_soLuong'      => 40,
+                'ctnk_donViTinh'     => "kg",
+                'ctnk_donGia'     => 190,
+                'km_giaTri'     => 1,
+                'ctnk_thanhtien'     => 40*190,
+                'sp_ten'     => 26,
+                'nk_ma'     => 2,
+                'kho_ma'     => 5
+            ], 
+            [
+                'ctnk_soLuong'      => 20,
+                'ctnk_donViTinh'     => "kg",
+                'ctnk_donGia'     => 40,
+                'km_giaTri'     => 1,
+                'ctnk_thanhtien'     => 20*40,
+                'sp_ten'     => 32,
+                'nk_ma'     => 3,
+                'kho_ma'     => 1
+            ], 
+            [
+                'ctnk_soLuong'      => 40,
+                'ctnk_donViTinh'     => "kg",
+                'ctnk_donGia'     => 190,
+                'km_giaTri'     => 1,
+                'ctnk_thanhtien'     => 40*190,
+                'sp_ten'     => 26,
+                'nk_ma'     => 4,
+                'kho_ma'     => 5
+            ], 
         ];
-        DB::table('Chitietnhapkho')->insert($list);
+        DB::table('chitietnhapkho')->insert($list);
     }
 }

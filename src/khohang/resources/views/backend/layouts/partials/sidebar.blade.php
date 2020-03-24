@@ -32,23 +32,26 @@
         <!-- Quản lý kho -->
      
         <li class="treeview {{ Request::is('admin/danhsachkho*') ? 'menu-open' : '' }}">
-       
+        @if(Auth::check())
+          @if(auth()->user()->can('quanly_kho'))
             <a href="{{ route('danhsachkho.index') }}"><i class="fa fa-link"></i> <span>Quản lý kho</span>
-           
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-          </a>
-        <!-- PQuyen... -->
-          <ul class="treeview-menu" style="display: {{ Request::is('admin/danhsachkho*') ? 'block' : 'none' }};">
-            <li class="{{ Request::is('admin/danhsachkho') ? 'active' : '' }}"><a href="{{ route('danhsachkho.index') }}">Quản lý kho</a></li>
-            <li class="{{ Request::is('admin/danhsachkho/nhapkho') ? 'active' : '' }}"><a href="{{ route('danhsachkho.nhapkho') }}">Quản lý nhập kho</a></li>
-            <li class="{{ Request::is('admin/danhsachkho/xuatkho') ? 'active' : '' }}"><a href="{{ route('danhsachkho.xuatkho') }}">Quản lý xuất kho</a></li>
-            <li class="{{ Request::is('admin/danhsachkho/baocaosoluong') ? 'active' : '' }}"><a href="{{ route('danhsachkho.baocaosoluong') }}">Báo cáo số lượng tồn</a></li>
-            <li class="{{ Request::is('admin/danhsachkho/') ? 'active' : '' }}"><a href="#">Báo cáo doanh thu</a></li>
-          </ul>
-        </li>
-         <!-- /.PQuyen... -->
+            
+              <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+            </a>
+          
+            <ul class="treeview-menu" style="display: {{ Request::is('admin/danhsachkho*') ? 'block' : 'none' }};">
+              <li class="{{ Request::is('admin/danhsachkho') ? 'active' : '' }}"><a href="{{ route('danhsachkho.index') }}">Quản lý kho</a></li>
+              <li class="{{ Request::is('admin/danhsachkho/nhapkho') ? 'active' : '' }}"><a href="{{ route('danhsachkho.nhapkho') }}">Quản lý nhập kho</a></li>
+              <li class="{{ Request::is('admin/danhsachkho/xuatkho') ? 'active' : '' }}"><a href="{{ route('danhsachkho.xuatkho') }}">Quản lý xuất kho</a></li>
+              <li class="{{ Request::is('admin/danhsachkho/baocaosoluong') ? 'active' : '' }}"><a href="{{ route('danhsachkho.baocaosoluong') }}">Báo cáo số lượng tồn</a></li>
+              <li class="{{ Request::is('admin/danhsachkho/') ? 'active' : '' }}"><a href="#">Báo cáo doanh thu</a></li>
+            </ul>
+          </li>
+          @endif
+        @endif
+        
         <!-- /.Quản lý kho -->
         
         </ul>

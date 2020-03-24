@@ -53,7 +53,17 @@ class ChitietxuatkhoTableSeeder extends Seeder
                 'xk_ma'     => 4,
                 'kho_ma'     => 1
             ], 
+            [
+                'ctxk_soLuong'      => 10,
+                'ctxk_donViTinh'     => "kg",
+                'ctxk_donGia'     => 120,
+                'km_giaTri'     => 1,
+                'ctxk_thanhtien'     => 10*120,
+                'sp_ma'     => 9,
+                'xk_ma'     => 2,
+                'kho_ma'     => 4
+            ], 
         ];
-        DB::table('Chitietxuatkho')->insert($list);
+        DB::table('chitietxuatkho')->insert($list);
     }
 }

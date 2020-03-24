@@ -21,4 +21,8 @@ class Chitietnhapkho extends Model
     {
         return $this->belongsTo('App\SanPham', 'sp_ten', 'sp_ma');
     }
+    public function nhapkhos()
+    {
+        return $this->belongsTo('App\Nhapkho', 'nk_ma', 'nk_ma');
+    }
 }

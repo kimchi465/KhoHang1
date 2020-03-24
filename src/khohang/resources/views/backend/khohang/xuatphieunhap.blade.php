@@ -27,7 +27,7 @@ h2{
     </div>
 @endif
 
-<form method="post" action="{{ route('danhsachkho.infophieunhap', ['id' => $nk->nk_ma]) }}" enctype="multipart/form-data">
+<form method="post" action="{{ route('danhsachkho.infophieunhap', ['id' => $nk->nk_ma], ['id' => $ctnk->nk_ma]) }}" enctype="multipart/form-data">
 
 <input type="hidden" name="_method" value="PUT" />
     {{ csrf_field() }}
@@ -58,7 +58,7 @@ h2{
     </tr>
     <tr>
         <td><b><i>Nhập tại kho: </i></b></td>
-        <td></td>
+        <td>{{ $ctnk->khos->kho_ten }}</td>
     </tr>
     <tr>
         <td><b><i>Người lập phiếu: </i></b></td>
@@ -81,12 +81,12 @@ h2{
     <tbody>
     <tr>
             <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td></td>
-            <td> </td>
-            <td> </td>
+            <td>{{ $ctnk->sanpham1s->sp_ma }}</td>
+            <td>{{ $ctnk->sanpham1s->sp_ten }}</td>
+            <td>{{ old('ctnk_donViTinh', $ctnk->ctnk_donViTinh) }}</td>
+            <td>{{ old('ctnk_soLuong', $ctnk->ctnk_soLuong) }}</td>
+            <td>{{ old('ctnk_donGia', $ctnk->ctnk_donGia) }}</td>
+            <td>{{ old('ctnk_thanhtien', $ctnk->ctnk_thanhtien) }}</td>
         </tr>
     </tbody>
 </table>

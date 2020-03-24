@@ -54,41 +54,40 @@ Góp ý Shop trái cây Ngon Ngon - Freshfruit
 </section>
 <!-- Content page -->
 <div class="container" ng-controller="blogController">
-<form name="blogForm" ng-submit="submitblogForm()" novalidate>
-    <h1 class="title">{{ __('freshfruit.blogs.ttgy') }}</h1><br>
-    <div class="alert alert-danger col-sm-6 col-sm-6" ng-show="blogForm.$invalid" style="margin-left: 400px;">
-    <ul>
-        <li><span class="error" ng-show="blogForm.kh_ma.$error.required">{{ __('freshfruit.blogs.ktten_kh') }}</span></li>
-        <li><span class="error" ng-show="blogForm.kh_ma.$error.minlength">{{ __('freshfruit.blogs.ktten_khmin') }}</span></li>
-        <li><span class="error" ng-show="blogForm.kh_ma.$error.maxlength">{{ __('freshfruit.blogs.ktten_khmax') }}</span> </li> 
-        <li><span class="error" ng-show="blogForm.sp_ma.$error.required">{{ __('freshfruit.blogs.ktten_sp') }}</span></li>
-        <li><span class="error" ng-show="blogForm.gy_noiDung.$error.required">{{ __('freshfruit.blogs.ktnd_gy') }}</span></li>
-        <li><span class="error" ng-show="blogForm.gy_noiDung.$error.minlength">{{ __('freshfruit.blogs.minnd') }}</span></li>
-        <li><span class="error" ng-show="blogForm.gy_noiDung.$error.maxlength">{{ __('freshfruit.blogs.maxnd') }}</span> </li> 
-    </ul>
-    </div>
-    <div class="row">
-                        <label for="kh_ma" class="col-sm-2" style="margin-left: 200px;"><b>{{ __('freshfruit.blogs.ten') }}</b></label>
+    <form name="blogForm" ng-submit="submitblogForm()" novalidate>
+        <h1 class="title">{{ __('freshfruit.blogs.ttgy') }}</h1><br>
+        <div class="alert alert-danger col-sm-6 col-sm-6" ng-show="blogForm.$invalid" style="margin-left: 400px;">
+        <ul>
+            <li><span class="error" ng-show="blogForm.kh_ma.$error.required">{{ __('freshfruit.blogs.ktten_kh') }}</span></li>
+            <li><span class="error" ng-show="blogForm.kh_ma.$error.minlength">{{ __('freshfruit.blogs.ktten_khmin') }}</span></li>
+            <li><span class="error" ng-show="blogForm.kh_ma.$error.maxlength">{{ __('freshfruit.blogs.ktten_khmax') }}</span> </li> 
+            <li><span class="error" ng-show="blogForm.sp_ma.$error.required">{{ __('freshfruit.blogs.ktten_sp') }}</span></li>
+            <li><span class="error" ng-show="blogForm.gy_noiDung.$error.required">{{ __('freshfruit.blogs.ktnd_gy') }}</span></li>
+            <li><span class="error" ng-show="blogForm.gy_noiDung.$error.minlength">{{ __('freshfruit.blogs.minnd') }}</span></li>
+            <li><span class="error" ng-show="blogForm.gy_noiDung.$error.maxlength">{{ __('freshfruit.blogs.maxnd') }}</span> </li> 
+        </ul>
+        </div>
+        <div class="row">
+                            <label for="kh_ma" class="col-sm-2" style="margin-left: 200px;"><b>{{ __('freshfruit.blogs.ten') }}</b></label>
+                            <div class="col-sm-6">
+                            <input type="text" class="form-control" id="kh_ma" name="kh_ma" ng-model="kh_ma" ng-minlength="6" ng-maxlength="100" ng-required=true>
+                            </div>
+        </div>
+        <div class="row"> 
+                            <label for="sp_ma" class="col-sm-2" style="margin-left: 200px;"><b>{{ __('freshfruit.blogs.spgopy') }}</b></label>
                         <div class="col-sm-6">
-                        <input type="text" class="form-control" id="kh_ma" name="kh_ma" ng-model="kh_ma" ng-minlength="6" ng-maxlength="100" ng-required=true>
+                            <input type="text" class="form-control" id="sp_ma" name="sp_ma" ng-model="sp_ma" ng-required=true>
                         </div>
-    </div>
-    <div class="row"> 
-                        <label for="sp_ma" class="col-sm-2" style="margin-left: 200px;"><b>{{ __('freshfruit.blogs.spgopy') }}</b></label>
-                    <div class="col-sm-6">
-                        <input type="text" class="form-control" id="sp_ma" name="sp_ma" ng-model="sp_ma" ng-required=true>
-                    </div>
-    </div>
+        </div>
+        <div class="row">
+                            <label for="gy_noiDung" class="col-sm-2" style="margin-left: 200px;"><b>{{ __('freshfruit.blogs.ndgopy') }}</b></label>
+                            <div class="col-sm-6">
+                            <textarea class="form-control1" name="gy_noiDung" id="gy_noiDung" placeholder="{{ __('freshfruit.blogs.ndgopy1') }}" ng-model="gy_noiDung" ng-minlength="6" ng-maxlength="100" ng-required=true></textarea>
+                            </div>
+        </div>
+        <!-- Nút submit form -->
+            <button type="submit" class="btn"  ng-disabled="blogForm.$invalid">{{ __('freshfruit.blogs.goi_gy') }}</button>
     </form>
-    <div class="row">
-                        <label for="gy_noiDung" class="col-sm-2" style="margin-left: 200px;"><b>{{ __('freshfruit.blogs.ndgopy') }}</b></label>
-                        <div class="col-sm-6">
-                        <textarea class="form-control1" name="gy_noiDung" id="gy_noiDung" placeholder="{{ __('freshfruit.blogs.ndgopy1') }}" ng-model="gy_noiDung" ng-minlength="6" ng-maxlength="100" ng-required=true></textarea>
-                        </div>
-    </div>
-    <!-- Nút submit form -->
-        <button type="submit" class="btn" ng-disabled="blogForm.$invalid">{{ __('freshfruit.blogs.goi_gy') }}</button>
-</form>
 </div>
 @endsection
 
@@ -113,7 +112,7 @@ Góp ý Shop trái cây Ngon Ngon - Freshfruit
                 };
                 // sử dụng service $http của AngularJS để gởi request POST đến route `frontend.bog`
                 $http({
-                    url: "{{ route('frontend.blog') }}",
+                    url: "{{ route('frontend.infoblog') }}",
                     method: "POST",
                     data: JSON.stringify(dataInputblogForm)
                 }).then(function successCallback(response) {

@@ -46,6 +46,7 @@ Route::get('/', 'Frontend\FrontendController@index')->name('frontend.home');
 Route::get('/gioi-thieu', 'Frontend\FrontendController@about')->name('frontend.about');
 Route::get('/lien-he', 'Frontend\FrontendController@contact')->name('frontend.contact');
 Route::get('/gop-y', 'Frontend\FrontendController@blog')->name('frontend.blog');
+Route::get('/gop-y/goi-gop-y', 'Frontend\FrontendController@infoblog')->name('frontend.infoblog');
 Route::post('/lien-he/goi-loi-nhan', 'Frontend\FrontendController@sendMailContactForm')->name('frontend.contact.sendMailContactForm');
 Route::get('/san-pham', 'Frontend\FrontendController@product')->name('frontend.product');
 Route::get('/gio-hang', 'Frontend\FrontendController@cart')->name('frontend.cart');
@@ -98,6 +99,7 @@ Route::get('/capquyen', function(){
     $user1->givePermissionTo('xuatdulieu_excel_san_pham');
     $user1->givePermissionTo('xuatdulieu_pdf_san_pham');
     $user1->givePermissionTo('indulieu_san_pham');
+    $user1->givePermissionTo('quanly_kho');
 
     $user4 = Nhanvien::find(100);
     $user4->givePermissionTo('xem_san_pham');
@@ -107,6 +109,7 @@ Route::get('/capquyen', function(){
     $user4->givePermissionTo('xuatdulieu_excel_san_pham');
     $user4->givePermissionTo('xuatdulieu_pdf_san_pham');
     $user4->givePermissionTo('indulieu_san_pham');
+    $user4->givePermissionTo('quanly_kho');
     
 
     return 'cap quyen okey';

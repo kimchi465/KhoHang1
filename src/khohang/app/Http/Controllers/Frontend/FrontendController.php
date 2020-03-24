@@ -89,9 +89,21 @@ class FrontendController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */ 
-     public function blog(Request $request)
+     public function blog()
      { 
        
+         return view('frontend.pages.blog');
+        
+     }
+      /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */ 
+    public function infoblog(Request $request)
+    { 
+      
         $gopy = new Gopy();
         $gopy->kh_ma = $request->gopy['kh_ma'];
         $gopy->sp_ma = $request->gopy['sp_ma'];
@@ -99,9 +111,9 @@ class FrontendController extends Controller
         $gopy->gy_thoiGian = Carbon::now();
         $gopy->gy_trangThai = 3;
         $gopy->save();
-         return view('frontend.pages.blog');
-        
-     }
+        return view('frontend.pages.blog');
+       
+    }
 
     /** 
      * Action gởi email với các lời nhắn nhận được từ khách hàng 
