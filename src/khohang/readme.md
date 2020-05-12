@@ -41,3 +41,8 @@ php artisan storage:link
 php artisan serve
 ```
 - Truy cập link để test: [http://localhost:8000]
+### 7. Ghi chú
+```
+Tài khoản: admin     -> mật khẩu: 123456 -> quyền: quản trị
+Tài khoản: Taikhoanb -> mật khẩu: 123456 -> quyền: người dùng
+```

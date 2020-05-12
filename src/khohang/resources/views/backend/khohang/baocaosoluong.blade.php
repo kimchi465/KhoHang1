@@ -50,11 +50,13 @@ Báo cáo số lượng lượng tồn
                 @endforeach
                 </td>
                 
-                <td></td>
+                <td>{{ $ctnk->slnhap -  $ctxk->slxuat}}</td>
                 <td>{{ $ctnk->ctnk_donGia }}</td>
+             
             </tr>
-            
-        @endforeach
+             
+        @endforeach 
+           
         
         
     </tbody>

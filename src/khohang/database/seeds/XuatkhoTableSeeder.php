@@ -70,13 +70,62 @@ class XuatkhoTableSeeder extends Seeder
 
                 'nv_nguoiLapPhieu'     => 1,
                 'xk_ngayLapPhieu'     => $today->format('Y-m-d H:i:s'),
-                'xk_tongtien'     => "450",
+                'xk_tongtien'     => "1650",
                 'nv_thuKho'     => 1,
                 'xk_ngayXuatKho'     => $today->format('Y-m-d H:i:s'),
                 'xk_taoMoi'  => $today->format('Y-m-d H:i:s'),
                 'xk_capNhat' => $today->format('Y-m-d H:i:s'),
                 'xk_trangThai' => 2
             ], 
+            [
+                'xk_ma'      => 5,
+                'xk_soHoaDon'     => "PX005",
+                'xk_hoTenNguoiNhan'     => "Nguyễn V",
+                'xk_diaChi'             => "1232 An Giang",
+                'xk_lydo'     => "Yêu cầu từ khách hàng",
+
+                'nv_nguoiLapPhieu'     => 1,
+                'xk_ngayLapPhieu'     => $today->format('Y-m-d H:i:s'),
+                'xk_tongtien'     => "4410",
+                'nv_thuKho'     => 1,
+                'xk_ngayXuatKho'     => $today->format('Y-m-d H:i:s'),
+                'xk_taoMoi'  => $today->format('Y-m-d H:i:s'),
+                'xk_capNhat' => $today->format('Y-m-d H:i:s'),
+                'xk_trangThai' => 2
+            ], 
+            [
+                'xk_ma'      => 6,
+                'xk_soHoaDon'     => "PX006",
+                'xk_hoTenNguoiNhan'     => "Lê Văn Tám",
+                'xk_diaChi'             => "123 Tiền Giang",
+                'xk_lydo'     => "Yêu cầu từ khách hàng",
+
+                'nv_nguoiLapPhieu'     => 1,
+                'xk_ngayLapPhieu'     => $today->format('Y-m-d H:i:s'),
+                'xk_tongtien'     => "1440",
+                'nv_thuKho'     => 1,
+                'xk_ngayXuatKho'     => $today->format('Y-m-d H:i:s'),
+                'xk_taoMoi'  => $today->format('Y-m-d H:i:s'),
+                'xk_capNhat' => $today->format('Y-m-d H:i:s'),
+                'xk_trangThai' => 2
+            ], 
+            [
+                'xk_ma'      => 7,
+                'xk_soHoaDon'     => "PX007",
+                'xk_hoTenNguoiNhan'     => "Phạm abc",
+                'xk_diaChi'             => "123 An Giang",
+                'xk_lydo'     => "Yêu cầu từ khách hàng",
+
+                'nv_nguoiLapPhieu'     => 1,
+                'xk_ngayLapPhieu'     => $today->format('Y-m-d H:i:s'),
+                'xk_tongtien'     => "6960",
+                'nv_thuKho'     => 1,
+                'xk_ngayXuatKho'     => $today->format('Y-m-d H:i:s'),
+                'xk_taoMoi'  => $today->format('Y-m-d H:i:s'),
+                'xk_capNhat' => $today->format('Y-m-d H:i:s'),
+                'xk_trangThai' => 2
+            ], 
+
         ];
         DB::table('Xuatkho')->insert($list);
     }

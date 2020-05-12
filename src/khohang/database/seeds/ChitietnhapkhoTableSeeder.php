@@ -160,7 +160,7 @@ class ChitietnhapkhoTableSeeder extends Seeder
                 'km_giaTri'     => 1,
                 'ctnk_thanhtien'     => 20*40,
                 'sp_ten'     => 32,
-                'nk_ma'     => 13,
+                'nk_ma'     => 12,
                 'kho_ma'     => 1
             ], 
             [
@@ -170,7 +170,7 @@ class ChitietnhapkhoTableSeeder extends Seeder
                 'km_giaTri'     => 1,
                 'ctnk_thanhtien'     => 20*120,
                 'sp_ten'     => 9,
-                'nk_ma'     => 13,
+                'nk_ma'     => 12,
                 'kho_ma'     => 2
             ], 
             [
